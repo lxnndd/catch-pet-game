@@ -1,0 +1,181 @@
+id	name	type	type2	habitat	hpBase	rarity
+kz-001	喵喵	grass		forest/flower	50	0
+kz-002	喵呜	grass		forest/flower	50	0
+kz-003	魔力猫	grass		forest/flower	50	0
+kz-004	火花	fire		volcano	50	0
+kz-005	焰火	fire		volcano	50	0
+kz-006	火神	fire	flying	volcano/flower/forest	50	0
+kz-007	水蓝蓝	water		water/ocean	50	0
+kz-008	波波拉	water		water/ocean	50	0
+kz-009	水灵	water		water/ocean	50	0
+kz-010	蹦蹦种子	grass	poison	forest/flower/mine	50	0
+kz-011	蹦蹦草	grass	poison	forest/flower/mine	50	0
+kz-012	蹦蹦花	grass	poison	forest/flower/mine	50	0
+kz-013	火苗龙	fire		volcano	50	0
+kz-014	烈焰龙	fire		volcano	50	0
+kz-015	烈火飞龙	fire	flying	volcano/flower/forest	50	0
+kz-016	板板壳	water		water/ocean	50	0
+kz-017	咔咔壳	water		water/ocean	50	0
+kz-018	水泡壳	water		water/ocean	50	0
+kz-019	毛毛	bug		forest	50	0
+kz-020	爬爬	bug		forest	50	0
+kz-021	化蝶	bug	flying	forest/flower	50	0
+kz-022	卷尾虫	bug	poison	forest/mine	50	0
+kz-023	独角虫	bug	poison	forest/mine	50	0
+kz-024	紫雾虫	bug	poison	forest/mine	50	0
+kz-025	咔咔羽毛	nor	flying	plain/flower/forest	50	0
+kz-026	咔咔雀	nor	flying	plain/flower/forest	50	0
+kz-027	咔咔鸟	nor	flying	plain/flower/forest	50	0
+kz-028	地鼠	ground		desert/mine	50	0
+kz-029	遁鼠	ground		desert/mine	50	0
+kz-030	多多	poison		mine/forest	50	0
+kz-031	多啦多	poison		mine/forest	50	0
+kz-032	古啦多	poison	ground	mine/forest/desert	50	0
+kz-033	路路	poison		mine/forest	50	0
+kz-034	路路尼	poison		mine/forest	50	0
+kz-035	古路尼	poison	ground	mine/forest/desert	50	0
+kz-036	超音蝠	poison	flying	mine/forest/flower	50	0
+kz-037	扁嘴蝠	poison	flying	mine/forest/flower	50	0
+kz-040	护主犬	fire		volcano	50	0
+kz-041	音速犬	fire		volcano	50	0
+kz-047	小布石	rock	ground	mine/desert	50	0
+kz-048	布莱石	rock	ground	mine/desert	50	0
+kz-049	布莱克岩	rock	ground	mine/desert	50	0
+kz-050	电圈怪	elec	steel	mine	50	0
+kz-051	电网怪	elec	steel	mine	50	0
+kz-053	鬼雾	ghost	poison	mine/forest	50	0
+kz-054	邪雾	ghost	poison	mine/forest	50	0
+kz-055	灵雾	ghost	poison	mine/forest	50	0
+kz-063	阿蒙哞哞	fairy		flower	50	0
+kz-064	滑轮哞哞	fairy		flower	50	0
+kz-065	滑稽哞哞	fairy		flower	50	0
+kz-070	奇丽草	grass		forest/flower	50	0
+kz-071	奇丽叶	grass		forest/flower	50	0
+kz-072	奇丽花	grass		forest/flower	50	0
+kz-073	幽灵酷少	ghost		mine	50	0
+kz-074	幽灵少主	ghost		mine	50	0
+kz-075	蓝焰幽灵主	ghost		mine	50	0
+kz-076	羊角恶魔	dark		mine/desert	50	0
+kz-077	红发恶魔	dark		mine/desert	50	0
+kz-078	小恶魔洛基	dark		mine/desert	50	0
+kz-089	格兰种子	grass	flying	forest/flower	50	0
+kz-090	格兰花	grass	flying	forest/flower	50	0
+kz-091	格兰球	grass	flying	forest/flower	50	0
+kz-099	阿米亚特	rock	ground	mine/desert	50	0
+kz-100	阿米樱	rock	ground	mine/desert	50	0
+kz-101	罗隐	rock	dark	mine/desert	50	0
+kz-105	可立鸡	fire		volcano	50	0
+kz-106	晕晕鸡	fire	fight	volcano/plain/mine	50	0
+kz-107	眩目鸡	fire	fight	volcano/plain/mine	50	0
+kz-111	白发懒人	nor		plain	50	0
+kz-112	动力猿	nor		plain	50	0
+kz-113	瞌睡王	nor		plain	50	0
+kz-115	多西	steel	rock	mine/desert	50	0
+kz-116	库多西	steel	rock	mine/desert	50	0
+kz-117	波多西	steel	rock	mine/desert	50	0
+kz-130	雪豹球	ice	water	snow/water/ocean	50	0
+kz-131	海巫狮	ice	water	snow/water/ocean	50	0
+kz-132	帝王雪狮	ice	water	snow/water/ocean	50	0
+kz-137	迪莫	fairy		flower	50	0
+kz-143	小黄蜂	bug	flying	forest/flower	50	0
+kz-144	黄蜂后	bug	flying	forest/flower	50	0
+kz-145	海豚乐乐	water		water/ocean	50	0
+kz-146	海豚族长	water		water/ocean	50	0
+kz-149	小蜂猴	fairy		flower	50	0
+kz-150	跳跳蜂猴	fairy		flower	50	0
+kz-151	卷尾蜂猴	fairy		flower	50	0
+kz-152	拉特	elec		mine	50	0
+kz-153	酷拉	elec		mine	50	0
+kz-157	乖乖狼	fight		plain/mine	50	0
+kz-158	小帅狼	fight		plain/mine	50	0
+kz-159	冷月狼	fight		plain/mine	50	0
+kz-163	斑斑猫	nor		plain	50	0
+kz-164	大嘴猫	nor		plain	50	0
+kz-165	贪吃猫	nor		plain	50	0
+kz-172	小奥可	ice		snow	50	0
+kz-173	冰晶奥可	ice		snow	50	0
+kz-174	雪绒奥可	ice		snow	50	0
+kz-175	雪灵兽	ice		snow	50	0
+kz-176	幻雪兽	ice		snow	50	0
+kz-177	饮雪狂兽	ice		snow	50	0
+kz-178	科多	ice		snow	50	0
+kz-179	科多多	ice		snow	50	0
+kz-180	科多索	ice	rock	snow/mine/desert	50	0
+kz-188	十字蝌蚪	water		water/ocean	50	0
+kz-189	十字蛙	water		water/ocean	50	0
+kz-190	深渊蛙	water	fight	water/ocean/plain/mine	50	0
+kz-192	电狐	elec		mine	50	0
+kz-193	幽狐	elec		mine	50	0
+kz-194	冥狐	elec	ghost	mine	50	0
+kz-195	海豚	water		water/ocean	50	0
+kz-211	小蘑菇	ghost		mine	50	0
+kz-212	幽暗蘑菇	ghost		mine	50	0
+kz-213	蘑菇王	ghost		mine	50	0
+kz-216	豆豆龙	steel		mine	50	0
+kz-217	火箭龙	steel		mine	50	0
+kz-218	火箭喷射龙	steel		mine	50	0
+kz-230	小天马	fairy	flying	flower/forest	50	0
+kz-231	独角兽	fairy	flying	flower/forest	50	0
+kz-234	机甲壳	steel		mine	50	0
+kz-235	机械蜥蜴	steel		mine	50	0
+kz-236	机械龙	steel		mine	50	0
+kz-240	小火猴	fight		plain/mine	50	0
+kz-241	拳套猴	fight		plain/mine	50	0
+kz-242	火爆猴	fight		plain/mine	50	0
+kz-243	乌达	dark	fire	mine/desert/volcano	50	0
+kz-244	迷你乌	dark	fire	mine/desert/volcano	50	0
+kz-245	乌拉塔	dark	fire	mine/desert/volcano	50	0
+kz-246	独眼怪	dark	water	mine/desert/water/ocean	50	0
+kz-247	独眼魔	dark	water	mine/desert/water/ocean	50	0
+kz-248	独眼巨魔	dark	water	mine/desert/water/ocean	50	0
+kz-249	小玲鹿	ground		desert/mine	50	0
+kz-250	玲鹿	ground		desert/mine	50	0
+kz-251	多角玲鹿	ground		desert/mine	50	0
+kz-252	小钻鼠	ground		desert/mine	50	0
+kz-253	钻钻鼠	ground		desert/mine	50	0
+kz-254	霹雳旋风鼠	ground		desert/mine	50	0
+kz-264	伊拉龙	dragon	flying	volcano/mine/flower/forest	50	0
+kz-265	伊雷龙	dragon	flying	volcano/mine/flower/forest	50	0
+kz-266	伊兰亚龙	dragon	flying	volcano/mine/flower/forest	50	0
+kz-267	封印守卫	dragon		volcano/mine	50	0
+kz-268	封印使者	dragon		volcano/mine	50	0
+kz-269	上古战龙	dragon	fight	volcano/mine/plain	50	0
+kz-273	触须草龙	dragon	flying	volcano/mine/flower/forest	50	0
+kz-274	触角草龙	dragon	flying	volcano/mine/flower/forest	50	0
+kz-275	触灵飞龙	dragon	flying	volcano/mine/flower/forest	50	0
+kz-282	玛雅	rock		mine/desert	50	0
+kz-283	玛雅之星	rock		mine/desert	50	0
+kz-284	玛雅石像鬼	rock		mine/desert	50	0
+kz-291	小地狱犬	dark	fairy	mine/desert/flower	50	0
+kz-292	地狱三头犬	dark	fairy	mine/desert/flower	50	0
+kz-293	炎魔地狱犬	dark	fairy	mine/desert/flower	50	0
+kz-294	红唇鱼	water		water/ocean	50	0
+kz-295	红龙角	water		water/ocean	50	0
+kz-296	满珊瑚	water		water/ocean	50	0
+kz-306	管家盾	elec		mine	50	0
+kz-307	惩戒者	elec		mine	50	0
+kz-308	灵魂守护	elec	steel	mine	50	0
+kz-335	恶魔狼	dark	fairy	mine/desert/flower	50	0
+kz-336	酷酷狼	dark	fairy	mine/desert/flower	50	0
+kz-337	肌肉狼	dark	fairy	mine/desert/flower	50	0
+kz-347	铃铛鬼灵	ghost	fire	mine/volcano	50	0
+kz-348	铃铛幽灵	ghost	fire	mine/volcano	50	0
+kz-349	铃铛恶灵	ghost	fire	mine/volcano	50	0
+kz-392	小奶牛	fairy		flower	50	0
+kz-393	可爱牛牛	fairy		flower	50	0
+kz-394	斑点牛牛	fairy		flower	50	0
+kz-410	云翼雀	flying		flower/forest	50	0
+kz-411	十字雀	flying		flower/forest	50	0
+kz-412	刺顶雀	flying		flower/forest	50	0
+kz-422	幼齿螳螂	fight		plain/mine	50	0
+kz-423	利刃螳螂	fight		plain/mine	50	0
+kz-424	狂暴螳螂	fight		plain/mine	50	0
+kz-458	仙羽	flying		flower/forest	50	0
+kz-459	一点红	flying		flower/forest	50	0
+kz-460	念珠鹤	flying		flower/forest	50	0
+kz-489	灵狐	fire		volcano	50	0
+kz-490	九尾狐	fire		volcano	50	0
+kz-491	尖嘴狐仙	fire		volcano	50	0
+kz-505	风暴战犬	fire		volcano	50	0
+kz-509	线球鼠	rock		mine/desert	50	0
+kz-510	爪爪鼠	rock		mine/desert	50	0

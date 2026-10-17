@@ -1,0 +1,24 @@
+import { WebSocket } from 'ws';
+let seq=0;
+const c=await (await fetch('http://127.0.0.1:9335/json/new?about:blank',{method:'PUT'})).json();
+const ws=new WebSocket(c.webSocketDebuggerUrl);
+const pend=new Map();
+ws.on('message',d=>{const m=JSON.parse(String(d)); if(m.id&&pend.has(m.id)){const p=pend.get(m.id);pend.delete(m.id);m.error?p.reject(new Error(JSON.stringify(m.error))):p.resolve(m.result);}});
+await new Promise((r,j)=>{ws.on('open',r);ws.on('error',j);});
+const send=(mm,p={})=>new Promise((res,rej)=>{const id=++seq;pend.set(id,{resolve:res,reject:rej});ws.send(JSON.stringify({id,method:mm,params:p}));});
+const ev=async e=>{const r=await send('Runtime.evaluate',{expression:e,returnByValue:true,awaitPromise:true}); if(r.exceptionDetails) return {__err:String(r.exceptionDetails.exception?.description||'').slice(0,180)}; return r.result?.value;};
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+await send('Runtime.enable');await send('Page.enable');await send('Network.enable');
+await send('Network.setCacheDisabled',{cacheDisabled:true});
+await send('Page.navigate',{url:'http://127.0.0.1:8727/?t='+Date.now()});
+for(let i=0;i<40;i++){await wait(500); if(await ev("(typeof MW!=='undefined'&&typeof S!=='undefined'&&!!S)?1:0")===1) break;}
+console.log('地图格数：'+await ev('map.length'));
+console.log('mapStr 长度：'+await ev('S.mapStr?S.mapStr.length:0'));
+console.log('localStorage 里存档大小：'+await ev("(function(){ try{ var v=localStorage.getItem(SAVE_KEY); return v?Math.round(v.length/1024)+' KB':'无'; }catch(e){ return 'err'; } })()"));
+console.log('\n【save() 单次耗时】');
+console.log('  '+JSON.stringify(await ev("(function(){ var t=performance.now(); for(var i=0;i<5;i++) save(); var ms=(performance.now()-t)/5; return { 单次:ms.toFixed(1)+' ms', 说明:ms>8?'⚠️ 太慢，就是卡顿主因':'可接受' }; })()")));
+console.log('\n【拆解：map.join 与 JSON.stringify 各占多少】');
+console.log('  '+JSON.stringify(await ev("(function(){ var t1=performance.now(); var s=map.join(''); var t2=performance.now(); var j=JSON.stringify(S); var t3=performance.now(); return { map_join:(t2-t1).toFixed(1)+' ms', stringify:(t3-t2).toFixed(1)+' ms', mapStr长度:s.length, json长度:j.length }; })()")));
+console.log('\n【updateHUD / draw / hint 各耗时】');
+console.log('  '+JSON.stringify(await ev("(function(){ function bench(f,n){ var t=performance.now(); for(var i=0;i<n;i++) f(); return ((performance.now()-t)/n).toFixed(2); } return { draw:bench(function(){draw();},30)+' ms', updateHUD:bench(function(){updateHUD();},30)+' ms', hint:bench(function(){ document.getElementById('hint').textContent='测试文本'; },30)+' ms' }; })()")));
+ws.close();

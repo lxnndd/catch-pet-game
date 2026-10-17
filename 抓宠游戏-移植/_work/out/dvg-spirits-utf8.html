@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>洛克王国宠物数据大全-洛克小册子|洛克王国资料站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="keywords" content="洛克小册子,洛克王国小册子,洛克王国资料站,洛克王国数据库,洛克王国宠物数据大全,洛克王国宠物图鉴" />
+    <meta name="description" content="洛克小册子是由DVG.cn整理的关于Flash游戏《洛克王国》的一个资料站，为洛克王国玩家提供宠物数据查询，技能数据，道具数据，宠物血脉，天赋等数据查询的一个综合攻略资料网站。">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="/ui_baodianv3/css/xcz-custom.min.css?v=1790244926" rel="stylesheet">
+<link href="/ui_baodianv3/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+<link href="/ui_baodianv3/css/kuozhan.css?v=1790244926" rel="stylesheet">
+<link href="/tailwind/dist/tailwind.css?v=1790244926" rel="stylesheet">
+<script src="/ui_baodianv3/js/jquery-2.1.4.min.js"></script>
+<script src="/ui_baodianv3/js/vue.global.js"></script>
+<script src="/ui_baodianv3/js/axios.min.js"></script>
+<script src="/ui_baodianv3/js/sweetalert2.all.min.js"></script>
+</head>
+
+<body class="xcz-app">
+    <!-- <div class="theme-loader">
+    <div class="ball-scale">
+        <div class='contain'>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<header id="header-box" class="p-2 sticky-top xcz-top-nav d-flex tw-bg-gray-200 tw-h-14 border-bottom" data-v-app="" style="background:url('/ui_baodianv3/images/top-bg2.jpg') no-repeat center center; background-size: cover;">
+    <nav class="container-fluid d-flex align-items-center  justify-content-between h-auto gap-3 " aria-label="Main navigation">
+        <div class="d-flex d-xl-none font-24 btn " data-bs-toggle="offcanvas" data-bs-target="#xcz-sider"><i class="fas fa-bars"></i></div>
+        <a class="flex-grow-0  align-items-center xcz-top-logo flex-grow-1 flex-xl-grow-0" href="/" aria-label="洛克小册子">
+            <div class="logo-box d-flex align-items-center gap-2 "><span class=""><img src="/skin/images/004-.png" class="tw-h-8"></span><span class="xcz-sitname fst-italic fw-semibold">洛克小册子</span></div>
+        </a>
+        <div class="flex-grow-1 justify-content-center position-absolute start-50 translate-middle-x d-xl-flex d-none   xcz-top-mainnav" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
+            <div class="d-flex gap-2 align-items-center">
+                <a href="/" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-home"></i>首页</a>
+
+                <a href="/spirits.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap tw-bg-yellow-300 "><i class="fas fa-grin-beam"></i>宠物图鉴</a>
+                <a href="/skills.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-grin-beam"></i>技能</a>
+                <a href="/talents.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-grin-beam"></i>血脉</a>
+                <a href="/items.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-grin-beam"></i>道具</a>
+                
+                <div class="tw-h-9  d-flex align-items-center gap-1 tw-bg-gray-100 rounded px-1 ">
+                    <form id="searchForm" class="d-flex align-items-center gap-1" role="search" style="width:230px">
+                        <select class="form-select form-select-sm border border-0" id="moduleSelect" style="flex: 0 0 80px;">
+                            <option value="/spirits.php?">宠物</option>
+                            <option value="/skills.php?">技能</option>
+                            <option value="/talents.php?">血脉</option>
+                            <option value="/items.php?">道具</option>
+                        </select>
+                        <div class="input-group input-group-sm">
+                            <input name="words" type="text" class="form-control border border-0" id="searchKeyword" placeholder="请输入关键词..." aria-label="关键词搜索">
+                            <button class="d-flex px-2 align-items-center bg-body btn" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex  align-items-center xcz-top-rightnav gap-2">
+            
+            <a class="nav-item d-flex" data-bs-toggle="modal" data-bs-target="#search-box-lit">
+                <div class=" top-right-btnli d-flex align-items-center justify-content-center">
+                    <i class="fas fa-search font-20"></i>
+                </div>
+            </a>
+
+            <div class="nav-item d-none" v-if="is_login==0">
+                <div class=" top-right-btnli d-flex align-items-center login-bt justify-content-center" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+
+            <div class="nav-item d-none" v-if="is_login==1">
+                <a data-bs-toggle="dropdown" class="d-flex justify-content-center btn p-0">
+                    <img class=" user_face rounded-3 " :src="useravatar" alt="">
+                </a>
+                <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-end top-user-btn px-1 shadow-sm bg-gray-100 border border-primary" data-bs-popper="static">
+                    <a href="/user/uinfo.php" tabindex="0" class="rounded dropdown-item text-primary">{{username}}</a>
+                    <a href="/user/uinfo.php" tabindex="0" class="rounded dropdown-item">会员中心</a>
+                    <a href="/user/EditSafeInfo.php" tabindex="0" class="rounded dropdown-item">修改密码或邮箱</a>
+                    <a href="/user/myfavourite.php" tabindex="0" class="rounded dropdown-item">收藏夹</a>
+                    <a role="button" @click="logout" tabindex="0" class="rounded dropdown-item">退出</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<div id="xcz-sider" class="offcanvas offcanvas-start xcz-sider" data-bs-scroll="true" tabindex="-1" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title tw-text-xl d-flex align-items-center gap-2" id="offcanvasWithBothOptionsLabel"><img src="/skin/images/004-.png" class="tw-h-8">RO小册子</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="sider-sigle-menu d-flex align-items-center justify-content-between">
+            <a href="/" class="d-flex gap-2 align-items-center "><i class="fas fa-home"></i>首页</a>
+            <ul class="sider-sigle-right-buttons d-flex  font-20 gap-2">
+               
+            </ul>
+        </div>
+        <div class="menu-sidebar-heading d-none">数据库</div>
+        <ul class="nav nav-pills flex-column mb-auto sider-menu-ul mt-3">
+
+            <li class="nav-item ">
+                <a href="/spirits.php" class="d-flex gap-2 align-items-center "><i class="fas fa-ghost"></i>宠物图鉴</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/skills.php" class="d-flex gap-2 align-items-center "><i class="fas fa-grin-beam"></i>技能</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/talents.php" class="d-flex gap-2 align-items-center"><i class="fas fa-map"></i>血脉</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/items.php" class="d-flex gap-2 align-items-center"><i class="fas fa-layer-group"></i>道具</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="offcanvas-footer position-absolute bottom-0 start-0 w-100 border-top bg-white p-3 d-none">
+        <button class="btn btn-primary w-100">
+            <!-- Settingbox -->
+        </button>
+    </div>
+
+</div>
+
+
+
+<!-- 登录注册 Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header pt-3 pb-2 px-3 " style="border-bottom: 0px;">
+                <div class="modal-title fs-6 " id="loginModalLabel">
+                    <div class="d-flex login-modal-tab" id="authTab" role="tablist">
+                        <div class="nk active mx-2 fs-5" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-panel" type="button" role="tab">登录</div>
+                        <div class="nk mx-2 fs-5" id="register-tab" data-bs-toggle="tab" data-bs-target="#register-panel" type="button" role="tab">注册</div>
+                    </div>
+                </div>
+                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="关闭"></button>
+            </div>
+            <div class="modal-body mx-4 px-0 " style="min-height: 300px;">
+
+                <!-- Tab 切换 -->
+
+                <div class="tab-content" id="authTabContent">
+                    <!-- 登录面板 -->
+                    <div class="tab-pane fade show active" id="login-panel" role="tabpanel">
+                        <div id="wechatLoginArea">
+                                                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx9874cf85a9a79f7a&redirect_uri=https%3A%2F%2Fmxd.dvg.cn%2Fapi_wx%2Fwechat_callback.php&response_type=code&scope=snsapi_login&state=login#wechat_redirect" class="btn btn-success w-100 mb-3 fs-6">
+                                <i class="fab fa-weixin"></i> 使用微信快捷登录
+                            </a>
+                                                        <div class="text-center">
+                                <a href="javascript:void(0)" onclick="toggleLoginForm(true)" class="text-decoration-none">使用账号密码登录</a>
+                            </div>
+                        </div>
+
+                        <div id="accountLoginArea" style="display:none">
+                            <div class="mb-3">
+                                <label for="loginUsername" class="form-label">用户名</label>
+                                <input type="text" class="form-control" id="loginUsername" name="login_username" placeholder="请输入用户名">
+                            </div>
+                            <div class="mb-3">
+                                <label for="loginPassword" class="form-label">密码</label>
+                                <input type="password" class="form-control" id="loginPassword" name="login_password" placeholder="请输入密码">
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">记住我</label>
+                                <a href="/user/GetPassword.php" class="float-end small text-muted">忘记密码？</a>
+                            </div>
+                            <button type="button" class="btn btn-primary w-100" onclick="bootstrapLogin()">登录</button>
+                            <div class="text-center mt-2">
+                                <a href="javascript:void(0)" onclick="toggleLoginForm(false)" class="text-decoration-none">返回微信登录</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 注册面板 -->
+                    <div class="tab-pane fade" id="register-panel" role="tabpanel">
+                        <div id="wechatRegisterArea">
+                                                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx9874cf85a9a79f7a&redirect_uri=https%3A%2F%2Fmxd.dvg.cn%2Fapi_wx%2Fwechat_callback.php&response_type=code&scope=snsapi_login&state=login#wechat_redirect" class="btn btn-success w-100 mb-3 fs-6">
+                                <i class="fab fa-weixin"></i> 使用微信快捷登录
+                            </a>
+                                                        <div class="text-center">
+                                <a href="javascript:void(0)" onclick="toggleRegisterForm(true)" class="text-decoration-none">使用账号注册</a>
+                            </div>
+                        </div>
+
+                        <div id="accountRegisterArea" style="display:none">
+                            <div class="mb-3">
+                                <label for="regUsername" class="form-label">用户名</label>
+                                <input type="text" class="form-control" id="regUsername" name="reg_username" placeholder="请输入用户名">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regPassword" class="form-label">密码</label>
+                                <input type="password" class="form-control" id="regPassword" name="reg_password" placeholder="请输入密码">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regPassword2" class="form-label">确认密码</label>
+                                <input type="password" class="form-control" id="regPassword2" name="reg_password2" placeholder="再次输入密码">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regEmail" class="form-label">邮箱</label>
+                                <input type="email" class="form-control" id="regEmail" name="reg_email" placeholder="请输入邮箱">
+                            </div>
+                            <div class="mb-3 d-flex align-items-center">
+                                <input type="text" class="form-control me-2" id="regCode" name="reg_code" placeholder="验证码">
+                                <div id="regshowkey" class="text-nowrap">
+                                    <a href="javascript:void(0)" onclick="edoshowkey_N('regshowkey','reg','/')" title="点击刷新验证码">点击显示验证码</a>
+                                </div>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="agreePolicy" checked>
+                                <label class="form-check-label" for="agreePolicy">
+                                    我已阅读并同意 <a href="/arc_info.php?id=1674" target="_blank">《用户协议》</a> 和 <a href="/arc_info.php?id=1675" target="_blank">《隐私政策》</a>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-success w-100" onclick="bootstrapRegister()">注册</button>
+                            <div class="text-center mt-2">
+                                <a href="javascript:void(0)" onclick="toggleRegisterForm(false)" class="text-decoration-none">返回微信注册</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="search-box-lit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header p-2">
+        <h1 class="modal-title font-16" id="exampleModalLabel">快捷搜索</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex flex-column gap-3 align-items-center gap-1 tw-bg-gray-100 rounded p-2 font-14 ">
+            <form id="searchForm-m"  action="/items.php" class="d-flex align-items-center gap-1 w-full" role="search" >
+                <select class="form-select form-select-sm border border-0 tw-h-9" id="moduleSelect-m" style="flex: 0 0 80px;">
+                            <option value="/spirits.php?">宠物</option>
+                            <option value="/skills.php?">技能</option>
+                            <option value="/talents.php?">血脉</option>
+                            <option value="/items.php?">道具</option>
+                        </select>
+                <input name="words" type="text" class="form-control border border-0 rounded-start flex-fill tw-h-9 font-14" id="searchKeyword-m"  placeholder="请输入关键词..." aria-label="关键词搜索">
+                <button class="d-flex gap-1 px-2 align-items-center bg-body  tw-h-9 text-nowrap rounded font-14" type="submit"><i class="fas fa-search"></i>搜索</button>
+            </form>
+            
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/tools/js/topheader.js?v=1790244926"></script>    
+    <div class="container-xxl mt-3 xcz-content-wrapper">
+
+        <div class="card mb-3 over-hidden">
+
+            <div class="d-flex justify-content-between px-3 py-2 tw-bg-white tw-border-b tw-border-gray-200">
+                <div class="card-header-title zhedie_h"><i class="fa fa-fw" aria-hidden="true" title="Copy to use align-right"></i> <span class="pl5">宠物搜索</span></div>
+                <ul class="nav">
+                    <li class="nav-item"><a href="javascript:void(0);" class="zhedie_bt"><i class="fas fa-compress"></i> 折叠</a></li>
+                </ul>
+            </div>
+
+            <div class="card-body zhedian_box pt-2 pb-0 ">
+
+                <div class="layui-row zy_box zhedian_box">
+
+                    <div class="d-flex  tw-border-b tw-border-gray-100 py-2 gap-2">
+                        <span class="tw-bg-red-500 px-2 rounded-1 text-nowrap d-flex align-items-center">
+                            <a href="" class="font-14 sealect-button active tw-text-white  ">属性</a>
+                        </span>
+                        <span class="d-flex gap-2 flex-wrap">
+                            <a href="/spirits.php?sx=" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-red-100 tw-text-blue-700  btn-biankuang">全部</a>
+                                                        <a href="/spirits.php?sx=1" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">普通</a>
+                                                        <a href="/spirits.php?sx=2" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">火</a>
+                                                        <a href="/spirits.php?sx=3" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">水</a>
+                                                        <a href="/spirits.php?sx=4" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">电</a>
+                                                        <a href="/spirits.php?sx=5" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">草</a>
+                                                        <a href="/spirits.php?sx=6" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">冰</a>
+                                                        <a href="/spirits.php?sx=7" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">武</a>
+                                                        <a href="/spirits.php?sx=8" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">毒</a>
+                                                        <a href="/spirits.php?sx=9" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">土</a>
+                                                        <a href="/spirits.php?sx=10" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">翼</a>
+                                                        <a href="/spirits.php?sx=11" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">萌</a>
+                                                        <a href="/spirits.php?sx=12" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">虫</a>
+                                                        <a href="/spirits.php?sx=13" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">石</a>
+                                                        <a href="/spirits.php?sx=14" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">幽灵</a>
+                                                        <a href="/spirits.php?sx=15" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">龙</a>
+                                                        <a href="/spirits.php?sx=16" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">恶魔</a>
+                                                        <a href="/spirits.php?sx=17" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">机械</a>
+                                                        <a href="/spirits.php?sx=18" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">光</a>
+                                                        <a href="/spirits.php?sx=19" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">神火</a>
+                                                        <a href="/spirits.php?sx=20" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">神草</a>
+                                                        <a href="/spirits.php?sx=21" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">神水</a>
+                                                    </span>
+                    </div>
+
+                    <div class="d-flex  tw-border-b tw-border-gray-100 py-2 gap-2">
+                        <span class="tw-bg-red-500 px-2 rounded-1 text-nowrap d-flex align-items-center">
+                            <a href="" class="font-14 sealect-button active tw-text-white  ">组别</a>
+                        </span>
+                        <span class="d-flex gap-2 flex-wrap">
+                            <a href="/spirits.php?zb=" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-red-100 tw-text-blue-700  btn-biankuang">全部</a>
+                            <a href="/spirits.php?zb=1" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">植物组</a>
+                            <a href="/spirits.php?zb=2" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">动物组</a>
+                            <a href="/spirits.php?zb=4" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">不死组</a>
+                            <a href="/spirits.php?zb=10" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">守护组</a>
+                            <a href="/spirits.php?zb=12" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">天空组</a>
+                            <a href="/spirits.php?zb=13" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">大地组</a> 
+                            <a href="/spirits.php?zb=15" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">力量组</a>
+                            <a href="/spirits.php?zb=21" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">怪怪组</a>
+                            <a href="/spirits.php?zb=29" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">精灵组</a>
+                            <a href="/spirits.php?zb=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">未知组</a>
+                            
+                        </span>
+                    </div>
+
+                    <div class="d-flex  tw-border-b tw-border-gray-100 py-2 gap-2 d-none">
+                        <span class="tw-bg-red-500 px-2 rounded-1 text-nowrap d-flex align-items-center">
+                            <a href="" class="font-14 sealect-button active tw-text-white  ">免疫</a>
+                        </span>
+                        <span class="d-flex gap-2 flex-wrap">
+                            
+                            <a href="/spirits.php?my=1" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">睡眠</a>
+                            <a href="/spirits.php?my=2" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">麻醉</a>
+                            <a href="/spirits.php?my=4" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">烧伤</a>
+                            <a href="/spirits.php?my=10" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">冰冻</a>
+                            <a href="/spirits.php?my=12" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">混乱</a>
+                            <a href="/spirits.php?my=13" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">恐惧</a> 
+                            <a href="/spirits.php?my=15" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">迷惑</a>
+                            <a href="/spirits.php?my=21" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">中毒</a>
+                            <a href="/spirits.php?my=29" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">剧毒</a>
+                            <a href="/spirits.php?my=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">寄生</a>
+                            <a href="/spirits.php?my=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">诅咒</a>
+                            <a href="/spirits.php?my=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">束缚</a>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="p-3">
+                <div class="itemlist-searchbox align-items-center gap-2 bg-body px-2 rounded-3 border border-primary d-flex order-3 order-sm-2  ">
+                    <div class="font-16"><i class="fas fa-search"></i></div>
+                    <form class="navbar-search navbar-form d-flex align-items-center flex-fill" action="?" id="" role="search">
+                        <div class="text-body-tertiary flex-fill">
+                            <input type="hidden" name="search" value="1">
+                            <input type="hidden" name="st" value="1">
+                            <input type="text" name="words" value="" class="form-control border-0 font-14 " placeholder="栏目内搜索(支持直接搜ID)">
+                        </div>
+                        <button type="submit" class="d-flex align-items-center font-10 top-search-rbt border-0">搜索</button>
+                        </from>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <div class="d-flex flex-wrap flex-xl-nowrap justify-content-between  p-2 gap-2 tw-border-b tw-border-gray-200">
+                <div class="d-flex align-items-center gap-2 order-1"><i class="fas fa-map-marker-alt"></i>数据列表<span class="bg-primary rounded text-light px-2 font-12"></span><span class="d-none bg-primary rounded text-light px-2 font-12">3354</span></div>
+                <div class="d-flex align-items-center gap-2 order-2 order-sm-3">
+
+                    <div class="btn-group d-none">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            等级
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="?">默认<i class="fas fa-check text-success"></i></a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="?&order=1">倒序</a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="?&order=2">正序</a></li>
+                        </ul>
+                    </div>
+
+                    <span class="d-flex align-items-center gap-2 d-xl-none border border-gray-200 bg-gray-300 py-1 px-2 rounded" role="button" data-bs-toggle="offcanvas" data-bs-target="#itemlist-sider"><i class="fas fa-filter"></i>分类</span>
+                </div>
+            </div>
+            <div class="p-0">
+                <div class="d-flex justify-content-center  ">
+                    <ul class="pagination">
+                        <li><span class='laypage-curr'>1</span></li>
+<li><a href="/spirits.php?type=&p=2">2</a></li>
+
+<li><a href="/spirits.php?type=&p=3">3</a></li>
+
+<li><a href="/spirits.php?type=&p=4">4</a></li>
+
+<li><a href="/spirits.php?type=&p=5">5</a></li>
+
+<li><span>...</span></li>
+<li><a href="/spirits.php?type=&p=112">112</a></li>
+
+<li><a href="/spirits.php?type=&p=2">></a></li>
+                    </ul>
+                </div>
+
+                <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 gap-2 px-3">
+
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3385" target="_blank" class="d-flex flex-column gap-1">
+                                    伊万                                </a>
+                                <span class="text-gray-500 font-12">编号:3385</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3385" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3385' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3385-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />冰</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:146</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:146</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:136</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:127</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:87</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:120</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3383" target="_blank" class="d-flex flex-column gap-1">
+                                    艾尔                                </a>
+                                <span class="text-gray-500 font-12">编号:3383</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3383" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3383' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3383-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=9' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/9.png' title='9' class='rounded' style='width:16px;height:16px;' />土</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:150</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:50</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:129</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:120</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:146</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:130</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3382" target="_blank" class="d-flex flex-column gap-1">
+                                    蜜思                                </a>
+                                <span class="text-gray-500 font-12">编号:3382</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3382" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3382' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3382-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />草</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:145</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:90</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:120</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:103</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:141</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:131</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3381" target="_blank" class="d-flex flex-column gap-1">
+                                    皓月洛神                                </a>
+                                <span class="text-gray-500 font-12">编号:3381</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3381" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3381' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3381-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />水</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:152</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:80</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:132</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:137</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:138</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3380" target="_blank" class="d-flex flex-column gap-1">
+                                    泷景                                </a>
+                                <span class="text-gray-500 font-12">编号:3380</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3380" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3380' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3380-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />水</a><a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />草</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:162</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:155</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:135</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:128</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:55</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:136</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3379" target="_blank" class="d-flex flex-column gap-1">
+                                    糯米剑客                                </a>
+                                <span class="text-gray-500 font-12">编号:3379</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3379" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3379' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3379-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=1' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/1.png' title='1' class='rounded' style='width:16px;height:16px;' />普通</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:140</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:125</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:130</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:80</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:126</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3378" target="_blank" class="d-flex flex-column gap-1">
+                                    秉烛                                </a>
+                                <span class="text-gray-500 font-12">编号:3378</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3378" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3378' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3378-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=18' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/18.png' title='18' class='rounded' style='width:16px;height:16px;' />光</a><a href='/spirits.php?sx=2' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/2.png' title='2' class='rounded' style='width:16px;height:16px;' />火</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:150</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:85</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:120</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:111</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:148</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:136</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3377" target="_blank" class="d-flex flex-column gap-1">
+                                    御波                                </a>
+                                <span class="text-gray-500 font-12">编号:3377</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3377" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3377' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3377-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />水</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:141</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:141</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:124</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:100</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:71</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:116</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3376" target="_blank" class="d-flex flex-column gap-1">
+                                    司佩                                </a>
+                                <span class="text-gray-500 font-12">编号:3376</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3376" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3376' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3376-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />石</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:142</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:77</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:103</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:99</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:139</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:125</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3375" target="_blank" class="d-flex flex-column gap-1">
+                                    百花灵童                                </a>
+                                <span class="text-gray-500 font-12">编号:3375</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3375" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3375' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3375-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=11' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/11.png' title='11' class='rounded' style='width:16px;height:16px;' />萌</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:161</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:90</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:130</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:127</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:153</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:136</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3374" target="_blank" class="d-flex flex-column gap-1">
+                                    拂影游侠                                </a>
+                                <span class="text-gray-500 font-12">编号:3374</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3374" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3374' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3374-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=7' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/7.png' title='7' class='rounded' style='width:16px;height:16px;' />武</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:168</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:150</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:133</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:133</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:60</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:132</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3373" target="_blank" class="d-flex flex-column gap-1">
+                                    子建                                </a>
+                                <span class="text-gray-500 font-12">编号:3373</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3373" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3373' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3373-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=8' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/8.png' title='8' class='rounded' style='width:16px;height:16px;' />毒</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:149</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:135</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:130</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:100</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:125</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3372" target="_blank" class="d-flex flex-column gap-1">
+                                    知音文鳐                                </a>
+                                <span class="text-gray-500 font-12">编号:3372</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3372" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3372' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3372-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />冰</a><a href='/spirits.php?sx=10' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/10.png' title='10' class='rounded' style='width:16px;height:16px;' />翼</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:150</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:96</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:116</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:132</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:156</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:143</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3371" target="_blank" class="d-flex flex-column gap-1">
+                                    梦蝶纸驴                                </a>
+                                <span class="text-gray-500 font-12">编号:3371</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3371" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3371' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3371-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=9' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/9.png' title='9' class='rounded' style='width:16px;height:16px;' />土</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:146</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:93</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:130</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:125</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:147</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:145</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3370" target="_blank" class="d-flex flex-column gap-1">
+                                    如意鸮君                                </a>
+                                <span class="text-gray-500 font-12">编号:3370</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3370" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3370' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3370-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=11' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/11.png' title='11' class='rounded' style='width:16px;height:16px;' />萌</a><a href='/spirits.php?sx=10' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/10.png' title='10' class='rounded' style='width:16px;height:16px;' />翼</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:158</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:150</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:130</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:125</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:60</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:129</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3369" target="_blank" class="d-flex flex-column gap-1">
+                                    御剑金猊                                </a>
+                                <span class="text-gray-500 font-12">编号:3369</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3369" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3369' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3369-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=7' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/7.png' title='7' class='rounded' style='width:16px;height:16px;' />武</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:165</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:155</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:132</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:125</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:50</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:130</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3368" target="_blank" class="d-flex flex-column gap-1">
+                                    荷裳仙灵                                </a>
+                                <span class="text-gray-500 font-12">编号:3368</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3368" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3368' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3368-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />水</a><a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />草</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:165</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:55</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:130</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:130</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:135</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3367" target="_blank" class="d-flex flex-column gap-1">
+                                    玄音企鹅                                </a>
+                                <span class="text-gray-500 font-12">编号:3367</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3367" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3367' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3367-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=1' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/1.png' title='1' class='rounded' style='width:16px;height:16px;' />普通</a><a href='/spirits.php?sx=11' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/11.png' title='11' class='rounded' style='width:16px;height:16px;' />萌</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:145</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:66</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:120</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:115</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:125</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3366" target="_blank" class="d-flex flex-column gap-1">
+                                    恶灵总长                                </a>
+                                <span class="text-gray-500 font-12">编号:3366</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3366" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3366' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3366-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=16' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/16.png' title='16' class='rounded' style='width:16px;height:16px;' />恶魔</a><a href='/spirits.php?sx=17' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/17.png' title='17' class='rounded' style='width:16px;height:16px;' />机械</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:161</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:155</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:135</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:135</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:101</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:123</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3365" target="_blank" class="d-flex flex-column gap-1">
+                                    金算鸭吉吉                                </a>
+                                <span class="text-gray-500 font-12">编号:3365</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3365" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3365' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3365-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=10' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/10.png' title='10' class='rounded' style='width:16px;height:16px;' />翼</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:140</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:131</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:127</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:107</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:131</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:123</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3364" target="_blank" class="d-flex flex-column gap-1">
+                                    花旦艾米                                </a>
+                                <span class="text-gray-500 font-12">编号:3364</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3364" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3364' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3364-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=18' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/18.png' title='18' class='rounded' style='width:16px;height:16px;' />光</a><a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />水</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:140</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:70</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:119</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:111</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:135</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3363" target="_blank" class="d-flex flex-column gap-1">
+                                    武生迪莫                                </a>
+                                <span class="text-gray-500 font-12">编号:3363</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3363" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3363' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3363-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=18' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/18.png' title='18' class='rounded' style='width:16px;height:16px;' />光</a><a href='/spirits.php?sx=7' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/7.png' title='7' class='rounded' style='width:16px;height:16px;' />武</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:142</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:145</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:111</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:78</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:100</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3362" target="_blank" class="d-flex flex-column gap-1">
+                                    塞勒姆                                </a>
+                                <span class="text-gray-500 font-12">编号:3362</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3362" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3362' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3362-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />冰</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:165</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:100</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:140</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:144</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:150</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:140</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3361" target="_blank" class="d-flex flex-column gap-1">
+                                    赑瑞玄龟                                </a>
+                                <span class="text-gray-500 font-12">编号:3361</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3361" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3361' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3361-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />草</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />石</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:199</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:129</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:159</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:59</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:59</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:139</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3360" target="_blank" class="d-flex flex-column gap-1">
+                                    瑞宝供奉                                </a>
+                                <span class="text-gray-500 font-12">编号:3360</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3360" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3360' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3360-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />草</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />石</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:169</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:119</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:149</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:49</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:49</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:129</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3359" target="_blank" class="d-flex flex-column gap-1">
+                                    契文灵龟                                </a>
+                                <span class="text-gray-500 font-12">编号:3359</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3359" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3359' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3359-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />草</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />石</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:159</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:109</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:139</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:39</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:39</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:119</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3358" target="_blank" class="d-flex flex-column gap-1">
+                                    甲宝                                </a>
+                                <span class="text-gray-500 font-12">编号:3358</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3358" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3358' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3358-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />草</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />石</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:99</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:99</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:99</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:29</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:29</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:99</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3357" target="_blank" class="d-flex flex-column gap-1">
+                                    冰铃蝶仙                                </a>
+                                <span class="text-gray-500 font-12">编号:3357</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3357" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3357' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3357-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />冰</a><a href='/spirits.php?sx=12' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/12.png' title='12' class='rounded' style='width:16px;height:16px;' />虫</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:150</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:60</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:125</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:110</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:150</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:127</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3356" target="_blank" class="d-flex flex-column gap-1">
+                                    暮小狐                                </a>
+                                <span class="text-gray-500 font-12">编号:3356</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3356" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3356' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3356-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />冰</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:155</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:35</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:128</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:130</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:128</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3355" target="_blank" class="d-flex flex-column gap-1">
+                                    瑟雷纳斯                                </a>
+                                <span class="text-gray-500 font-12">编号:3355</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3355" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3355' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3355-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />组别未知</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=14' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/14.png' title='14' class='rounded' style='width:16px;height:16px;' />幽灵</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">精力:155</span>
+                                        <span class="d-flex  align-items-center  px-2">物攻:66</span>
+                                        <span class="d-flex  align-items-center  px-2">物防:135</span>
+                                        <span class="d-flex  align-items-center  px-2">速度:130</span>
+                                        <span class="d-flex  align-items-center  px-2">魔攻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">魔防:133</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <div class=" d-flex justify-content-center   ">
+                <ul class="pagination">
+                    <li><span class='laypage-curr'>1</span></li>
+<li><a href="/spirits.php?type=&p=2">2</a></li>
+
+<li><a href="/spirits.php?type=&p=3">3</a></li>
+
+<li><a href="/spirits.php?type=&p=4">4</a></li>
+
+<li><a href="/spirits.php?type=&p=5">5</a></li>
+
+<li><span>...</span></li>
+<li><a href="/spirits.php?type=&p=112">112</a></li>
+
+<li><a href="/spirits.php?type=&p=2">></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+<div class="xcz-footer mt-3 font-12">
+    <div class="app-footer text">
+        <div class="app-footer__inner text-center">
+            <p>如果您喜欢,请记住我们的网址:<a href="https://roco.dvg.cn/">https://roco.dvg.cn/</a> 谢谢分享! <span class="">©2019-2026</span> - 主站：<a href="https://www.dvg.cn/" target="_blank">DVG游戏网</a><br><br>
+                <a href="https://www.rainyun.com/NDk2MjY4_" class="" target="_blank">本站由雨云提供免费计算赞助-游戏服专用服务器推荐</a><br><br>
+                <a href="https://80.dvg.cn/" class="extiw" title="魔兽世界80级数据库" target="_blank">魔兽世界80级数据库</a> | <a href="https://seal.dvg.cn/" class="extiw" title="希望宝典数据库" target="_blank">希望宝典数据库</a> | <a href="https://mu.dvg.cn/" class="extiw" title="奇迹MU小册子" target="_blank">奇迹MU小册子</a> | <a href="https://gw2.dvg.cn/" class="extiw" title="激战2宝典" target="_blank">激战2宝典</a> | <a href="https://ro.dvg.cn/" class="extiw" title="RO小册子" target="_blank">RO小册子</a> | <a href="https://mxd.dvg.cn/" class="extiw" title="冒险岛小册子" target="_blank">冒险岛小册子</a> | <a href="https://lostark.dvg.cn/" class="extiw" title="命运方舟小册子" target="_blank">命运方舟小册子</a> | <a href="https://bd.dvg.cn/" class="extiw" title="黑沙小册子" target="_blank">黑沙小册子</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/ui_baodianv3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/ui_baodianv3/js/jquery.qtip.min.js?v=3"></script>
+<script type="module" src="/ui_baodianv3/js/baodian_v3.js?v=1790244926"></script>
+<script type="text/javascript" src="/ui_baodianv3/js/baodian_lng.js?v=1790244926"></script>
+<script type="text/javascript" src="/ui_baodianv3/js/v3.common.js?v=1790244926"></script>
+<script type="text/javascript" src="/tools/js/login.js?v=1790244926"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?711a6efae65bd4c366dbfea1e285dceb";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<div class="container-xxl position-relative ">
+    <div style="width: 100px;">
+        <div class="leftNav-item">
+            <ul class="rounded-top-3 overflow-hidden rounded-bottom-3">
+                <li class="d-flex justify-content-center align-items-center gap-1 tw-h-12 tw-w-12 " data-toggle="modal" onclick="window.location.href = '/fankui.php'" >
+                    <span class="d-flex tw-h-6 tw-w-6 overflow-hidden  align-items-center"><i class="fas fa-pencil-alt" aria-hidden="true" title="反馈"></i></span>
+                </li>
+
+                <li title="返回顶部" class="for-top d-flex justify-content-center align-items-center gap-1 tw-h-12 tw-w-12 " >
+                    <span class="d-flex   align-items-center"><i class="fa fa-angle-up" aria-hidden="true" title="返回顶部"></i></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="toast-container" class="toast-container position-fixed top-50 start-50 translate-middle z-1050" style="display:none;">
+    <div class="toast align-items-center text-white bg-dark border-0 show" role="alert">
+        <div class="d-flex">
+            <div class="toast-body" id="toast-message">提示内容</div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" onclick="hideToast()" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+<div id="toast-overlay" style="display:none;position: fixed;top:0;left:0;right:0;bottom:0;background: rgba(0,0,0,0.5);z-index:1049;"></div></body>
+
+</html>

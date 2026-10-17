@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>娲涘厠鐜嬪浗瀹犵墿鏁版嵁澶у叏-娲涘厠灏忓唽瀛恷娲涘厠鐜嬪浗璧勬枡绔�</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="keywords" content="娲涘厠灏忓唽瀛�,娲涘厠鐜嬪浗灏忓唽瀛�,娲涘厠鐜嬪浗璧勬枡绔�,娲涘厠鐜嬪浗鏁版嵁搴�,娲涘厠鐜嬪浗瀹犵墿鏁版嵁澶у叏,娲涘厠鐜嬪浗瀹犵墿鍥鹃壌" />
+    <meta name="description" content="娲涘厠灏忓唽瀛愭槸鐢盌VG.cn鏁寸悊鐨勫叧浜嶧lash娓告垙銆婃礇鍏嬬帇鍥姐€嬬殑涓€涓祫鏂欑珯锛屼负娲涘厠鐜嬪浗鐜╁鎻愪緵瀹犵墿鏁版嵁鏌ヨ锛屾妧鑳芥暟鎹紝閬撳叿鏁版嵁锛屽疇鐗╄鑴夛紝澶╄祴绛夋暟鎹煡璇㈢殑涓€涓患鍚堟敾鐣ヨ祫鏂欑綉绔欍€�">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="/ui_baodianv3/css/xcz-custom.min.css?v=1790244926" rel="stylesheet">
+<link href="/ui_baodianv3/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+<link href="/ui_baodianv3/css/kuozhan.css?v=1790244926" rel="stylesheet">
+<link href="/tailwind/dist/tailwind.css?v=1790244926" rel="stylesheet">
+<script src="/ui_baodianv3/js/jquery-2.1.4.min.js"></script>
+<script src="/ui_baodianv3/js/vue.global.js"></script>
+<script src="/ui_baodianv3/js/axios.min.js"></script>
+<script src="/ui_baodianv3/js/sweetalert2.all.min.js"></script>
+</head>
+
+<body class="xcz-app">
+    <!-- <div class="theme-loader">
+    <div class="ball-scale">
+        <div class='contain'>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<header id="header-box" class="p-2 sticky-top xcz-top-nav d-flex tw-bg-gray-200 tw-h-14 border-bottom" data-v-app="" style="background:url('/ui_baodianv3/images/top-bg2.jpg') no-repeat center center; background-size: cover;">
+    <nav class="container-fluid d-flex align-items-center  justify-content-between h-auto gap-3 " aria-label="Main navigation">
+        <div class="d-flex d-xl-none font-24 btn " data-bs-toggle="offcanvas" data-bs-target="#xcz-sider"><i class="fas fa-bars"></i></div>
+        <a class="flex-grow-0  align-items-center xcz-top-logo flex-grow-1 flex-xl-grow-0" href="/" aria-label="娲涘厠灏忓唽瀛�">
+            <div class="logo-box d-flex align-items-center gap-2 "><span class=""><img src="/skin/images/004-.png" class="tw-h-8"></span><span class="xcz-sitname fst-italic fw-semibold">娲涘厠灏忓唽瀛�</span></div>
+        </a>
+        <div class="flex-grow-1 justify-content-center position-absolute start-50 translate-middle-x d-xl-flex d-none   xcz-top-mainnav" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
+            <div class="d-flex gap-2 align-items-center">
+                <a href="/" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-home"></i>棣栭〉</a>
+
+                <a href="/spirits.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap tw-bg-yellow-300 "><i class="fas fa-grin-beam"></i>瀹犵墿鍥鹃壌</a>
+                <a href="/skills.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-grin-beam"></i>鎶€鑳�</a>
+                <a href="/talents.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-grin-beam"></i>琛€鑴�</a>
+                <a href="/items.php" class="tw-h-9 d-flex align-items-center gap-1 px-2 py-1 rounded text-nowrap hover:tw-bg-gray-100 tw-bg-gray-100 "><i class="fas fa-grin-beam"></i>閬撳叿</a>
+                
+                <div class="tw-h-9  d-flex align-items-center gap-1 tw-bg-gray-100 rounded px-1 ">
+                    <form id="searchForm" class="d-flex align-items-center gap-1" role="search" style="width:230px">
+                        <select class="form-select form-select-sm border border-0" id="moduleSelect" style="flex: 0 0 80px;">
+                            <option value="/spirits.php?">瀹犵墿</option>
+                            <option value="/skills.php?">鎶€鑳�</option>
+                            <option value="/talents.php?">琛€鑴�</option>
+                            <option value="/items.php?">閬撳叿</option>
+                        </select>
+                        <div class="input-group input-group-sm">
+                            <input name="words" type="text" class="form-control border border-0" id="searchKeyword" placeholder="璇疯緭鍏ュ叧閿瘝..." aria-label="鍏抽敭璇嶆悳绱�">
+                            <button class="d-flex px-2 align-items-center bg-body btn" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex  align-items-center xcz-top-rightnav gap-2">
+            
+            <a class="nav-item d-flex" data-bs-toggle="modal" data-bs-target="#search-box-lit">
+                <div class=" top-right-btnli d-flex align-items-center justify-content-center">
+                    <i class="fas fa-search font-20"></i>
+                </div>
+            </a>
+
+            <div class="nav-item d-none" v-if="is_login==0">
+                <div class=" top-right-btnli d-flex align-items-center login-bt justify-content-center" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+
+            <div class="nav-item d-none" v-if="is_login==1">
+                <a data-bs-toggle="dropdown" class="d-flex justify-content-center btn p-0">
+                    <img class=" user_face rounded-3 " :src="useravatar" alt="">
+                </a>
+                <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-end top-user-btn px-1 shadow-sm bg-gray-100 border border-primary" data-bs-popper="static">
+                    <a href="/user/uinfo.php" tabindex="0" class="rounded dropdown-item text-primary">{{username}}</a>
+                    <a href="/user/uinfo.php" tabindex="0" class="rounded dropdown-item">浼氬憳涓績</a>
+                    <a href="/user/EditSafeInfo.php" tabindex="0" class="rounded dropdown-item">淇敼瀵嗙爜鎴栭偖绠�</a>
+                    <a href="/user/myfavourite.php" tabindex="0" class="rounded dropdown-item">鏀惰棌澶�</a>
+                    <a role="button" @click="logout" tabindex="0" class="rounded dropdown-item">閫€鍑�</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<div id="xcz-sider" class="offcanvas offcanvas-start xcz-sider" data-bs-scroll="true" tabindex="-1" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title tw-text-xl d-flex align-items-center gap-2" id="offcanvasWithBothOptionsLabel"><img src="/skin/images/004-.png" class="tw-h-8">RO灏忓唽瀛�</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="sider-sigle-menu d-flex align-items-center justify-content-between">
+            <a href="/" class="d-flex gap-2 align-items-center "><i class="fas fa-home"></i>棣栭〉</a>
+            <ul class="sider-sigle-right-buttons d-flex  font-20 gap-2">
+               
+            </ul>
+        </div>
+        <div class="menu-sidebar-heading d-none">鏁版嵁搴�</div>
+        <ul class="nav nav-pills flex-column mb-auto sider-menu-ul mt-3">
+
+            <li class="nav-item ">
+                <a href="/spirits.php" class="d-flex gap-2 align-items-center "><i class="fas fa-ghost"></i>瀹犵墿鍥鹃壌</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/skills.php" class="d-flex gap-2 align-items-center "><i class="fas fa-grin-beam"></i>鎶€鑳�</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/talents.php" class="d-flex gap-2 align-items-center"><i class="fas fa-map"></i>琛€鑴�</a>
+            </li>
+            <li class="nav-item ">
+                <a href="/items.php" class="d-flex gap-2 align-items-center"><i class="fas fa-layer-group"></i>閬撳叿</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="offcanvas-footer position-absolute bottom-0 start-0 w-100 border-top bg-white p-3 d-none">
+        <button class="btn btn-primary w-100">
+            <!-- Settingbox -->
+        </button>
+    </div>
+
+</div>
+
+
+
+<!-- 鐧诲綍娉ㄥ唽 Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header pt-3 pb-2 px-3 " style="border-bottom: 0px;">
+                <div class="modal-title fs-6 " id="loginModalLabel">
+                    <div class="d-flex login-modal-tab" id="authTab" role="tablist">
+                        <div class="nk active mx-2 fs-5" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-panel" type="button" role="tab">鐧诲綍</div>
+                        <div class="nk mx-2 fs-5" id="register-tab" data-bs-toggle="tab" data-bs-target="#register-panel" type="button" role="tab">娉ㄥ唽</div>
+                    </div>
+                </div>
+                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="鍏抽棴"></button>
+            </div>
+            <div class="modal-body mx-4 px-0 " style="min-height: 300px;">
+
+                <!-- Tab 鍒囨崲 -->
+
+                <div class="tab-content" id="authTabContent">
+                    <!-- 鐧诲綍闈㈡澘 -->
+                    <div class="tab-pane fade show active" id="login-panel" role="tabpanel">
+                        <div id="wechatLoginArea">
+                                                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx9874cf85a9a79f7a&redirect_uri=https%3A%2F%2Fmxd.dvg.cn%2Fapi_wx%2Fwechat_callback.php&response_type=code&scope=snsapi_login&state=login#wechat_redirect" class="btn btn-success w-100 mb-3 fs-6">
+                                <i class="fab fa-weixin"></i> 浣跨敤寰俊蹇嵎鐧诲綍
+                            </a>
+                                                        <div class="text-center">
+                                <a href="javascript:void(0)" onclick="toggleLoginForm(true)" class="text-decoration-none">浣跨敤璐﹀彿瀵嗙爜鐧诲綍</a>
+                            </div>
+                        </div>
+
+                        <div id="accountLoginArea" style="display:none">
+                            <div class="mb-3">
+                                <label for="loginUsername" class="form-label">鐢ㄦ埛鍚�</label>
+                                <input type="text" class="form-control" id="loginUsername" name="login_username" placeholder="璇疯緭鍏ョ敤鎴峰悕">
+                            </div>
+                            <div class="mb-3">
+                                <label for="loginPassword" class="form-label">瀵嗙爜</label>
+                                <input type="password" class="form-control" id="loginPassword" name="login_password" placeholder="璇疯緭鍏ュ瘑鐮�">
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">璁颁綇鎴�</label>
+                                <a href="/user/GetPassword.php" class="float-end small text-muted">蹇樿瀵嗙爜锛�</a>
+                            </div>
+                            <button type="button" class="btn btn-primary w-100" onclick="bootstrapLogin()">鐧诲綍</button>
+                            <div class="text-center mt-2">
+                                <a href="javascript:void(0)" onclick="toggleLoginForm(false)" class="text-decoration-none">杩斿洖寰俊鐧诲綍</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 娉ㄥ唽闈㈡澘 -->
+                    <div class="tab-pane fade" id="register-panel" role="tabpanel">
+                        <div id="wechatRegisterArea">
+                                                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx9874cf85a9a79f7a&redirect_uri=https%3A%2F%2Fmxd.dvg.cn%2Fapi_wx%2Fwechat_callback.php&response_type=code&scope=snsapi_login&state=login#wechat_redirect" class="btn btn-success w-100 mb-3 fs-6">
+                                <i class="fab fa-weixin"></i> 浣跨敤寰俊蹇嵎鐧诲綍
+                            </a>
+                                                        <div class="text-center">
+                                <a href="javascript:void(0)" onclick="toggleRegisterForm(true)" class="text-decoration-none">浣跨敤璐﹀彿娉ㄥ唽</a>
+                            </div>
+                        </div>
+
+                        <div id="accountRegisterArea" style="display:none">
+                            <div class="mb-3">
+                                <label for="regUsername" class="form-label">鐢ㄦ埛鍚�</label>
+                                <input type="text" class="form-control" id="regUsername" name="reg_username" placeholder="璇疯緭鍏ョ敤鎴峰悕">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regPassword" class="form-label">瀵嗙爜</label>
+                                <input type="password" class="form-control" id="regPassword" name="reg_password" placeholder="璇疯緭鍏ュ瘑鐮�">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regPassword2" class="form-label">纭瀵嗙爜</label>
+                                <input type="password" class="form-control" id="regPassword2" name="reg_password2" placeholder="鍐嶆杈撳叆瀵嗙爜">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regEmail" class="form-label">閭</label>
+                                <input type="email" class="form-control" id="regEmail" name="reg_email" placeholder="璇疯緭鍏ラ偖绠�">
+                            </div>
+                            <div class="mb-3 d-flex align-items-center">
+                                <input type="text" class="form-control me-2" id="regCode" name="reg_code" placeholder="楠岃瘉鐮�">
+                                <div id="regshowkey" class="text-nowrap">
+                                    <a href="javascript:void(0)" onclick="edoshowkey_N('regshowkey','reg','/')" title="鐐瑰嚮鍒锋柊楠岃瘉鐮�">鐐瑰嚮鏄剧ず楠岃瘉鐮�</a>
+                                </div>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="agreePolicy" checked>
+                                <label class="form-check-label" for="agreePolicy">
+                                    鎴戝凡闃呰骞跺悓鎰� <a href="/arc_info.php?id=1674" target="_blank">銆婄敤鎴峰崗璁€�</a> 鍜� <a href="/arc_info.php?id=1675" target="_blank">銆婇殣绉佹斂绛栥€�</a>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-success w-100" onclick="bootstrapRegister()">娉ㄥ唽</button>
+                            <div class="text-center mt-2">
+                                <a href="javascript:void(0)" onclick="toggleRegisterForm(false)" class="text-decoration-none">杩斿洖寰俊娉ㄥ唽</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="search-box-lit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header p-2">
+        <h1 class="modal-title font-16" id="exampleModalLabel">蹇嵎鎼滅储</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex flex-column gap-3 align-items-center gap-1 tw-bg-gray-100 rounded p-2 font-14 ">
+            <form id="searchForm-m"  action="/items.php" class="d-flex align-items-center gap-1 w-full" role="search" >
+                <select class="form-select form-select-sm border border-0 tw-h-9" id="moduleSelect-m" style="flex: 0 0 80px;">
+                            <option value="/spirits.php?">瀹犵墿</option>
+                            <option value="/skills.php?">鎶€鑳�</option>
+                            <option value="/talents.php?">琛€鑴�</option>
+                            <option value="/items.php?">閬撳叿</option>
+                        </select>
+                <input name="words" type="text" class="form-control border border-0 rounded-start flex-fill tw-h-9 font-14" id="searchKeyword-m"  placeholder="璇疯緭鍏ュ叧閿瘝..." aria-label="鍏抽敭璇嶆悳绱�">
+                <button class="d-flex gap-1 px-2 align-items-center bg-body  tw-h-9 text-nowrap rounded font-14" type="submit"><i class="fas fa-search"></i>鎼滅储</button>
+            </form>
+            
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/tools/js/topheader.js?v=1790244926"></script>    
+    <div class="container-xxl mt-3 xcz-content-wrapper">
+
+        <div class="card mb-3 over-hidden">
+
+            <div class="d-flex justify-content-between px-3 py-2 tw-bg-white tw-border-b tw-border-gray-200">
+                <div class="card-header-title zhedie_h"><i class="fa fa-fw" aria-hidden="true" title="Copy to use align-right">飥�</i> <span class="pl5">瀹犵墿鎼滅储</span></div>
+                <ul class="nav">
+                    <li class="nav-item"><a href="javascript:void(0);" class="zhedie_bt"><i class="fas fa-compress"></i> 鎶樺彔</a></li>
+                </ul>
+            </div>
+
+            <div class="card-body zhedian_box pt-2 pb-0 ">
+
+                <div class="layui-row zy_box zhedian_box">
+
+                    <div class="d-flex  tw-border-b tw-border-gray-100 py-2 gap-2">
+                        <span class="tw-bg-red-500 px-2 rounded-1 text-nowrap d-flex align-items-center">
+                            <a href="" class="font-14 sealect-button active tw-text-white  ">灞炴€�</a>
+                        </span>
+                        <span class="d-flex gap-2 flex-wrap">
+                            <a href="/spirits.php?sx=" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-red-100 tw-text-blue-700  btn-biankuang">鍏ㄩ儴</a>
+                                                        <a href="/spirits.php?sx=1" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鏅€�</a>
+                                                        <a href="/spirits.php?sx=2" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鐏�</a>
+                                                        <a href="/spirits.php?sx=3" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">姘�</a>
+                                                        <a href="/spirits.php?sx=4" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鐢�</a>
+                                                        <a href="/spirits.php?sx=5" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鑽�</a>
+                                                        <a href="/spirits.php?sx=6" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鍐�</a>
+                                                        <a href="/spirits.php?sx=7" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">姝�</a>
+                                                        <a href="/spirits.php?sx=8" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">姣�</a>
+                                                        <a href="/spirits.php?sx=9" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鍦�</a>
+                                                        <a href="/spirits.php?sx=10" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">缈�</a>
+                                                        <a href="/spirits.php?sx=11" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">钀�</a>
+                                                        <a href="/spirits.php?sx=12" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">铏�</a>
+                                                        <a href="/spirits.php?sx=13" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鐭�</a>
+                                                        <a href="/spirits.php?sx=14" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">骞界伒</a>
+                                                        <a href="/spirits.php?sx=15" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">榫�</a>
+                                                        <a href="/spirits.php?sx=16" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鎭堕瓟</a>
+                                                        <a href="/spirits.php?sx=17" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鏈烘</a>
+                                                        <a href="/spirits.php?sx=18" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鍏�</a>
+                                                        <a href="/spirits.php?sx=19" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">绁炵伀</a>
+                                                        <a href="/spirits.php?sx=20" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">绁炶崏</a>
+                                                        <a href="/spirits.php?sx=21" class="font-14 sealect-button px-2 py-1  rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">绁炴按</a>
+                                                    </span>
+                    </div>
+
+                    <div class="d-flex  tw-border-b tw-border-gray-100 py-2 gap-2">
+                        <span class="tw-bg-red-500 px-2 rounded-1 text-nowrap d-flex align-items-center">
+                            <a href="" class="font-14 sealect-button active tw-text-white  ">缁勫埆</a>
+                        </span>
+                        <span class="d-flex gap-2 flex-wrap">
+                            <a href="/spirits.php?zb=" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-red-100 tw-text-blue-700  btn-biankuang">鍏ㄩ儴</a>
+                            <a href="/spirits.php?zb=1" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">妞嶇墿缁�</a>
+                            <a href="/spirits.php?zb=2" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鍔ㄧ墿缁�</a>
+                            <a href="/spirits.php?zb=4" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">涓嶆缁�</a>
+                            <a href="/spirits.php?zb=10" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">瀹堟姢缁�</a>
+                            <a href="/spirits.php?zb=12" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">澶╃┖缁�</a>
+                            <a href="/spirits.php?zb=13" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">澶у湴缁�</a> 
+                            <a href="/spirits.php?zb=15" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鍔涢噺缁�</a>
+                            <a href="/spirits.php?zb=21" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鎬€粍</a>
+                            <a href="/spirits.php?zb=29" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">绮剧伒缁�</a>
+                            <a href="/spirits.php?zb=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鏈煡缁�</a>
+                            
+                        </span>
+                    </div>
+
+                    <div class="d-flex  tw-border-b tw-border-gray-100 py-2 gap-2 d-none">
+                        <span class="tw-bg-red-500 px-2 rounded-1 text-nowrap d-flex align-items-center">
+                            <a href="" class="font-14 sealect-button active tw-text-white  ">鍏嶇柅</a>
+                        </span>
+                        <span class="d-flex gap-2 flex-wrap">
+                            
+                            <a href="/spirits.php?my=1" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鐫＄湢</a>
+                            <a href="/spirits.php?my=2" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">楹婚唹</a>
+                            <a href="/spirits.php?my=4" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鐑т激</a>
+                            <a href="/spirits.php?my=10" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鍐板喕</a>
+                            <a href="/spirits.php?my=12" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">娣蜂贡</a>
+                            <a href="/spirits.php?my=13" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鎭愭儳</a> 
+                            <a href="/spirits.php?my=15" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">杩锋儜</a>
+                            <a href="/spirits.php?my=21" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">涓瘨</a>
+                            <a href="/spirits.php?my=29" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鍓ф瘨</a>
+                            <a href="/spirits.php?my=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">瀵勭敓</a>
+                            <a href="/spirits.php?my=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">璇呭拻</a>
+                            <a href="/spirits.php?my=32" class="font-14 sealect-button px-2 py-1 rounded-1 hover:tw-bg-red-100  tw-bg-gray-100  btn-biankuang">鏉熺細</a>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="p-3">
+                <div class="itemlist-searchbox align-items-center gap-2 bg-body px-2 rounded-3 border border-primary d-flex order-3 order-sm-2  ">
+                    <div class="font-16"><i class="fas fa-search"></i></div>
+                    <form class="navbar-search navbar-form d-flex align-items-center flex-fill" action="?" id="" role="search">
+                        <div class="text-body-tertiary flex-fill">
+                            <input type="hidden" name="search" value="1">
+                            <input type="hidden" name="st" value="1">
+                            <input type="text" name="words" value="" class="form-control border-0 font-14 " placeholder="鏍忕洰鍐呮悳绱�(鏀寔鐩存帴鎼淚D)">
+                        </div>
+                        <button type="submit" class="d-flex align-items-center font-10 top-search-rbt border-0">鎼滅储</button>
+                        </from>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <div class="d-flex flex-wrap flex-xl-nowrap justify-content-between  p-2 gap-2 tw-border-b tw-border-gray-200">
+                <div class="d-flex align-items-center gap-2 order-1"><i class="fas fa-map-marker-alt"></i>鏁版嵁鍒楄〃<span class="bg-primary rounded text-light px-2 font-12"></span><span class="d-none bg-primary rounded text-light px-2 font-12">3354</span></div>
+                <div class="d-flex align-items-center gap-2 order-2 order-sm-3">
+
+                    <div class="btn-group d-none">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            绛夌骇
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="?">榛樿<i class="fas fa-check text-success"></i></a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="?&order=1">鍊掑簭</a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="?&order=2">姝ｅ簭</a></li>
+                        </ul>
+                    </div>
+
+                    <span class="d-flex align-items-center gap-2 d-xl-none border border-gray-200 bg-gray-300 py-1 px-2 rounded" role="button" data-bs-toggle="offcanvas" data-bs-target="#itemlist-sider"><i class="fas fa-filter"></i>鍒嗙被</span>
+                </div>
+            </div>
+            <div class="p-0">
+                <div class="d-flex justify-content-center  ">
+                    <ul class="pagination">
+                        <li><span class='laypage-curr'>1</span></li>
+<li><a href="/spirits.php?type=&p=2">2</a></li>
+
+<li><a href="/spirits.php?type=&p=3">3</a></li>
+
+<li><a href="/spirits.php?type=&p=4">4</a></li>
+
+<li><a href="/spirits.php?type=&p=5">5</a></li>
+
+<li><span>...</span></li>
+<li><a href="/spirits.php?type=&p=112">112</a></li>
+
+<li><a href="/spirits.php?type=&p=2">></a></li>
+                    </ul>
+                </div>
+
+                <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 gap-2 px-3">
+
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3385" target="_blank" class="d-flex flex-column gap-1">
+                                    浼婁竾                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3385</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3385" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3385' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3385-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />鍐�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:146</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:146</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:136</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:127</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:87</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:120</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3383" target="_blank" class="d-flex flex-column gap-1">
+                                    鑹惧皵                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3383</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3383" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3383' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3383-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=9' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/9.png' title='9' class='rounded' style='width:16px;height:16px;' />鍦�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:150</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:50</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:129</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:120</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:146</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:130</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3382" target="_blank" class="d-flex flex-column gap-1">
+                                    铚滄€�                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3382</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3382" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3382' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3382-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />鑽�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:145</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:90</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:120</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:103</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:141</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:131</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3381" target="_blank" class="d-flex flex-column gap-1">
+                                    鐨撴湀娲涚                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3381</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3381" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3381' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3381-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />姘�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:152</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:80</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:132</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:137</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:138</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3380" target="_blank" class="d-flex flex-column gap-1">
+                                    娉锋櫙                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3380</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3380" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3380' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3380-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />姘�</a><a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />鑽�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:162</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:155</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:135</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:128</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:55</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:136</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3379" target="_blank" class="d-flex flex-column gap-1">
+                                    绯背鍓戝                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3379</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3379" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3379' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3379-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=1' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/1.png' title='1' class='rounded' style='width:16px;height:16px;' />鏅€�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:140</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:125</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:130</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:80</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:126</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3378" target="_blank" class="d-flex flex-column gap-1">
+                                    绉夌儧                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3378</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3378" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3378' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3378-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=18' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/18.png' title='18' class='rounded' style='width:16px;height:16px;' />鍏�</a><a href='/spirits.php?sx=2' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/2.png' title='2' class='rounded' style='width:16px;height:16px;' />鐏�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:150</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:85</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:120</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:111</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:148</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:136</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3377" target="_blank" class="d-flex flex-column gap-1">
+                                    寰℃尝                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3377</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3377" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3377' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3377-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />姘�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:141</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:141</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:124</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:100</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:71</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:116</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3376" target="_blank" class="d-flex flex-column gap-1">
+                                    鍙镐僵                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3376</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3376" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3376' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3376-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />鐭�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:142</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:77</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:103</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:99</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:139</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:125</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3375" target="_blank" class="d-flex flex-column gap-1">
+                                    鐧捐姳鐏电                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3375</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3375" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3375' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3375-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=11' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/11.png' title='11' class='rounded' style='width:16px;height:16px;' />钀�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:161</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:90</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:130</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:127</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:153</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:136</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3374" target="_blank" class="d-flex flex-column gap-1">
+                                    鎷傚奖娓镐緺                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3374</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3374" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3374' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3374-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=7' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/7.png' title='7' class='rounded' style='width:16px;height:16px;' />姝�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:168</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:150</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:133</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:133</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:60</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:132</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3373" target="_blank" class="d-flex flex-column gap-1">
+                                    瀛愬缓                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3373</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3373" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3373' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3373-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=8' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/8.png' title='8' class='rounded' style='width:16px;height:16px;' />姣�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:149</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:135</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:130</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:100</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:125</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3372" target="_blank" class="d-flex flex-column gap-1">
+                                    鐭ラ煶鏂囬硱                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3372</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3372" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3372' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3372-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />鍐�</a><a href='/spirits.php?sx=10' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/10.png' title='10' class='rounded' style='width:16px;height:16px;' />缈�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:150</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:96</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:116</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:132</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:156</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:143</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3371" target="_blank" class="d-flex flex-column gap-1">
+                                    姊﹁澏绾搁┐                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3371</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3371" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3371' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3371-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=9' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/9.png' title='9' class='rounded' style='width:16px;height:16px;' />鍦�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:146</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:93</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:130</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:125</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:147</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:145</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3370" target="_blank" class="d-flex flex-column gap-1">
+                                    濡傛剰楦悰                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3370</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3370" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3370' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3370-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=11' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/11.png' title='11' class='rounded' style='width:16px;height:16px;' />钀�</a><a href='/spirits.php?sx=10' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/10.png' title='10' class='rounded' style='width:16px;height:16px;' />缈�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:158</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:150</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:130</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:125</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:60</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:129</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3369" target="_blank" class="d-flex flex-column gap-1">
+                                    寰″墤閲戠寠                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3369</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3369" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3369' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3369-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=7' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/7.png' title='7' class='rounded' style='width:16px;height:16px;' />姝�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:165</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:155</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:132</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:125</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:50</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:130</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3368" target="_blank" class="d-flex flex-column gap-1">
+                                    鑽疯３浠欑伒                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3368</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3368" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3368' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3368-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />姘�</a><a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />鑽�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:165</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:55</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:130</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:130</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:135</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3367" target="_blank" class="d-flex flex-column gap-1">
+                                    鐜勯煶浼侀箙                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3367</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3367" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3367' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3367-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=1' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/1.png' title='1' class='rounded' style='width:16px;height:16px;' />鏅€�</a><a href='/spirits.php?sx=11' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/11.png' title='11' class='rounded' style='width:16px;height:16px;' />钀�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:145</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:66</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:120</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:115</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:125</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3366" target="_blank" class="d-flex flex-column gap-1">
+                                    鎭剁伒鎬婚暱                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3366</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3366" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3366' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3366-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=16' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/16.png' title='16' class='rounded' style='width:16px;height:16px;' />鎭堕瓟</a><a href='/spirits.php?sx=17' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/17.png' title='17' class='rounded' style='width:16px;height:16px;' />鏈烘</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:161</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:155</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:135</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:135</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:101</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:123</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3365" target="_blank" class="d-flex flex-column gap-1">
+                                    閲戠畻楦悏鍚�                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3365</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3365" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3365' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3365-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=10' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/10.png' title='10' class='rounded' style='width:16px;height:16px;' />缈�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:140</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:131</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:127</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:107</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:131</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:123</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3364" target="_blank" class="d-flex flex-column gap-1">
+                                    鑺辨棪鑹剧背                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3364</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3364" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3364' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3364-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=18' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/18.png' title='18' class='rounded' style='width:16px;height:16px;' />鍏�</a><a href='/spirits.php?sx=3' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/3.png' title='3' class='rounded' style='width:16px;height:16px;' />姘�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:140</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:70</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:119</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:111</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:135</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3363" target="_blank" class="d-flex flex-column gap-1">
+                                    姝︾敓杩帿                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3363</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3363" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3363' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3363-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=18' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/18.png' title='18' class='rounded' style='width:16px;height:16px;' />鍏�</a><a href='/spirits.php?sx=7' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/7.png' title='7' class='rounded' style='width:16px;height:16px;' />姝�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:142</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:145</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:111</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:78</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:100</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3362" target="_blank" class="d-flex flex-column gap-1">
+                                    濉炲嫆濮�                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3362</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3362" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3362' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3362-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />鍐�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:165</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:100</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:140</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:144</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:150</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:140</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3361" target="_blank" class="d-flex flex-column gap-1">
+                                    璧戠憺鐜勯緹                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3361</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3361" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3361' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3361-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />鑽�</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />鐭�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:199</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:129</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:159</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:59</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:59</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:139</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3360" target="_blank" class="d-flex flex-column gap-1">
+                                    鐟炲疂渚涘                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3360</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3360" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3360' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3360-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />鑽�</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />鐭�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:169</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:119</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:149</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:49</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:49</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:129</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3359" target="_blank" class="d-flex flex-column gap-1">
+                                    濂戞枃鐏甸緹                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3359</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3359" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3359' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3359-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />鑽�</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />鐭�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:159</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:109</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:139</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:39</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:39</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:119</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3358" target="_blank" class="d-flex flex-column gap-1">
+                                    鐢插疂                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3358</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3358" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3358' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3358-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=5' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/5.png' title='5' class='rounded' style='width:16px;height:16px;' />鑽�</a><a href='/spirits.php?sx=13' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/13.png' title='13' class='rounded' style='width:16px;height:16px;' />鐭�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:99</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:99</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:99</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:29</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:29</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:99</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3357" target="_blank" class="d-flex flex-column gap-1">
+                                    鍐伴搩铦朵粰                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3357</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3357" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3357' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3357-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />鍐�</a><a href='/spirits.php?sx=12' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/12.png' title='12' class='rounded' style='width:16px;height:16px;' />铏�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:150</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:60</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:125</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:110</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:150</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:127</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3356" target="_blank" class="d-flex flex-column gap-1">
+                                    鏆皬鐙�                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3356</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3356" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3356' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3356-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=6' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/6.png' title='6' class='rounded' style='width:16px;height:16px;' />鍐�</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:155</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:35</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:128</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:130</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:128</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                        <div class="position-relative">
+                        <div class="bg-gray-100 d-flex flex-column  rounded p-0 h-100 overflow-hidden tw-border tw-border-gray-200">
+                            <span class="d-flex align-items-center gap-1 justify-content-between  p-2 bg-gray-200">
+                                <a href="/spirit_info.php?id=3355" target="_blank" class="d-flex flex-column gap-1">
+                                    鐟熼浄绾虫柉                                </a>
+                                <span class="text-gray-500 font-12">缂栧彿:3355</span>
+                            </span>
+                            <span class="d-flex p-2 tw-bg-white gap-2">
+                                <div>
+                                    <a href="/spirit_info.php?id=3355" target="_blank" class=" d-flex flex-column align-items-center gap-2 justify-content-center" data-itemid='3355' data-qtype='4' target="_blank"><img class="item_litpic-b rounded-3 tw-border tw-border-gray-200 " src="https://source2025.dvg.cn/source_roco/dbsource/spirit/300/3355-.png"></a>
+                                </div>
+                                <div class="flex-fill d-flex flex-column gap-3">
+                                    <div class="d-flex gap-2">
+                                        <a href="/spirits.php?zb=32" class="d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2"><img src='https://source2025.dvg.cn/source_roco/dbsource/grouptype/32.png' class='rounded' style='width:16px;height:16px;' />缁勫埆鏈煡</a>
+                                        <span class="d-flex align-items-center gap-2">
+                                            <a href='/spirits.php?sx=14' class='d-flex gap-1 align-items-center tw-bg-gray-100 rounded px-2'><img src='https://source2025.dvg.cn/source_roco/dbsource/property/14.png' title='14' class='rounded' style='width:16px;height:16px;' />骞界伒</a>                                        </span>
+                                    </div>
+                                    <div class="tw-grid tw-grid-cols-3 tw-text-gray-500 font-12  gap-2 ">
+                                        <span class="d-flex  align-items-center  px-2">绮惧姏:155</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╂敾:66</span>
+                                        <span class="d-flex  align-items-center  px-2">鐗╅槻:135</span>
+                                        <span class="d-flex  align-items-center  px-2">閫熷害:130</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旀敾:145</span>
+                                        <span class="d-flex  align-items-center  px-2">榄旈槻:133</span>
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <div class=" d-flex justify-content-center   ">
+                <ul class="pagination">
+                    <li><span class='laypage-curr'>1</span></li>
+<li><a href="/spirits.php?type=&p=2">2</a></li>
+
+<li><a href="/spirits.php?type=&p=3">3</a></li>
+
+<li><a href="/spirits.php?type=&p=4">4</a></li>
+
+<li><a href="/spirits.php?type=&p=5">5</a></li>
+
+<li><span>...</span></li>
+<li><a href="/spirits.php?type=&p=112">112</a></li>
+
+<li><a href="/spirits.php?type=&p=2">></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+<div class="xcz-footer mt-3 font-12">
+    <div class="app-footer text">
+        <div class="app-footer__inner text-center">
+            <p>濡傛灉鎮ㄥ枩娆�,璇疯浣忔垜浠殑缃戝潃:<a href="https://roco.dvg.cn/">https://roco.dvg.cn/</a> 璋㈣阿鍒嗕韩! <span class="">漏2019-2026</span> - 涓荤珯锛�<a href="https://www.dvg.cn/" target="_blank">DVG娓告垙缃�</a><br><br>
+                <a href="https://www.rainyun.com/NDk2MjY4_" class="" target="_blank">鏈珯鐢遍洦浜戞彁渚涘厤璐硅绠楄禐鍔�-娓告垙鏈嶄笓鐢ㄦ湇鍔″櫒鎺ㄨ崘</a><br><br>
+                <a href="https://80.dvg.cn/" class="extiw" title="榄斿吔涓栫晫80绾ф暟鎹簱" target="_blank">榄斿吔涓栫晫80绾ф暟鎹簱</a> | <a href="https://seal.dvg.cn/" class="extiw" title="甯屾湜瀹濆吀鏁版嵁搴�" target="_blank">甯屾湜瀹濆吀鏁版嵁搴�</a> | <a href="https://mu.dvg.cn/" class="extiw" title="濂囪抗MU灏忓唽瀛�" target="_blank">濂囪抗MU灏忓唽瀛�</a> | <a href="https://gw2.dvg.cn/" class="extiw" title="婵€鎴�2瀹濆吀" target="_blank">婵€鎴�2瀹濆吀</a> | <a href="https://ro.dvg.cn/" class="extiw" title="RO灏忓唽瀛�" target="_blank">RO灏忓唽瀛�</a> | <a href="https://mxd.dvg.cn/" class="extiw" title="鍐掗櫓宀涘皬鍐屽瓙" target="_blank">鍐掗櫓宀涘皬鍐屽瓙</a> | <a href="https://lostark.dvg.cn/" class="extiw" title="鍛借繍鏂硅垷灏忓唽瀛�" target="_blank">鍛借繍鏂硅垷灏忓唽瀛�</a> | <a href="https://bd.dvg.cn/" class="extiw" title="榛戞矙灏忓唽瀛�" target="_blank">榛戞矙灏忓唽瀛�</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/ui_baodianv3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/ui_baodianv3/js/jquery.qtip.min.js?v=3"></script>
+<script type="module" src="/ui_baodianv3/js/baodian_v3.js?v=1790244926"></script>
+<script type="text/javascript" src="/ui_baodianv3/js/baodian_lng.js?v=1790244926"></script>
+<script type="text/javascript" src="/ui_baodianv3/js/v3.common.js?v=1790244926"></script>
+<script type="text/javascript" src="/tools/js/login.js?v=1790244926"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?711a6efae65bd4c366dbfea1e285dceb";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<div class="container-xxl position-relative ">
+    <div style="width: 100px;">
+        <div class="leftNav-item">
+            <ul class="rounded-top-3 overflow-hidden rounded-bottom-3">
+                <li class="d-flex justify-content-center align-items-center gap-1 tw-h-12 tw-w-12 " data-toggle="modal" onclick="window.location.href = '/fankui.php'" >
+                    <span class="d-flex tw-h-6 tw-w-6 overflow-hidden  align-items-center"><i class="fas fa-pencil-alt" aria-hidden="true" title="鍙嶉"></i></span>
+                </li>
+
+                <li title="杩斿洖椤堕儴" class="for-top d-flex justify-content-center align-items-center gap-1 tw-h-12 tw-w-12 " >
+                    <span class="d-flex   align-items-center"><i class="fa fa-angle-up" aria-hidden="true" title="杩斿洖椤堕儴"></i></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="toast-container" class="toast-container position-fixed top-50 start-50 translate-middle z-1050" style="display:none;">
+    <div class="toast align-items-center text-white bg-dark border-0 show" role="alert">
+        <div class="d-flex">
+            <div class="toast-body" id="toast-message">鎻愮ず鍐呭</div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" onclick="hideToast()" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+<div id="toast-overlay" style="display:none;position: fixed;top:0;left:0;right:0;bottom:0;background: rgba(0,0,0,0.5);z-index:1049;"></div></body>
+
+</html>

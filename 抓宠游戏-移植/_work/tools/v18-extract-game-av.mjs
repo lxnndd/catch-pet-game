@@ -1,0 +1,12 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+const F='C:/Users/10709/Desktop/AI/抓宠游戏/抓宠游戏-移植/抓宠游戏-v12-clean.html';
+const src=readFileSync(F,'utf8');
+const i=src.indexOf('var AVATARS = {');
+const seg=src.slice(i,i+5000000);
+const m=seg.match(/"pk-037":"([A-Za-z0-9+/=]+)"/);
+const buf=Buffer.from(m[1],'base64');
+writeFileSync('C:/Users/10709/Desktop/AI/抓宠游戏/抓宠游戏-移植/_work/inspect-game-pk037.webp',buf);
+console.log('游戏内 pk-037 解出 '+buf.length+' 字节，头='+buf.slice(0,4).toString('ascii'));
+const local=readFileSync('C:/Users/10709/Desktop/AI/抓宠游戏/抓宠游戏-移植/_work/v17-avatars-webp/pk-037.webp');
+console.log('本地新 webp '+local.length+' 字节，头='+local.slice(0,4).toString('ascii'));
+console.log('两者字节相同：'+(buf.length===local.length && buf.equals(local)));

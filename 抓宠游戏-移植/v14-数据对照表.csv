@@ -1,0 +1,688 @@
+﻿来源,名字,英文名,属性1,属性2,原始数值,原始属性,游戏血量,稀有度,栖息地,进化目标,进化等级,进化方式,骑乘,亚种,来源URL
+宝可梦,妙蛙种子,妙蛙种子,草,毒,45,grass·poison,23,常见,森林/花海,妙蛙草,16,level,,,https://wiki.52poke.com/wiki/妙蛙种子
+宝可梦,妙蛙草,妙蛙草,草,毒,60,grass·poison,30,稀有,森林/花海,妙蛙花,32,level,,,https://wiki.52poke.com/wiki/妙蛙草
+宝可梦,妙蛙花,妙蛙花,草,毒,80,grass·poison,39,传说,森林/花海,,,,,,https://wiki.52poke.com/wiki/妙蛙花
+宝可梦,小火龙,小火龙,火,,39,fire,21,常见,火山/沙漠,火恐龙,16,level,,,https://wiki.52poke.com/wiki/小火龙
+宝可梦,火恐龙,火恐龙,火,,58,fire,29,稀有,火山/沙漠,喷火龙,36,level,,,https://wiki.52poke.com/wiki/火恐龙
+宝可梦,喷火龙,喷火龙,火,飞行,78,fire·flying,38,传说,火山/沙漠,,,,,,https://wiki.52poke.com/wiki/喷火龙
+宝可梦,杰尼龟,杰尼龟,水,,44,water,23,常见,水畔/海洋,卡咪龟,16,level,,,https://wiki.52poke.com/wiki/杰尼龟
+宝可梦,卡咪龟,卡咪龟,水,,59,water,30,稀有,水畔/海洋,水箭龟,36,level,,,https://wiki.52poke.com/wiki/卡咪龟
+宝可梦,水箭龟,水箭龟,水,,79,water,39,传说,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/水箭龟
+宝可梦,大针蜂,大针蜂,虫,毒,65,bug·poison,32,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/大针蜂
+宝可梦,皮卡丘,皮卡丘,电,,35,elec,19,常见,平原/矿洞,雷丘,30,item,,,https://wiki.52poke.com/wiki/皮卡丘
+宝可梦,雷丘,雷丘,电,,60,elec,30,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/雷丘
+宝可梦,九尾,九尾,火,,73,fire,36,稀有,火山/沙漠,,,,,,https://wiki.52poke.com/wiki/九尾
+宝可梦,霸王花,霸王花,草,毒,75,grass·poison,37,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/霸王花
+宝可梦,风速狗,风速狗,火,,90,fire,44,稀有,火山/沙漠,,,,,,https://wiki.52poke.com/wiki/风速狗
+宝可梦,胡地,胡地,超能力,,55,psychic,28,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/胡地
+宝可梦,怪力,怪力,格斗,,90,fight,44,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/怪力
+宝可梦,耿鬼,耿鬼,幽灵,毒,60,ghost·poison,30,稀有,矿洞/森林,,,,,,https://wiki.52poke.com/wiki/耿鬼
+宝可梦,钻角犀兽,钻角犀兽,地面,岩石,105,ground·rock,50,稀有,沙漠/矿洞,超甲狂犀,50,trade,,,https://wiki.52poke.com/wiki/钻角犀兽
+宝可梦,吉利蛋,吉利蛋,普通,,250,nor,116,稀有,平原/森林,幸福蛋,45,item,,,https://wiki.52poke.com/wiki/吉利蛋
+宝可梦,飞天螳螂,飞天螳螂,虫,飞行,70,bug·flying,35,稀有,森林/花海,巨钳螳螂,45,trade,,,https://wiki.52poke.com/wiki/飞天螳螂
+宝可梦,迷唇姐,迷唇姐,冰,超能力,65,ice·psychic,32,稀有,雪原/海洋/平原,,,,,,https://wiki.52poke.com/wiki/迷唇姐
+宝可梦,鲤鱼王,鲤鱼王,水,,20,water,12,常见,水畔/海洋,暴鲤龙,20,level,,,https://wiki.52poke.com/wiki/鲤鱼王
+宝可梦,暴鲤龙,暴鲤龙,水,飞行,95,water·flying,46,稀有,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/暴鲤龙
+宝可梦,拉普拉斯,拉普拉斯,水,冰,130,water·ice,62,稀有,海洋/水畔/雪原,,,,,,https://wiki.52poke.com/wiki/拉普拉斯
+宝可梦,百变怪,百变怪,普通,,48,nor,25,稀有,平原/森林,,,,,,https://wiki.52poke.com/wiki/百变怪
+宝可梦,伊布,伊布,普通,,55,nor,28,稀有,平原/森林,水伊布,25,item,,,https://wiki.52poke.com/wiki/伊布
+宝可梦,水伊布,水伊布,水,,130,water,62,稀有,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/水伊布
+宝可梦,雷伊布,雷伊布,电,,65,elec,32,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/雷伊布
+宝可梦,火伊布,火伊布,火,,65,fire,32,稀有,火山/沙漠,,,,,,https://wiki.52poke.com/wiki/火伊布
+宝可梦,化石翼龙,化石翼龙,岩石,飞行,80,rock·flying,39,稀有,矿洞/平原,,,,,,https://wiki.52poke.com/wiki/化石翼龙
+宝可梦,卡比兽,卡比兽,普通,,160,nor,75,稀有,平原/森林,,,,,,https://wiki.52poke.com/wiki/卡比兽
+宝可梦,急冻鸟,急冻鸟,冰,飞行,90,ice·flying,44,传说,雪原,,,,,,https://wiki.52poke.com/wiki/急冻鸟
+宝可梦,闪电鸟,闪电鸟,电,飞行,90,elec·flying,44,传说,平原,,,,,,https://wiki.52poke.com/wiki/闪电鸟
+宝可梦,火焰鸟,火焰鸟,火,飞行,90,fire·flying,44,传说,火山,,,,,,https://wiki.52poke.com/wiki/火焰鸟
+宝可梦,迷你龙,迷你龙,龙,,41,dragon,21,常见,矿洞/水畔,哈克龙,30,level,,,https://wiki.52poke.com/wiki/迷你龙
+宝可梦,哈克龙,哈克龙,龙,,61,dragon,30,稀有,矿洞/水畔,快龙,55,level,,,https://wiki.52poke.com/wiki/哈克龙
+宝可梦,快龙,快龙,龙,飞行,91,dragon·flying,44,传说,矿洞/水畔,,,,,,https://wiki.52poke.com/wiki/快龙
+宝可梦,超梦,超梦,超能力,,106,psychic,51,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/超梦
+宝可梦,梦幻,梦幻,超能力,,100,psychic,48,传说,森林,,,,,,https://wiki.52poke.com/wiki/梦幻
+宝可梦,菊草叶,菊草叶,草,,45,grass,23,常见,森林/花海,月桂叶,16,level,,,https://wiki.52poke.com/wiki/菊草叶
+宝可梦,月桂叶,月桂叶,草,,60,grass,30,稀有,森林/花海,大竺葵,32,level,,,https://wiki.52poke.com/wiki/月桂叶
+宝可梦,大竺葵,大竺葵,草,,80,grass,39,传说,森林/花海,,,,,,https://wiki.52poke.com/wiki/大竺葵
+宝可梦,火球鼠,火球鼠,火,,39,fire,21,常见,火山/沙漠,火岩鼠,14,level,,,https://wiki.52poke.com/wiki/火球鼠
+宝可梦,火岩鼠,火岩鼠,火,,58,fire,29,稀有,火山/沙漠,火暴兽,36,level,,,https://wiki.52poke.com/wiki/火岩鼠
+宝可梦,火暴兽,火暴兽,火,,78,fire,38,传说,火山/沙漠,,,,,,https://wiki.52poke.com/wiki/火暴兽
+宝可梦,小锯鳄,小锯鳄,水,,50,water,26,常见,水畔/海洋,蓝鳄,18,level,,,https://wiki.52poke.com/wiki/小锯鳄
+宝可梦,蓝鳄,蓝鳄,水,,65,water,32,稀有,水畔/海洋,大力鳄,30,level,,,https://wiki.52poke.com/wiki/蓝鳄
+宝可梦,大力鳄,大力鳄,水,,85,water,41,传说,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/大力鳄
+宝可梦,安瓢虫,安瓢虫,虫,飞行,55,bug·flying,28,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/安瓢虫
+宝可梦,波克比,波克比,妖精,,35,fairy,19,常见,花海/平原,波克基古,25,friend,,,https://wiki.52poke.com/wiki/波克比
+宝可梦,波克基古,波克基古,妖精,飞行,55,fairy·flying,28,稀有,花海/平原,波克基斯,40,item,,,https://wiki.52poke.com/wiki/波克基古
+宝可梦,电龙,电龙,电,,90,elec,44,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/电龙
+宝可梦,太阳伊布,太阳伊布,超能力,,65,psychic,32,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/太阳伊布
+宝可梦,月亮伊布,月亮伊布,恶,,95,dark,46,稀有,森林/矿洞,,,,,,https://wiki.52poke.com/wiki/月亮伊布
+宝可梦,大钢蛇,大钢蛇,钢,地面,75,steel·ground,37,稀有,矿洞,,,,,,https://wiki.52poke.com/wiki/大钢蛇
+宝可梦,巨钳螳螂,巨钳螳螂,虫,钢,70,bug·steel,35,稀有,森林/花海/矿洞,,,,,,https://wiki.52poke.com/wiki/巨钳螳螂
+宝可梦,赫拉克罗斯,赫拉克罗斯,虫,格斗,80,bug·fight,39,稀有,森林/花海/平原,,,,,,https://wiki.52poke.com/wiki/赫拉克罗斯
+宝可梦,盔甲鸟,盔甲鸟,钢,飞行,65,steel·flying,32,稀有,矿洞/平原,,,,,,https://wiki.52poke.com/wiki/盔甲鸟
+宝可梦,黑鲁加,黑鲁加,恶,火,75,dark·fire,37,稀有,森林/矿洞/火山,,,,,,https://wiki.52poke.com/wiki/黑鲁加
+宝可梦,幸福蛋,幸福蛋,普通,,255,nor,118,稀有,平原/森林,,,,,,https://wiki.52poke.com/wiki/幸福蛋
+宝可梦,雷公,雷公,电,,90,elec,44,传说,平原,,,,,,https://wiki.52poke.com/wiki/雷公
+宝可梦,炎帝,炎帝,火,,115,fire,55,传说,火山,,,,,,https://wiki.52poke.com/wiki/炎帝
+宝可梦,水君,水君,水,,100,water,48,传说,水畔,,,,,,https://wiki.52poke.com/wiki/水君
+宝可梦,幼基拉斯,幼基拉斯,岩石,地面,50,rock·ground,26,常见,矿洞/沙漠,沙基拉斯,30,level,,,https://wiki.52poke.com/wiki/幼基拉斯
+宝可梦,沙基拉斯,沙基拉斯,岩石,地面,70,rock·ground,35,稀有,矿洞/沙漠,班基拉斯,55,level,,,https://wiki.52poke.com/wiki/沙基拉斯
+宝可梦,班基拉斯,班基拉斯,岩石,恶,100,rock·dark,48,传说,矿洞/沙漠/森林,,,,,,https://wiki.52poke.com/wiki/班基拉斯
+宝可梦,洛奇亚,洛奇亚,超能力,飞行,106,psychic·flying,51,传说,海洋,,,,,,https://wiki.52poke.com/wiki/洛奇亚
+宝可梦,凤王,凤王,火,飞行,106,fire·flying,51,传说,火山,,,,,,https://wiki.52poke.com/wiki/凤王
+宝可梦,时拉比,时拉比,超能力,草,100,psychic·grass,48,传说,森林,,,,,,https://wiki.52poke.com/wiki/时拉比
+宝可梦,木守宫,木守宫,草,,40,grass,21,常见,森林/花海,森林蜥蜴,16,level,,,https://wiki.52poke.com/wiki/木守宫
+宝可梦,森林蜥蜴,森林蜥蜴,草,,50,grass,26,稀有,森林/花海,蜥蜴王,36,level,,,https://wiki.52poke.com/wiki/森林蜥蜴
+宝可梦,蜥蜴王,蜥蜴王,草,,70,grass,35,传说,森林/花海,,,,,,https://wiki.52poke.com/wiki/蜥蜴王
+宝可梦,火稚鸡,火稚鸡,火,,45,fire,23,常见,火山/沙漠,力壮鸡,16,level,,,https://wiki.52poke.com/wiki/火稚鸡
+宝可梦,力壮鸡,力壮鸡,火,格斗,60,fire·fight,30,稀有,火山/沙漠/平原,火焰鸡,36,level,,,https://wiki.52poke.com/wiki/力壮鸡
+宝可梦,火焰鸡,火焰鸡,火,格斗,80,fire·fight,39,传说,火山/沙漠/平原,,,,,,https://wiki.52poke.com/wiki/火焰鸡
+宝可梦,水跃鱼,水跃鱼,水,,50,water,26,常见,水畔/海洋,沼跃鱼,16,level,,,https://wiki.52poke.com/wiki/水跃鱼
+宝可梦,沼跃鱼,沼跃鱼,水,地面,70,water·ground,35,稀有,水畔/海洋/沙漠,巨沼怪,36,level,,,https://wiki.52poke.com/wiki/沼跃鱼
+宝可梦,巨沼怪,巨沼怪,水,地面,100,water·ground,48,传说,水畔/海洋/沙漠,,,,,,https://wiki.52poke.com/wiki/巨沼怪
+宝可梦,狩猎凤蝶,狩猎凤蝶,虫,飞行,60,bug·flying,30,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/狩猎凤蝶
+宝可梦,毒粉蛾,毒粉蛾,虫,毒,60,bug·poison,30,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/毒粉蛾
+宝可梦,拉鲁拉丝,拉鲁拉丝,超能力,妖精,28,psychic·fairy,16,稀有,平原/矿洞/花海,奇鲁莉安,20,level,,,https://wiki.52poke.com/wiki/拉鲁拉丝
+宝可梦,奇鲁莉安,奇鲁莉安,超能力,妖精,38,psychic·fairy,20,稀有,平原/矿洞/花海,沙奈朵,30,level,,,https://wiki.52poke.com/wiki/奇鲁莉安
+宝可梦,沙奈朵,沙奈朵,超能力,妖精,68,psychic·fairy,34,稀有,平原/矿洞/花海,,,,,,https://wiki.52poke.com/wiki/沙奈朵
+宝可梦,请假王,请假王,普通,,150,nor,71,稀有,平原/森林,,,,,,https://wiki.52poke.com/wiki/请假王
+宝可梦,波士可多拉,波士可多拉,钢,岩石,70,steel·rock,35,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/波士可多拉
+宝可梦,电萤虫,电萤虫,虫,,65,bug,32,常见,森林/花海,,,,,,https://wiki.52poke.com/wiki/电萤虫
+宝可梦,大颚蚁,大颚蚁,地面,,45,ground,23,常见,沙漠/矿洞,超音波幼虫,35,level,,,https://wiki.52poke.com/wiki/大颚蚁
+宝可梦,超音波幼虫,超音波幼虫,地面,龙,50,ground·dragon,26,稀有,沙漠/矿洞,沙漠蜻蜓,45,level,,,https://wiki.52poke.com/wiki/超音波幼虫
+宝可梦,沙漠蜻蜓,沙漠蜻蜓,地面,龙,80,ground·dragon,39,稀有,沙漠/矿洞,,,,,,https://wiki.52poke.com/wiki/沙漠蜻蜓
+宝可梦,丑丑鱼,丑丑鱼,水,,20,water,12,稀有,水畔/海洋,美纳斯,40,friend,,,https://wiki.52poke.com/wiki/丑丑鱼
+宝可梦,美纳斯,美纳斯,水,,95,water,46,稀有,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/美纳斯
+宝可梦,冰鬼护,冰鬼护,冰,,80,ice,39,稀有,雪原/海洋,,,,,,https://wiki.52poke.com/wiki/冰鬼护
+宝可梦,宝贝龙,宝贝龙,龙,,45,dragon,23,常见,矿洞/水畔,甲壳龙,30,level,,,https://wiki.52poke.com/wiki/宝贝龙
+宝可梦,甲壳龙,甲壳龙,龙,,65,dragon,32,稀有,矿洞/水畔,暴飞龙,50,level,,,https://wiki.52poke.com/wiki/甲壳龙
+宝可梦,暴飞龙,暴飞龙,龙,飞行,95,dragon·flying,46,传说,矿洞/水畔,,,,,,https://wiki.52poke.com/wiki/暴飞龙
+宝可梦,铁哑铃,铁哑铃,钢,超能力,40,steel·psychic,21,常见,矿洞/平原,金属怪,20,level,,,https://wiki.52poke.com/wiki/铁哑铃
+宝可梦,金属怪,金属怪,钢,超能力,60,steel·psychic,30,稀有,矿洞/平原,巨金怪,45,level,,,https://wiki.52poke.com/wiki/金属怪
+宝可梦,巨金怪,巨金怪,钢,超能力,80,steel·psychic,39,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/巨金怪
+宝可梦,雷吉洛克,雷吉洛克,岩石,,80,rock,39,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/雷吉洛克
+宝可梦,雷吉艾斯,雷吉艾斯,冰,,80,ice,39,传说,雪原,,,,,,https://wiki.52poke.com/wiki/雷吉艾斯
+宝可梦,雷吉斯奇鲁,雷吉斯奇鲁,钢,,80,steel,39,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/雷吉斯奇鲁
+宝可梦,拉帝亚斯,拉帝亚斯,龙,超能力,80,dragon·psychic,39,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/拉帝亚斯
+宝可梦,拉帝欧斯,拉帝欧斯,龙,超能力,80,dragon·psychic,39,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/拉帝欧斯
+宝可梦,盖欧卡,盖欧卡,水,,100,water,48,传说,海洋,,,,,,https://wiki.52poke.com/wiki/盖欧卡
+宝可梦,固拉多,固拉多,地面,,100,ground,48,传说,火山,,,,,,https://wiki.52poke.com/wiki/固拉多
+宝可梦,烈空坐,烈空坐,龙,飞行,105,dragon·flying,50,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/烈空坐
+宝可梦,基拉祈,基拉祈,钢,超能力,100,steel·psychic,48,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/基拉祈
+宝可梦,代欧奇希斯,代欧奇希斯,超能力,,50,psychic,26,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/代欧奇希斯
+宝可梦,草苗龟,草苗龟,草,,55,grass,28,常见,森林/花海,树林龟,18,level,,,https://wiki.52poke.com/wiki/草苗龟
+宝可梦,树林龟,树林龟,草,,75,grass,37,稀有,森林/花海,土台龟,32,level,,,https://wiki.52poke.com/wiki/树林龟
+宝可梦,土台龟,土台龟,草,地面,95,grass·ground,46,传说,森林/花海/沙漠,,,,,,https://wiki.52poke.com/wiki/土台龟
+宝可梦,小火焰猴,小火焰猴,火,,44,fire,23,常见,火山/沙漠,猛火猴,14,level,,,https://wiki.52poke.com/wiki/小火焰猴
+宝可梦,猛火猴,猛火猴,火,格斗,64,fire·fight,32,稀有,火山/沙漠/平原,烈焰猴,36,level,,,https://wiki.52poke.com/wiki/猛火猴
+宝可梦,烈焰猴,烈焰猴,火,格斗,76,fire·fight,37,传说,火山/沙漠/平原,,,,,,https://wiki.52poke.com/wiki/烈焰猴
+宝可梦,波加曼,波加曼,水,,53,water,27,常见,水畔/海洋,波皇子,16,level,,,https://wiki.52poke.com/wiki/波加曼
+宝可梦,波皇子,波皇子,水,,64,water,32,稀有,水畔/海洋,帝王拿波,36,level,,,https://wiki.52poke.com/wiki/波皇子
+宝可梦,帝王拿波,帝王拿波,水,钢,84,water·steel,41,传说,水畔/海洋/矿洞,,,,,,https://wiki.52poke.com/wiki/帝王拿波
+宝可梦,音箱蟀,音箱蟀,虫,,77,bug,38,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/音箱蟀
+宝可梦,蜂女王,蜂女王,虫,飞行,70,bug·flying,35,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/蜂女王
+宝可梦,圆陆鲨,圆陆鲨,龙,地面,58,dragon·ground,29,常见,矿洞/水畔/沙漠,尖牙陆鲨,24,level,,,https://wiki.52poke.com/wiki/圆陆鲨
+宝可梦,尖牙陆鲨,尖牙陆鲨,龙,地面,68,dragon·ground,34,稀有,矿洞/水畔/沙漠,烈咬陆鲨,48,level,,,https://wiki.52poke.com/wiki/尖牙陆鲨
+宝可梦,烈咬陆鲨,烈咬陆鲨,龙,地面,108,dragon·ground,52,传说,矿洞/水畔/沙漠,,,,,,https://wiki.52poke.com/wiki/烈咬陆鲨
+宝可梦,利欧路,利欧路,格斗,,40,fight,21,稀有,平原/矿洞,路卡利欧,30,friend,,,https://wiki.52poke.com/wiki/利欧路
+宝可梦,路卡利欧,路卡利欧,格斗,钢,70,fight·steel,35,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/路卡利欧
+宝可梦,雪笠怪,雪笠怪,草,冰,60,grass·ice,30,常见,森林/花海/雪原,暴雪王,40,level,,,https://wiki.52poke.com/wiki/雪笠怪
+宝可梦,暴雪王,暴雪王,草,冰,90,grass·ice,44,稀有,森林/花海/雪原,,,,,,https://wiki.52poke.com/wiki/暴雪王
+宝可梦,自爆磁怪,自爆磁怪,电,钢,70,elec·steel,35,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/自爆磁怪
+宝可梦,超甲狂犀,超甲狂犀,地面,岩石,115,ground·rock,55,稀有,沙漠/矿洞,,,,,,https://wiki.52poke.com/wiki/超甲狂犀
+宝可梦,波克基斯,波克基斯,妖精,飞行,85,fairy·flying,41,稀有,花海/平原,,,,,,https://wiki.52poke.com/wiki/波克基斯
+宝可梦,叶伊布,叶伊布,草,,65,grass,32,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/叶伊布
+宝可梦,冰伊布,冰伊布,冰,,65,ice,32,稀有,雪原/海洋,,,,,,https://wiki.52poke.com/wiki/冰伊布
+宝可梦,艾路雷朵,艾路雷朵,超能力,格斗,68,psychic·fight,34,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/艾路雷朵
+宝可梦,雪妖女,雪妖女,冰,幽灵,70,ice·ghost,35,稀有,雪原/海洋/矿洞,,,,,,https://wiki.52poke.com/wiki/雪妖女
+宝可梦,洛托姆,洛托姆,电,幽灵,50,elec·ghost,26,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/洛托姆
+宝可梦,帝牙卢卡,帝牙卢卡,钢,龙,100,steel·dragon,48,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/帝牙卢卡
+宝可梦,帕路奇亚,帕路奇亚,水,龙,90,water·dragon,44,传说,水畔,,,,,,https://wiki.52poke.com/wiki/帕路奇亚
+宝可梦,骑拉帝纳,骑拉帝纳,幽灵,龙,150,ghost·dragon,71,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/骑拉帝纳
+宝可梦,玛纳霏,玛纳霏,水,,100,water,48,传说,海洋,,,,,,https://wiki.52poke.com/wiki/玛纳霏
+宝可梦,达克莱伊,达克莱伊,恶,,70,dark,35,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/达克莱伊
+宝可梦,谢米,谢米,草,,100,grass,48,传说,花海,,,,,,https://wiki.52poke.com/wiki/谢米
+宝可梦,阿尔宙斯,阿尔宙斯,普通,,120,nor,57,传说,平原,,,,,,https://wiki.52poke.com/wiki/阿尔宙斯
+宝可梦,藤藤蛇,藤藤蛇,草,,45,grass,23,常见,森林/花海,青藤蛇,17,level,,,https://wiki.52poke.com/wiki/藤藤蛇
+宝可梦,青藤蛇,青藤蛇,草,,60,grass,30,稀有,森林/花海,君主蛇,36,level,,,https://wiki.52poke.com/wiki/青藤蛇
+宝可梦,君主蛇,君主蛇,草,,75,grass,37,传说,森林/花海,,,,,,https://wiki.52poke.com/wiki/君主蛇
+宝可梦,暖暖猪,暖暖猪,火,,65,fire,32,常见,火山/沙漠,炒炒猪,17,level,,,https://wiki.52poke.com/wiki/暖暖猪
+宝可梦,炒炒猪,炒炒猪,火,格斗,90,fire·fight,44,稀有,火山/沙漠/平原,炎武王,36,level,,,https://wiki.52poke.com/wiki/炒炒猪
+宝可梦,炎武王,炎武王,火,格斗,110,fire·fight,53,传说,火山/沙漠/平原,,,,,,https://wiki.52poke.com/wiki/炎武王
+宝可梦,水水獭,水水獭,水,,55,water,28,常见,水畔/海洋,双刃丸,17,level,,,https://wiki.52poke.com/wiki/水水獭
+宝可梦,双刃丸,双刃丸,水,,75,water,37,稀有,水畔/海洋,大剑鬼,36,level,,,https://wiki.52poke.com/wiki/双刃丸
+宝可梦,大剑鬼,大剑鬼,水,,95,water,46,传说,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/大剑鬼
+宝可梦,龙头地鼠,龙头地鼠,地面,钢,110,ground·steel,53,稀有,沙漠/矿洞,,,,,,https://wiki.52poke.com/wiki/龙头地鼠
+宝可梦,索罗亚,索罗亚,恶,,40,dark,21,稀有,森林/矿洞,索罗亚克,30,level,,,https://wiki.52poke.com/wiki/索罗亚
+宝可梦,索罗亚克,索罗亚克,恶,,60,dark,30,稀有,森林/矿洞,,,,,,https://wiki.52poke.com/wiki/索罗亚克
+宝可梦,水晶灯火灵,水晶灯火灵,幽灵,火,60,ghost·fire,30,稀有,矿洞/森林/火山,,,,,,https://wiki.52poke.com/wiki/水晶灯火灵
+宝可梦,牙牙,牙牙,龙,,46,dragon,24,常见,矿洞/水畔,斧牙龙,38,level,,,https://wiki.52poke.com/wiki/牙牙
+宝可梦,斧牙龙,斧牙龙,龙,,66,dragon,33,稀有,矿洞/水畔,双斧战龙,48,level,,,https://wiki.52poke.com/wiki/斧牙龙
+宝可梦,双斧战龙,双斧战龙,龙,,76,dragon,37,稀有,矿洞/水畔,,,,,,https://wiki.52poke.com/wiki/双斧战龙
+宝可梦,几何雪花,几何雪花,冰,,80,ice,39,稀有,雪原/海洋,,,,,,https://wiki.52poke.com/wiki/几何雪花
+宝可梦,单首龙,单首龙,恶,龙,52,dark·dragon,26,常见,森林/矿洞,双首暴龙,50,level,,,https://wiki.52poke.com/wiki/单首龙
+宝可梦,双首暴龙,双首暴龙,恶,龙,72,dark·dragon,35,稀有,森林/矿洞,三首恶龙,64,level,,,https://wiki.52poke.com/wiki/双首暴龙
+宝可梦,三首恶龙,三首恶龙,恶,龙,92,dark·dragon,44,传说,森林/矿洞,,,,,,https://wiki.52poke.com/wiki/三首恶龙
+宝可梦,燃烧虫,燃烧虫,虫,火,55,bug·fire,28,常见,森林/花海/火山,火神蛾,59,level,,,https://wiki.52poke.com/wiki/燃烧虫
+宝可梦,火神蛾,火神蛾,虫,火,85,bug·fire,41,稀有,森林/花海/火山,,,,,,https://wiki.52poke.com/wiki/火神蛾
+宝可梦,莱希拉姆,莱希拉姆,龙,火,100,dragon·fire,48,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/莱希拉姆
+宝可梦,捷克罗姆,捷克罗姆,龙,电,100,dragon·elec,48,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/捷克罗姆
+宝可梦,酋雷姆,酋雷姆,龙,冰,125,dragon·ice,59,传说,雪原,,,,,,https://wiki.52poke.com/wiki/酋雷姆
+宝可梦,盖诺赛克特,盖诺赛克特,虫,钢,71,bug·steel,35,传说,森林,,,,,,https://wiki.52poke.com/wiki/盖诺赛克特
+宝可梦,哈力栗,哈力栗,草,,56,grass,28,常见,森林/花海,胖胖哈力,16,level,,,https://wiki.52poke.com/wiki/哈力栗
+宝可梦,胖胖哈力,胖胖哈力,草,,61,grass,30,稀有,森林/花海,布里卡隆,36,level,,,https://wiki.52poke.com/wiki/胖胖哈力
+宝可梦,布里卡隆,布里卡隆,草,格斗,88,grass·fight,43,传说,森林/花海/平原,,,,,,https://wiki.52poke.com/wiki/布里卡隆
+宝可梦,火狐狸,火狐狸,火,,40,fire,21,常见,火山/沙漠,长尾火狐,16,level,,,https://wiki.52poke.com/wiki/火狐狸
+宝可梦,长尾火狐,长尾火狐,火,,59,fire,30,稀有,火山/沙漠,妖火红狐,36,level,,,https://wiki.52poke.com/wiki/长尾火狐
+宝可梦,妖火红狐,妖火红狐,火,超能力,75,fire·psychic,37,传说,火山/沙漠/平原,,,,,,https://wiki.52poke.com/wiki/妖火红狐
+宝可梦,呱呱泡蛙,呱呱泡蛙,水,,41,water,21,常见,水畔/海洋,呱头蛙,16,level,,,https://wiki.52poke.com/wiki/呱呱泡蛙
+宝可梦,呱头蛙,呱头蛙,水,,54,water,27,稀有,水畔/海洋,甲贺忍蛙,36,level,,,https://wiki.52poke.com/wiki/呱头蛙
+宝可梦,甲贺忍蛙,甲贺忍蛙,水,恶,72,water·dark,35,传说,水畔/海洋/森林,,,,,,https://wiki.52poke.com/wiki/甲贺忍蛙
+宝可梦,小箭雀,小箭雀,普通,飞行,45,nor·flying,23,稀有,平原/森林,火箭雀,17,level,,,https://wiki.52poke.com/wiki/小箭雀
+宝可梦,火箭雀,火箭雀,火,飞行,62,fire·flying,31,稀有,火山/沙漠,烈箭鹰,35,level,,,https://wiki.52poke.com/wiki/火箭雀
+宝可梦,烈箭鹰,烈箭鹰,火,飞行,78,fire·flying,38,稀有,火山/沙漠,,,,,,https://wiki.52poke.com/wiki/烈箭鹰
+宝可梦,独剑鞘,独剑鞘,钢,幽灵,45,steel·ghost,23,稀有,矿洞/平原,双剑鞘,35,level,,,https://wiki.52poke.com/wiki/独剑鞘
+宝可梦,双剑鞘,双剑鞘,钢,幽灵,59,steel·ghost,30,稀有,矿洞/平原,坚盾剑怪,45,item,,,https://wiki.52poke.com/wiki/双剑鞘
+宝可梦,坚盾剑怪,坚盾剑怪,钢,幽灵,60,steel·ghost,30,稀有,矿洞/平原,,,,,,https://wiki.52poke.com/wiki/坚盾剑怪
+宝可梦,仙子伊布,仙子伊布,妖精,,95,fairy,46,稀有,花海/平原,,,,,,https://wiki.52poke.com/wiki/仙子伊布
+宝可梦,黏黏宝,黏黏宝,龙,,45,dragon,23,常见,矿洞/水畔,黏美儿,40,level,,,https://wiki.52poke.com/wiki/黏黏宝
+宝可梦,黏美儿,黏美儿,龙,,68,dragon,34,稀有,矿洞/水畔,黏美龙,50,level,,,https://wiki.52poke.com/wiki/黏美儿
+宝可梦,黏美龙,黏美龙,龙,,90,dragon,44,传说,矿洞/水畔,,,,,,https://wiki.52poke.com/wiki/黏美龙
+宝可梦,冰岩怪,冰岩怪,冰,,95,ice,46,稀有,雪原/海洋,,,,,,https://wiki.52poke.com/wiki/冰岩怪
+宝可梦,音波龙,音波龙,飞行,龙,85,flying·dragon,41,稀有,平原/森林/矿洞,,,,,,https://wiki.52poke.com/wiki/音波龙
+宝可梦,哲尔尼亚斯,哲尔尼亚斯,妖精,,126,fairy,60,传说,森林,,,,,,https://wiki.52poke.com/wiki/哲尔尼亚斯
+宝可梦,伊裴尔塔尔,伊裴尔塔尔,恶,飞行,126,dark·flying,60,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/伊裴尔塔尔
+宝可梦,基格尔德,基格尔德,龙,地面,108,dragon·ground,52,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/基格尔德
+宝可梦,蒂安希,蒂安希,岩石,妖精,50,rock·fairy,26,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/蒂安希
+宝可梦,木木枭,木木枭,草,飞行,68,grass·flying,34,常见,森林/花海,投羽枭,17,level,,,https://wiki.52poke.com/wiki/木木枭
+宝可梦,投羽枭,投羽枭,草,飞行,78,grass·flying,38,稀有,森林/花海,狙射树枭,34,level,,,https://wiki.52poke.com/wiki/投羽枭
+宝可梦,狙射树枭,狙射树枭,草,幽灵,78,grass·ghost,38,传说,森林/花海/矿洞,,,,,,https://wiki.52poke.com/wiki/狙射树枭
+宝可梦,火斑喵,火斑喵,火,,45,fire,23,常见,火山/沙漠,炎热喵,17,level,,,https://wiki.52poke.com/wiki/火斑喵
+宝可梦,炎热喵,炎热喵,火,,65,fire,32,稀有,火山/沙漠,炽焰咆哮虎,34,level,,,https://wiki.52poke.com/wiki/炎热喵
+宝可梦,炽焰咆哮虎,炽焰咆哮虎,火,恶,95,fire·dark,46,传说,火山/沙漠/森林,,,,,,https://wiki.52poke.com/wiki/炽焰咆哮虎
+宝可梦,球球海狮,球球海狮,水,,50,water,26,常见,水畔/海洋,花漾海狮,17,level,,,https://wiki.52poke.com/wiki/球球海狮
+宝可梦,花漾海狮,花漾海狮,水,,60,water,30,稀有,水畔/海洋,西狮海壬,34,level,,,https://wiki.52poke.com/wiki/花漾海狮
+宝可梦,西狮海壬,西狮海壬,水,妖精,80,water·fairy,39,传说,水畔/海洋/花海,,,,,,https://wiki.52poke.com/wiki/西狮海壬
+宝可梦,萌虻,萌虻,虫,妖精,40,bug·fairy,21,常见,森林/花海,蝶结萌虻,25,level,,,https://wiki.52poke.com/wiki/萌虻
+宝可梦,蝶结萌虻,蝶结萌虻,虫,妖精,60,bug·fairy,30,稀有,森林/花海,,,,,,https://wiki.52poke.com/wiki/蝶结萌虻
+宝可梦,鬃岩狼人,鬃岩狼人,岩石,,75,rock,37,稀有,矿洞/沙漠,,,,,,https://wiki.52poke.com/wiki/鬃岩狼人
+宝可梦,谜拟丘,谜拟丘,幽灵,妖精,55,ghost·fairy,28,稀有,矿洞/森林,,,,,,https://wiki.52poke.com/wiki/谜拟丘
+宝可梦,心鳞宝,心鳞宝,龙,,45,dragon,23,常见,矿洞/水畔,鳞甲龙,35,level,,,https://wiki.52poke.com/wiki/心鳞宝
+宝可梦,鳞甲龙,鳞甲龙,龙,格斗,55,dragon·fight,28,稀有,矿洞/水畔/平原,杖尾鳞甲龙,45,level,,,https://wiki.52poke.com/wiki/鳞甲龙
+宝可梦,杖尾鳞甲龙,杖尾鳞甲龙,龙,格斗,75,dragon·fight,37,传说,矿洞/水畔/平原,,,,,,https://wiki.52poke.com/wiki/杖尾鳞甲龙
+宝可梦,卡璞・鸣鸣,卡璞・鸣鸣,电,妖精,70,elec·fairy,35,传说,平原,,,,,,https://wiki.52poke.com/wiki/卡璞・鸣鸣
+宝可梦,卡璞・蝶蝶,卡璞・蝶蝶,超能力,妖精,70,psychic·fairy,35,传说,平原,,,,,,https://wiki.52poke.com/wiki/卡璞・蝶蝶
+宝可梦,卡璞・哞哞,卡璞・哞哞,草,妖精,70,grass·fairy,35,传说,森林,,,,,,https://wiki.52poke.com/wiki/卡璞・哞哞
+宝可梦,卡璞・鳍鳍,卡璞・鳍鳍,水,妖精,70,water·fairy,35,传说,水畔,,,,,,https://wiki.52poke.com/wiki/卡璞・鳍鳍
+宝可梦,索尔迦雷欧,索尔迦雷欧,超能力,钢,137,psychic·steel,65,传说,平原,,,,,,https://wiki.52poke.com/wiki/索尔迦雷欧
+宝可梦,露奈雅拉,露奈雅拉,超能力,幽灵,137,psychic·ghost,65,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/露奈雅拉
+宝可梦,奈克洛兹玛,奈克洛兹玛,超能力,,97,psychic,47,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/奈克洛兹玛
+宝可梦,玛夏多,玛夏多,格斗,幽灵,90,fight·ghost,44,传说,平原,,,,,,https://wiki.52poke.com/wiki/玛夏多
+宝可梦,捷拉奥拉,捷拉奥拉,电,,88,elec,43,传说,平原,,,,,,https://wiki.52poke.com/wiki/捷拉奥拉
+宝可梦,美录梅塔,美录梅塔,钢,,135,steel,64,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/美录梅塔
+宝可梦,敲音猴,敲音猴,草,,50,grass,26,常见,森林/花海,啪咚猴,16,level,,,https://wiki.52poke.com/wiki/敲音猴
+宝可梦,啪咚猴,啪咚猴,草,,70,grass,35,稀有,森林/花海,轰擂金刚猩,35,level,,,https://wiki.52poke.com/wiki/啪咚猴
+宝可梦,轰擂金刚猩,轰擂金刚猩,草,,100,grass,48,传说,森林/花海,,,,,,https://wiki.52poke.com/wiki/轰擂金刚猩
+宝可梦,炎兔儿,炎兔儿,火,,50,fire,26,常见,火山/沙漠,腾蹴小将,16,level,,,https://wiki.52poke.com/wiki/炎兔儿
+宝可梦,腾蹴小将,腾蹴小将,火,,65,fire,32,稀有,火山/沙漠,闪焰王牌,35,level,,,https://wiki.52poke.com/wiki/腾蹴小将
+宝可梦,闪焰王牌,闪焰王牌,火,,80,fire,39,传说,火山/沙漠,,,,,,https://wiki.52poke.com/wiki/闪焰王牌
+宝可梦,泪眼蜥,泪眼蜥,水,,50,water,26,常见,水畔/海洋,变涩蜥,16,level,,,https://wiki.52poke.com/wiki/泪眼蜥
+宝可梦,变涩蜥,变涩蜥,水,,65,water,32,稀有,水畔/海洋,千面避役,35,level,,,https://wiki.52poke.com/wiki/变涩蜥
+宝可梦,千面避役,千面避役,水,,70,water,35,传说,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/千面避役
+宝可梦,稚山雀,稚山雀,飞行,,38,flying,20,常见,平原/森林,蓝鸦,18,level,,,https://wiki.52poke.com/wiki/稚山雀
+宝可梦,蓝鸦,蓝鸦,飞行,,68,flying,34,稀有,平原/森林,钢铠鸦,38,level,,,https://wiki.52poke.com/wiki/蓝鸦
+宝可梦,钢铠鸦,钢铠鸦,飞行,钢,98,flying·steel,47,稀有,平原/森林/矿洞,,,,,,https://wiki.52poke.com/wiki/钢铠鸦
+宝可梦,以欧路普,以欧路普,虫,超能力,60,bug·psychic,30,稀有,森林/花海/平原,,,,,,https://wiki.52poke.com/wiki/以欧路普
+宝可梦,焚焰蚣,焚焰蚣,火,虫,100,fire·bug,48,稀有,火山/沙漠/森林,,,,,,https://wiki.52poke.com/wiki/焚焰蚣
+宝可梦,迷布莉姆,迷布莉姆,超能力,,42,psychic,22,稀有,平原/矿洞,提布莉姆,32,level,,,https://wiki.52poke.com/wiki/迷布莉姆
+宝可梦,提布莉姆,提布莉姆,超能力,,57,psychic,29,稀有,平原/矿洞,布莉姆温,42,level,,,https://wiki.52poke.com/wiki/提布莉姆
+宝可梦,布莉姆温,布莉姆温,超能力,妖精,57,psychic·fairy,29,稀有,平原/矿洞/花海,,,,,,https://wiki.52poke.com/wiki/布莉姆温
+宝可梦,冰砌鹅,冰砌鹅,冰,,75,ice,37,稀有,雪原/海洋,,,,,,https://wiki.52poke.com/wiki/冰砌鹅
+宝可梦,多龙梅西亚,多龙梅西亚,龙,幽灵,28,dragon·ghost,16,常见,矿洞/水畔,多龙奇,50,level,,,https://wiki.52poke.com/wiki/多龙梅西亚
+宝可梦,多龙奇,多龙奇,龙,幽灵,68,dragon·ghost,34,稀有,矿洞/水畔,多龙巴鲁托,60,level,,,https://wiki.52poke.com/wiki/多龙奇
+宝可梦,多龙巴鲁托,多龙巴鲁托,龙,幽灵,88,dragon·ghost,43,传说,矿洞/水畔,,,,,,https://wiki.52poke.com/wiki/多龙巴鲁托
+宝可梦,苍响,苍响,妖精,,92,fairy,44,传说,平原,,,,,,https://wiki.52poke.com/wiki/苍响
+宝可梦,藏玛然特,藏玛然特,格斗,,92,fight,44,传说,平原,,,,,,https://wiki.52poke.com/wiki/藏玛然特
+宝可梦,无极汰那,无极汰那,毒,龙,140,poison·dragon,66,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/无极汰那
+宝可梦,熊徒弟,熊徒弟,格斗,,60,fight,30,传说,平原,武道熊师,40,friend,,,https://wiki.52poke.com/wiki/熊徒弟
+宝可梦,武道熊师,武道熊师,格斗,恶,100,fight·dark,48,传说,平原,,,,,,https://wiki.52poke.com/wiki/武道熊师
+宝可梦,雷吉艾勒奇,雷吉艾勒奇,电,,80,elec,39,传说,平原,,,,,,https://wiki.52poke.com/wiki/雷吉艾勒奇
+宝可梦,雷吉铎拉戈,雷吉铎拉戈,龙,,200,dragon,93,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/雷吉铎拉戈
+宝可梦,雪暴马,雪暴马,冰,,100,ice,48,传说,雪原,,,,,,https://wiki.52poke.com/wiki/雪暴马
+宝可梦,灵幽马,灵幽马,幽灵,,100,ghost,48,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/灵幽马
+宝可梦,蕾冠王,蕾冠王,超能力,草,100,psychic·grass,48,传说,雪原,,,,,,https://wiki.52poke.com/wiki/蕾冠王
+宝可梦,新叶喵,新叶喵,草,,40,grass,21,常见,森林/花海,蒂蕾喵,16,level,,,https://wiki.52poke.com/wiki/新叶喵
+宝可梦,蒂蕾喵,蒂蕾喵,草,,61,grass,30,稀有,森林/花海,魔幻假面喵,36,level,,,https://wiki.52poke.com/wiki/蒂蕾喵
+宝可梦,魔幻假面喵,魔幻假面喵,草,恶,76,grass·dark,37,传说,森林/花海,,,,,,https://wiki.52poke.com/wiki/魔幻假面喵
+宝可梦,呆火鳄,呆火鳄,火,,67,fire,33,常见,火山/沙漠,炙烫鳄,16,level,,,https://wiki.52poke.com/wiki/呆火鳄
+宝可梦,炙烫鳄,炙烫鳄,火,,81,fire,39,稀有,火山/沙漠,骨纹巨声鳄,36,level,,,https://wiki.52poke.com/wiki/炙烫鳄
+宝可梦,骨纹巨声鳄,骨纹巨声鳄,火,幽灵,104,fire·ghost,50,传说,火山/沙漠/矿洞,,,,,,https://wiki.52poke.com/wiki/骨纹巨声鳄
+宝可梦,润水鸭,润水鸭,水,,55,water,28,常见,水畔/海洋,涌跃鸭,16,level,,,https://wiki.52poke.com/wiki/润水鸭
+宝可梦,涌跃鸭,涌跃鸭,水,,70,water,35,稀有,水畔/海洋,狂欢浪舞鸭,36,level,,,https://wiki.52poke.com/wiki/涌跃鸭
+宝可梦,狂欢浪舞鸭,狂欢浪舞鸭,水,格斗,85,water·fight,41,传说,水畔/海洋/平原,,,,,,https://wiki.52poke.com/wiki/狂欢浪舞鸭
+宝可梦,布拨,布拨,电,,45,elec,23,常见,平原/矿洞,布土拨,18,level,,,https://wiki.52poke.com/wiki/布拨
+宝可梦,布土拨,布土拨,电,格斗,60,elec·fight,30,稀有,平原/矿洞,巴布土拨,30,friend,,,https://wiki.52poke.com/wiki/布土拨
+宝可梦,巴布土拨,巴布土拨,电,格斗,70,elec·fight,35,稀有,平原/矿洞,,,,,,https://wiki.52poke.com/wiki/巴布土拨
+宝可梦,波普海豚,波普海豚,水,,70,water,35,稀有,水畔/海洋,海豚侠,38,level,,,https://wiki.52poke.com/wiki/波普海豚
+宝可梦,海豚侠,海豚侠,水,,100,water,48,稀有,水畔/海洋,,,,,,https://wiki.52poke.com/wiki/海豚侠
+宝可梦,走鲸,走鲸,冰,,108,ice,52,常见,雪原/海洋,浩大鲸,42,item,,,https://wiki.52poke.com/wiki/走鲸
+宝可梦,浩大鲸,浩大鲸,冰,,170,ice,80,稀有,雪原/海洋,,,,,,https://wiki.52poke.com/wiki/浩大鲸
+宝可梦,赛富豪,赛富豪,钢,幽灵,87,steel·ghost,42,稀有,矿洞/平原,,,,,,https://wiki.52poke.com/wiki/赛富豪
+宝可梦,古简蜗,古简蜗,恶,草,85,dark·grass,41,传说,森林,,,,,,https://wiki.52poke.com/wiki/古简蜗
+宝可梦,古剑豹,古剑豹,恶,冰,80,dark·ice,39,传说,雪原,,,,,,https://wiki.52poke.com/wiki/古剑豹
+宝可梦,古鼎鹿,古鼎鹿,恶,地面,155,dark·ground,73,传说,森林,,,,,,https://wiki.52poke.com/wiki/古鼎鹿
+宝可梦,古玉鱼,古玉鱼,恶,火,55,dark·fire,28,传说,森林,,,,,,https://wiki.52poke.com/wiki/古玉鱼
+宝可梦,铁武者,铁武者,妖精,格斗,74,fairy·fight,36,稀有,花海/平原,,,,,,https://wiki.52poke.com/wiki/铁武者
+宝可梦,故勒顿,故勒顿,格斗,龙,100,fight·dragon,48,传说,沙漠,,,,,,https://wiki.52poke.com/wiki/故勒顿
+宝可梦,密勒顿,密勒顿,电,龙,100,elec·dragon,48,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/密勒顿
+宝可梦,厄诡椪,厄诡椪,草,,80,grass,39,传说,森林,,,,,,https://wiki.52poke.com/wiki/厄鬼椪
+宝可梦,太乐巴戈斯,太乐巴戈斯,普通,,90,nor,44,传说,矿洞,,,,,,https://wiki.52poke.com/wiki/太乐巴戈斯
+宝可梦,桃歹郎,桃歹郎,毒,幽灵,88,poison·ghost,43,传说,森林,,,,,,https://wiki.52poke.com/wiki/桃歹郎
+洛克,喵喵,喵喵,草,,2,草系,4,常见,森林/花海,喵呜,16,level,,,https://roco.dvg.cn/spirits.php
+洛克,喵呜,喵呜,草,,2,草系,4,常见,森林/花海,魔力猫,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,魔力猫,魔力猫,草,,3,草系,4,常见,森林/花海,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,火花,火花,火,,2,火系,4,常见,火山/沙漠,焰火,16,level,,,https://roco.dvg.cn/spirits.php
+洛克,焰火,焰火,火,,2,火系,4,常见,火山/沙漠,火神,36,level,,,https://roco.dvg.cn/spirits.php
+洛克,火神,火神,火,飞行,3,火系·翼系,4,常见,火山/沙漠/平原,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,水蓝蓝,水蓝蓝,水,,2,水系,4,常见,水畔/海洋,波波拉,16,level,,,https://roco.dvg.cn/spirits.php
+洛克,波波拉,波波拉,水,,2,水系,4,常见,水畔/海洋,水灵,36,level,,,https://roco.dvg.cn/spirits.php
+洛克,水灵,水灵,水,,3,水系,4,常见,水畔/海洋,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,蹦蹦种子,蹦蹦种子,草,毒,2,草系·毒系,4,常见,森林/花海/矿洞,蹦蹦草,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,咔咔羽毛,咔咔羽毛,普通,飞行,2,普通系·翼系,4,常见,平原/森林,咔咔雀,18,level,,,https://roco.dvg.cn/spirits.php
+洛克,咔咔雀,咔咔雀,普通,飞行,2,普通系·翼系,4,常见,平原/森林,咔咔鸟,36,level,,,https://roco.dvg.cn/spirits.php
+洛克,咔咔鸟,咔咔鸟,普通,飞行,3,普通系·翼系,4,常见,平原/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,小布石,小布石,岩石,地面,2,石系·土系,4,常见,矿洞/沙漠,布莱石,16,level,,,https://roco.dvg.cn/spirits.php
+洛克,布莱石,布莱石,岩石,地面,2,石系·土系,4,常见,矿洞/沙漠,布莱克岩,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,布莱克岩,布莱克岩,岩石,地面,3,石系·土系,4,常见,矿洞/沙漠,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,阿米亚特,阿米亚特,岩石,恶,2,石系·恶魔系,4,常见,矿洞/沙漠/森林,阿米樱,30,level,,,https://roco.dvg.cn/spirits.php
+洛克,阿米樱,阿米樱,岩石,恶,2,石系·恶魔系,4,常见,矿洞/沙漠/森林,罗隐,50,level,,,https://roco.dvg.cn/spirits.php
+洛克,罗隐,罗隐,岩石,恶,3,石系·恶魔系,4,常见,矿洞/沙漠/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,大尾鱼,大尾鱼,水,,2,水系,4,常见,水畔/海洋,黑当鱼,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,迪莫,迪莫,妖精,,3,光系,4,稀有,花海/平原,圣光迪莫,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,拉特,拉特,电,,2,电系,4,常见,平原/矿洞,酷拉,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,酷拉,酷拉,电,,4,电系,5,稀有,平原/矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,小翼龙,小翼龙,龙,飞行,2,龙系·翼系,4,常见,矿洞/沙漠/平原,翼龙,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,玛雅石像鬼,玛雅石像鬼,岩石,,4,石系,5,稀有,矿洞/沙漠,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,小帕尔萨斯,小帕尔萨斯,恶,,2,恶魔系,4,常见,矿洞/森林,帕尔萨斯,80,level,,,https://roco.dvg.cn/spirits.php
+洛克,帕尔萨斯,帕尔萨斯,恶,,5,恶魔系,5,传说,矿洞/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,阿布,阿布,普通,,3,普通系,4,稀有,平原/森林,超能阿布,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,超能阿布,超能阿布,普通,,3,普通系,4,稀有,平原/森林,圣龙阿布,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,圣龙阿布,圣龙阿布,龙,,3,龙系,4,稀有,矿洞/沙漠,惊雷阿布,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,大耳帽兜,大耳帽兜,冰,,3,冰系,4,稀有,雪原,帽兜娃娃,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,帽兜娃娃,帽兜娃娃,冰,,3,冰系,4,稀有,雪原,雪影娃娃,48,level,,,https://roco.dvg.cn/spirits.php
+洛克,雪影娃娃,雪影娃娃,冰,,4,冰系,5,稀有,雪原,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,快乐吉他,快乐吉他,电,,3,电系,4,稀有,平原/矿洞,舞动吉他,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,舞动吉他,舞动吉他,电,,3,电系,4,稀有,平原/矿洞,欢悦吉他,60,level,,,https://roco.dvg.cn/spirits.php
+洛克,欢悦吉他,欢悦吉他,电,,5,电系,5,传说,平原/矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,冰龙宝宝,冰龙宝宝,冰,龙,5,冰系·龙系,5,传说,雪原/矿洞/沙漠,冰龙勇士,30,level,,,https://roco.dvg.cn/spirits.php
+洛克,冰龙勇士,冰龙勇士,冰,龙,5,冰系·龙系,5,传说,雪原/矿洞/沙漠,狂战冰龙,45,level,,,https://roco.dvg.cn/spirits.php
+洛克,狂战冰龙,狂战冰龙,冰,龙,5,冰系·龙系,5,传说,雪原/矿洞/沙漠,冰龙王,60,level,,,https://roco.dvg.cn/spirits.php
+洛克,冰龙王,冰龙王,冰,龙,5,冰系·龙系,5,传说,雪原/矿洞/沙漠,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,乐维,乐维,妖精,,3,萌系,4,稀有,花海/平原,萌哥,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,萌哥,萌哥,妖精,,3,萌系,4,稀有,花海/平原,萌之勇者,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,萌之勇者,萌之勇者,妖精,,3,萌系,4,稀有,花海/平原,萌之王者,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,萌之王者,萌之王者,妖精,,5,萌系,5,传说,花海/平原,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,岩铠小将,岩铠小将,地面,,2,土系,4,常见,沙漠/矿洞,岩铠斗士,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,岩铠斗士,岩铠斗士,地面,,2,土系,4,常见,沙漠/矿洞,岩铠领主,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,岩铠领主,岩铠领主,地面,,4,土系,5,稀有,沙漠/矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,萌翼小狮,萌翼小狮,飞行,,3,翼系,4,稀有,平原/森林,棕绒小狮,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,棕绒小狮,棕绒小狮,飞行,,3,翼系,4,稀有,平原/森林,银翼狮王,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,银翼狮王,银翼狮王,飞行,,5,翼系,5,传说,平原/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,火苗虎,火苗虎,火,,3,火系,4,稀有,火山/沙漠,烈焰虎,20,level,,,https://roco.dvg.cn/spirits.php
+洛克,烈焰虎,烈焰虎,火,,3,火系,4,稀有,火山/沙漠,霸金虎,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,霸金虎,霸金虎,火,,4,火系,5,稀有,火山/沙漠,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,小炎,小炎,地面,火,3,土系·火系,4,稀有,沙漠/矿洞/火山,大炎,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,大炎,大炎,地面,火,3,土系·火系,4,稀有,沙漠/矿洞/火山,赤炎守护,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,赤炎守护,赤炎守护,地面,火,4,土系·火系,5,稀有,沙漠/矿洞/火山,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,九灵小子,九灵小子,幽灵,,2,幽灵系,4,常见,矿洞,冥暗使者,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,冥暗使者,冥暗使者,幽灵,,2,幽灵系,4,常见,矿洞,冥暗领主,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,冥暗领主,冥暗领主,幽灵,,2,幽灵系,4,常见,矿洞,冥暗幽王,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,冥暗幽王,冥暗幽王,幽灵,,5,幽灵系,5,传说,矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,艾米,艾米,妖精,,3,光系,4,稀有,花海/平原,星光艾米,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,星光艾米,星光艾米,妖精,,3,光系,4,稀有,花海/平原,光明女神艾米,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,光明女神艾米,光明女神艾米,妖精,,4,光系,5,稀有,花海/平原,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,冰稚鸟,冰稚鸟,冰,飞行,5,冰系·翼系,5,传说,雪原/平原/森林,冰凌魔雉,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,冰凌魔雉,冰凌魔雉,冰,飞行,5,冰系·翼系,5,传说,雪原/平原/森林,魔晶凤凰,60,level,,,https://roco.dvg.cn/spirits.php
+洛克,魔晶凤凰,魔晶凤凰,冰,飞行,5,冰系·翼系,5,传说,雪原/平原/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,镇狱修罗王,镇狱修罗王,火,,5,神火系,5,传说,火山/沙漠,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,海皇波塞冬,海皇波塞冬,水,,5,神水系,5,传说,水畔/海洋,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,齐天大圣,齐天大圣,格斗,,5,武系,5,传说,矿洞/平原,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,冒顿,冒顿,地面,,4,土系,5,稀有,沙漠/矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,禁魂收割者,禁魂收割者,草,,5,神草系,5,传说,森林/花海,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,九天龙尊,九天龙尊,龙,,5,龙系,5,传说,矿洞/沙漠,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,惧灵,惧灵,恶,,2,恶魔系,4,常见,矿洞/森林,夜鬼,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,夜鬼,夜鬼,恶,,2,恶魔系,4,常见,矿洞/森林,不朽领主,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,不朽领主,不朽领主,恶,,2,恶魔系,4,常见,矿洞/森林,暗夜魔王,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,暗夜魔王,暗夜魔王,恶,,5,恶魔系,5,传说,矿洞/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,若叶蝶,若叶蝶,虫,,2,虫系,4,常见,森林/花海,灵若蝶,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,灵若蝶,灵若蝶,虫,,2,虫系,4,常见,森林/花海,兰魅蝶姬,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,兰魅蝶姬,兰魅蝶姬,虫,,4,虫系,5,稀有,森林/花海,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,冥古龙,冥古龙,龙,恶,4,龙系·恶魔系,5,稀有,矿洞/沙漠/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,鬼火骷髅,鬼火骷髅,幽灵,火,2,幽灵系·火系,4,常见,矿洞/火山/沙漠,蓝焰骷髅,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,蓝焰骷髅,蓝焰骷髅,幽灵,火,2,幽灵系·火系,4,常见,矿洞/火山/沙漠,骷髅法师,48,level,,,https://roco.dvg.cn/spirits.php
+洛克,小武,小武,格斗,,5,武系,5,传说,矿洞/平原,贤隐武者,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,贤隐武者,贤隐武者,格斗,,5,武系,5,传说,矿洞/平原,仁臻武君,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,紫薇莨儿,紫薇莨儿,毒,,5,毒系,5,传说,森林/矿洞,堇楹仙子,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,堇楹仙子,堇楹仙子,毒,,5,毒系,5,传说,森林/矿洞,蔓羽毒后,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,蔓羽毒后,蔓羽毒后,毒,,5,毒系,5,传说,森林/矿洞,幻鸩毒王,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,幻鸩毒王,幻鸩毒王,毒,,5,毒系,5,传说,森林/矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,快递小哥,快递小哥,钢,飞行,4,机械系·翼系,5,稀有,矿洞/平原/森林,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,灵石猴,灵石猴,岩石,火,3,石系·火系,4,稀有,矿洞/沙漠/火山,踏云猴,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,踏云猴,踏云猴,岩石,火,3,石系·火系,4,稀有,矿洞/沙漠/火山,火云神,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,蝴蝶陶陶,蝴蝶陶陶,妖精,毒,3,萌系·毒系,4,稀有,花海/平原/森林,猫老大,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,猫老大,猫老大,妖精,毒,3,萌系·毒系,4,稀有,花海/平原/森林,猫老爷,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,幻象勇士,幻象勇士,钢,,3,机械系,4,稀有,矿洞,幻象骑士,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,幻象骑士,幻象骑士,钢,,3,机械系,4,稀有,矿洞,幻影霸主,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,幻影霸主,幻影霸主,钢,,3,机械系,4,稀有,矿洞,幻影天主,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,破晓凯瑞尔,破晓凯瑞尔,妖精,,5,光系,5,传说,花海/平原,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,小凡,小凡,普通,,5,普通系,5,传说,平原/森林,凌霄刀客,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,凌霄刀客,凌霄刀客,普通,,5,普通系,5,传说,平原/森林,淡意豪杰,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,剧毒狼蛛,剧毒狼蛛,虫,,5,虫系,5,传说,森林/花海,恶魔狼蛛,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,恶魔狼蛛,恶魔狼蛛,虫,,5,虫系,5,传说,森林/花海,伊莎贝拉,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,伊莎贝拉,伊莎贝拉,虫,,5,虫系,5,传说,森林/花海,噬魂蛛后,,missing,,,https://roco.dvg.cn/spirits.php
+洛克,圣湮伊莱娜,圣湮伊莱娜,钢,,5,机械系,5,传说,矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,紫玉长老,紫玉长老,岩石,妖精,4,石系·萌系,5,稀有,矿洞/沙漠/花海,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,地鼠,地鼠,地面,,2,土系,4,常见,沙漠/矿洞,遁鼠,16,level,,,https://roco.dvg.cn/spirits.php
+洛克,遁鼠,遁鼠,地面,,3,土系,4,常见,沙漠/矿洞,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,格斗小五,格斗小五,格斗,,3,武系,4,稀有,矿洞/平原,格斗小六,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,格斗小六,格斗小六,格斗,,3,武系,4,稀有,矿洞/平原,格斗小七,60,level,,,https://roco.dvg.cn/spirits.php
+洛克,熊猫秀才,熊猫秀才,格斗,,2,武系,4,常见,矿洞/平原,功夫熊猫,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,功夫熊猫,功夫熊猫,格斗,,2,武系,4,常见,矿洞/平原,狂暴熊猫,60,level,,,https://roco.dvg.cn/spirits.php
+洛克,鬼雾,鬼雾,幽灵,毒,2,幽灵系·毒系,4,常见,矿洞/森林,邪雾,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,邪雾,邪雾,幽灵,毒,2,幽灵系·毒系,4,常见,矿洞/森林,灵雾,60,level,,,https://roco.dvg.cn/spirits.php
+洛克,恶魔狼,恶魔狼,恶,妖精,3,恶魔系·萌系,4,稀有,矿洞/森林/花海,酷酷狼,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,酷酷狼,酷酷狼,恶,妖精,3,恶魔系·萌系,4,稀有,矿洞/森林/花海,肌肉狼,60,level,,,https://roco.dvg.cn/spirits.php
+洛克,剧毒蛙,剧毒蛙,毒,水,2,毒系·水系,4,常见,森林/矿洞/水畔,剧毒蛙王,45,level,,,https://roco.dvg.cn/spirits.php
+洛克,小荷,小荷,毒,水,2,毒系·水系,4,常见,森林/矿洞/水畔,蛇娘子,30,level,,,https://roco.dvg.cn/spirits.php
+洛克,蛇娘子,蛇娘子,毒,水,2,毒系·水系,4,常见,森林/矿洞/水畔,还愿蛇仙,42,level,,,https://roco.dvg.cn/spirits.php
+洛克,还愿蛇仙,还愿蛇仙,毒,水,4,毒系·水系,5,稀有,森林/矿洞/水畔,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,螳螂宝宝,螳螂宝宝,虫,,2,虫系,4,常见,森林/花海,红玉螳螂,32,level,,,https://roco.dvg.cn/spirits.php
+洛克,红玉螳螂,红玉螳螂,虫,,2,虫系,4,常见,森林/花海,金翼螳螂,40,level,,,https://roco.dvg.cn/spirits.php
+洛克,金翼螳螂,金翼螳螂,虫,,4,虫系,5,稀有,森林/花海,,,none,,,https://roco.dvg.cn/spirits.php
+洛克,圣光少校,圣光少校,妖精,,4,光系,5,稀有,花海/平原,,,none,,,https://roco.dvg.cn/spirits.php
+帕鲁,棉悠悠,Lamball,普通,,70,nor,21,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/棉悠悠
+帕鲁,捣蛋猫,Cattiva,普通,,70,nor,21,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/捣蛋猫
+帕鲁,皮皮鸡,Chikipi,普通,,60,nor,14,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/皮皮鸡
+帕鲁,翠叶鼠,Lifmunk,草,,75,grass,26,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/翠叶鼠
+帕鲁,冲浪鸭,Fuack,水,,60,water,14,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/冲浪鸭
+帕鲁,热浪鸭,Fuack Ignis,水,火,60,water·fire,14,常见,水畔/海洋,,,,,冲浪鸭,https://palworld.gg/zh-Hans/pal/热浪鸭
+帕鲁,玉藻狐,Vixy,普通,,70,nor,21,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/玉藻狐
+帕鲁,鲁米儿,Celaray,水,,80,water,29,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/鲁米儿
+帕鲁,雷米儿,Celaray Lux,水,电,80,water·elec,29,常见,水畔/海洋/平原,,,,,鲁米儿,https://palworld.gg/zh-Hans/pal/雷米儿
+帕鲁,米露菲,Cremis,普通,,70,nor,21,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/米露菲
+帕鲁,武道蛙,Croajiro,水,,80,water,29,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/武道蛙
+帕鲁,极道蛙,Croajiro Noct,水,恶,85,water·dark,33,稀有,水畔/海洋/森林,,,,,武道蛙,https://palworld.gg/zh-Hans/pal/极道蛙
+帕鲁,达鼠泥,Herbil,草,普通,80,grass·nor,29,常见,森林/花海/平原,,,,,,https://palworld.gg/zh-Hans/pal/达鼠泥
+帕鲁,壶小象,Teafant,水,,70,water,21,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/壶小象
+帕鲁,叶泥泥,Gumoss,草,地面,70,grass·ground,21,常见,森林/花海/矿洞,,,,,,https://palworld.gg/zh-Hans/pal/叶泥泥
+帕鲁,宗铭丸,Pupperai,地面,,70,ground,21,常见,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/宗铭丸
+帕鲁,幸叶茸,Clovee,草,普通,80,grass·nor,29,常见,森林/花海/平原,,,,,,https://palworld.gg/zh-Hans/pal/幸叶茸
+帕鲁,电棘鼠,Jolthog,电,,70,elec,21,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/电棘鼠
+帕鲁,冰刺鼠,Jolthog Cryst,冰,,70,ice,21,常见,雪原,,,,,电棘鼠,https://palworld.gg/zh-Hans/pal/冰刺鼠
+帕鲁,瞅什魔,Depresso,恶,,70,dark,21,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/瞅什魔
+帕鲁,企丸丸,Pengullet,水,冰,70,water·ice,21,常见,水畔/海洋/雪原,,,,,,https://palworld.gg/zh-Hans/pal/企丸丸
+帕鲁,闪丸丸,Pengullet Lux,水,电,70,water·elec,21,常见,水畔/海洋/平原,,,,,企丸丸,https://palworld.gg/zh-Hans/pal/闪丸丸
+帕鲁,企丸王,Penking,水,冰,95,water·ice,40,稀有,水畔/海洋/雪原,,,,,,https://palworld.gg/zh-Hans/pal/企丸王
+帕鲁,闪丸王,Penking Lux,水,电,100,water·elec,44,稀有,水畔/海洋/平原,,,,,企丸王,https://palworld.gg/zh-Hans/pal/闪丸王
+帕鲁,啼卡尔,Hoocrates,恶,,70,dark,21,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/啼卡尔
+帕鲁,美露帕,Melpaca,普通,,90,nor,36,常见,平原,,,,land,,https://palworld.gg/zh-Hans/pal/美露帕
+帕鲁,君王美露帕,Kingpaca,普通,,120,nor,59,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/君王美露帕
+帕鲁,冰帝美露帕,Kingpaca Cryst,冰,,120,ice,59,稀有,雪原,,,,land,君王美露帕,https://palworld.gg/zh-Hans/pal/冰帝美露帕
+帕鲁,寐魔,Daedream,恶,,70,dark,21,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/寐魔
+帕鲁,新叶猿,Tanzee,草,,80,grass,29,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/新叶猿
+帕鲁,秋叶猿,Tanzee Ignis,火,,80,fire,29,常见,火山,,,,,新叶猿,https://palworld.gg/zh-Hans/pal/秋叶猿
+帕鲁,露娜蒂,Nox,恶,,75,dark,26,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/露娜蒂
+帕鲁,融焰娘,Flambelle,火,,60,fire,14,常见,火山,,,,,,https://palworld.gg/zh-Hans/pal/融焰娘
+帕鲁,燎火鹿,Rooby,火,,75,fire,26,常见,火山,,,,,,https://palworld.gg/zh-Hans/pal/燎火鹿
+帕鲁,喵丝特,Mau,恶,,70,dark,21,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/喵丝特
+帕鲁,冰丝特,Mau Cryst,冰,,70,ice,21,常见,雪原,,,,,喵丝特,https://palworld.gg/zh-Hans/pal/冰丝特
+帕鲁,草莽猪,Rushoar,地面,,80,ground,29,常见,矿洞/沙漠,,,,land,,https://palworld.gg/zh-Hans/pal/草莽猪
+帕鲁,火绒狐,Foxparks,火,,65,fire,18,常见,火山,,,,,,https://palworld.gg/zh-Hans/pal/火绒狐
+帕鲁,雪绒狐,Foxparks Cryst,冰,,65,ice,18,常见,雪原,,,,,火绒狐,https://palworld.gg/zh-Hans/pal/雪绒狐
+帕鲁,勾魂鱿,Killamari,恶,水,60,dark·water,14,常见,森林/水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/勾魂鱿
+帕鲁,蚀魂鱿,Killamari Primo,普通,水,70,nor·water,21,常见,平原/水畔/海洋,,,,,勾魂鱿,https://palworld.gg/zh-Hans/pal/蚀魂鱿
+帕鲁,遁地鼠,Fuddler,地面,,65,ground,18,常见,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/遁地鼠
+帕鲁,紫霞鹿,Eikthyrdeer,普通,,95,nor,40,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/紫霞鹿
+帕鲁,祇岳鹿,Eikthyrdeer Terra,地面,,95,ground,40,稀有,矿洞/沙漠,,,,land,紫霞鹿,https://palworld.gg/zh-Hans/pal/祇岳鹿
+帕鲁,猎狼,Direhowl,普通,,80,nor,29,常见,平原,,,,land,,https://palworld.gg/zh-Hans/pal/猎狼
+帕鲁,灌木羊,Caprity,草,,100,grass,44,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/灌木羊
+帕鲁,郁木羊,Caprity Noct,恶,,100,dark,44,常见,森林,,,,,灌木羊,https://palworld.gg/zh-Hans/pal/郁木羊
+帕鲁,毛掸儿,Swee,冰,,60,ice,14,常见,雪原,,,,,,https://palworld.gg/zh-Hans/pal/毛掸儿
+帕鲁,毛老爹,Sweepa,冰,,100,ice,44,稀有,雪原,,,,land,,https://palworld.gg/zh-Hans/pal/毛老爹
+帕鲁,盔盔仔,Turtacle,水,,75,water,26,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/盔盔仔
+帕鲁,金盔仔,Turtacle Terra,水,地面,85,water·ground,33,常见,水畔/海洋/矿洞,,,,,盔盔仔,https://palworld.gg/zh-Hans/pal/金盔仔
+帕鲁,吊缚灵,Hangyu,地面,,80,ground,29,常见,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/吊缚灵
+帕鲁,冰缚灵,Hangyu Cryst,冰,,80,ice,29,常见,雪原,,,,,吊缚灵,https://palworld.gg/zh-Hans/pal/冰缚灵
+帕鲁,棉花糖,Woolipop,普通,,70,nor,21,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/棉花糖
+帕鲁,可可棉花糖,Woolipop Terra,地面,,70,ground,21,常见,矿洞/沙漠,,,,,棉花糖,https://palworld.gg/zh-Hans/pal/可可棉花糖
+帕鲁,波霸牛,Mozzarina,普通,,90,nor,36,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/波霸牛
+帕鲁,碧海龙,Azurobe,水,龙,110,water·dragon,51,稀有,水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/碧海龙
+帕鲁,碧月龙,Azurobe Cryst,冰,龙,115,ice·dragon,55,稀有,雪原/火山,,,,water,碧海龙,https://palworld.gg/zh-Hans/pal/碧月龙
+帕鲁,伏特喵,Sparkit,电,,60,elec,14,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/伏特喵
+帕鲁,水灵儿,Kelpsea,水,,70,water,21,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/水灵儿
+帕鲁,火灵儿,Kelpsea Ignis,火,,70,fire,21,常见,火山,,,,,水灵儿,https://palworld.gg/zh-Hans/pal/火灵儿
+帕鲁,姬小兔,Ribbuny,普通,,75,nor,26,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/姬小兔
+帕鲁,艾小兔,Ribbuny Botan,草,,80,grass,29,常见,森林/花海,,,,,姬小兔,https://palworld.gg/zh-Hans/pal/艾小兔
+帕鲁,海月仙,Jelliette,水,,75,water,26,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/海月仙
+帕鲁,海月灵,Jellroy,水,恶,90,water·dark,36,常见,水畔/海洋/森林,,,,,,https://palworld.gg/zh-Hans/pal/海月灵
+帕鲁,莉欧·莉涅,Amione,水,,65,water,18,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/莉欧·莉涅
+帕鲁,墨沫姬,Gloopie,水,恶,70,water·dark,21,稀有,水畔/海洋/森林,,,,,,https://palworld.gg/zh-Hans/pal/墨沫姬
+帕鲁,梦沫姬,Gloopie Primo,水,普通,75,water·nor,26,稀有,水畔/海洋/平原,,,,,墨沫姬,https://palworld.gg/zh-Hans/pal/梦沫姬
+帕鲁,天擒鸟,Galeclaw,普通,,75,nor,26,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/天擒鸟
+帕鲁,念影喵,Wispaw,恶,,85,dark,33,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/念影喵
+帕鲁,疾风隼,Nitewing,普通,,100,nor,44,常见,平原,,,,fly,,https://palworld.gg/zh-Hans/pal/疾风隼
+帕鲁,猫蝠怪,Tombat,恶,,95,dark,40,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/猫蝠怪
+帕鲁,炸蛋鸟,Tocotoco,普通,,60,nor,14,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/炸蛋鸟
+帕鲁,雷角马,Univolt,电,,80,elec,29,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/雷角马
+帕鲁,凌角马,Univolt Cryst,冰,,80,ice,29,稀有,雪原,,,,land,雷角马,https://palworld.gg/zh-Hans/pal/凌角马
+帕鲁,鲨小子,Gobfin,水,,90,water,36,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/鲨小子
+帕鲁,红小鲨,Gobfin Ignis,火,,90,fire,36,常见,火山,,,,,鲨小子,https://palworld.gg/zh-Hans/pal/红小鲨
+帕鲁,月镰魔,Loupmoon,恶,,80,dark,29,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/月镰魔
+帕鲁,霜镰魔,Loupmoon Cryst,冰,,80,ice,29,常见,雪原,,,,,月镰魔,https://palworld.gg/zh-Hans/pal/霜镰魔
+帕鲁,黑鸦隐士,Cawgnito,恶,,75,dark,26,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/黑鸦隐士
+帕鲁,炽焰牛,Arsox,火,,85,fire,33,常见,火山,,,,land,,https://palworld.gg/zh-Hans/pal/炽焰牛
+帕鲁,雪绵啾,Muffly,冰,,60,ice,14,常见,雪原,,,,,,https://palworld.gg/zh-Hans/pal/雪绵啾
+帕鲁,荆棘魔仙,Bristla,草,,80,grass,29,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/荆棘魔仙
+帕鲁,幻悦蝶,Cinnamoth,草,,70,grass,21,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/幻悦蝶
+帕鲁,电汪汪,Puffolt,电,,75,elec,26,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/电汪汪
+帕鲁,精灵龙,Elphidran,龙,,110,dragon,51,稀有,火山,,,,fly,,https://palworld.gg/zh-Hans/pal/精灵龙
+帕鲁,水灵龙,Elphidran Aqua,龙,水,115,dragon·water,55,稀有,水畔/海洋,,,,fly,精灵龙,https://palworld.gg/zh-Hans/pal/水灵龙
+帕鲁,烽歌龙,Vanwyrm,火,恶,90,fire·dark,36,稀有,火山/森林,,,,fly,,https://palworld.gg/zh-Hans/pal/烽歌龙
+帕鲁,霜歌龙,Vanwyrm Cryst,冰,恶,90,ice·dark,36,稀有,雪原/森林,,,,fly,烽歌龙,https://palworld.gg/zh-Hans/pal/霜歌龙
+帕鲁,夜幕魔蝠,Felbat,恶,,100,dark,44,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/夜幕魔蝠
+帕鲁,薇莉塔,Vaelet,草,,100,grass,44,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/薇莉塔
+帕鲁,骑士蜂,Beegarde,草,,80,grass,29,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/骑士蜂
+帕鲁,女皇蜂,Elizabee,草,,90,grass,36,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/女皇蜂
+帕鲁,博爱蜥,Lovander,恶,,120,dark,59,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/博爱蜥
+帕鲁,笑魇猫,Grintale,普通,,110,nor,51,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/笑魇猫
+帕鲁,桃蛛娘,Tarantriss,恶,,110,dark,51,常见,森林,,,,land,,https://palworld.gg/zh-Hans/pal/桃蛛娘
+帕鲁,香草豹冰,Polapup,冰,水,95,ice·water,40,稀有,雪原/水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/香草豹冰
+帕鲁,巧克力豹冰,Polapup Terra,冰,地面,95,ice·ground,40,稀有,雪原/矿洞/沙漠,,,,land,香草豹冰,https://palworld.gg/zh-Hans/pal/巧克力豹冰
+帕鲁,朋克蜥,Leezpunk,恶,,80,dark,29,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/朋克蜥
+帕鲁,热血蜥,Leezpunk Ignis,火,,80,fire,29,常见,火山,,,,,朋克蜥,https://palworld.gg/zh-Hans/pal/热血蜥
+帕鲁,铁拳猿,Gorirat,普通,,90,nor,36,稀有,平原,,,,,,https://palworld.gg/zh-Hans/pal/铁拳猿
+帕鲁,石掌猿,Gorirat Terra,地面,,90,ground,36,稀有,矿洞/沙漠,,,,,铁拳猿,https://palworld.gg/zh-Hans/pal/石掌猿
+帕鲁,滑水蛇,Surfent,水,,90,water,36,常见,水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/滑水蛇
+帕鲁,流沙蛇,Surfent Terra,地面,,90,ground,36,稀有,矿洞/沙漠,,,,land,滑水蛇,https://palworld.gg/zh-Hans/pal/流沙蛇
+帕鲁,羽箭射手,Robinquill,草,,90,grass,36,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/羽箭射手
+帕鲁,山岳射手,Robinquill Terra,草,地面,90,grass·ground,36,稀有,森林/花海/矿洞,,,,,羽箭射手,https://palworld.gg/zh-Hans/pal/山岳射手
+帕鲁,波娜兔,Flopie,草,,75,grass,26,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/波娜兔
+帕鲁,焰巫狐,Wixen,火,,90,fire,36,稀有,火山,,,,,,https://palworld.gg/zh-Hans/pal/焰巫狐
+帕鲁,幽巫狐,Wixen Noct,火,恶,90,fire·dark,36,稀有,火山/森林,,,,,焰巫狐,https://palworld.gg/zh-Hans/pal/幽巫狐
+帕鲁,暗巫猫,Katress,恶,,90,dark,36,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/暗巫猫
+帕鲁,炽巫猫,Katress Ignis,恶,火,95,dark·fire,40,稀有,森林/火山,,,,,暗巫猫,https://palworld.gg/zh-Hans/pal/炽巫猫
+帕鲁,雷冥鸟,Helzephyr,恶,,100,dark,44,稀有,森林,,,,fly,,https://palworld.gg/zh-Hans/pal/雷冥鸟
+帕鲁,雷鸣鸟,Helzephyr Lux,恶,电,105,dark·elec,48,稀有,森林/平原,,,,fly,雷冥鸟,https://palworld.gg/zh-Hans/pal/雷鸣鸟
+帕鲁,密林陶洛斯,Elgrove,草,,110,grass,51,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/密林陶洛斯
+帕鲁,冰峰陶洛斯,Elgrove Cryst,冰,,120,ice,59,稀有,雪原,,,,,密林陶洛斯,https://palworld.gg/zh-Hans/pal/冰峰陶洛斯
+帕鲁,秘斯媞雅,Lunaris,普通,,90,nor,36,稀有,平原,,,,,,https://palworld.gg/zh-Hans/pal/秘斯媞雅
+帕鲁,云海鹿,Fenglope,普通,,110,nor,51,常见,平原,,,,land,,https://palworld.gg/zh-Hans/pal/云海鹿
+帕鲁,雷隐鹿,Fenglope Lux,电,,110,elec,51,常见,平原,,,,land,云海鹿,https://palworld.gg/zh-Hans/pal/雷隐鹿
+帕鲁,花冠龙,Dinossom,草,龙,110,grass·dragon,51,稀有,森林/花海/火山,,,,land,,https://palworld.gg/zh-Hans/pal/花冠龙
+帕鲁,雷冠龙,Dinossom Lux,电,龙,110,elec·dragon,51,稀有,平原/火山,,,,land,花冠龙,https://palworld.gg/zh-Hans/pal/雷冠龙
+帕鲁,浪刃武士,Bushi,火,,80,fire,29,稀有,火山,,,,,,https://palworld.gg/zh-Hans/pal/浪刃武士
+帕鲁,鬼刃武士,Bushi Noct,火,恶,80,fire·dark,29,稀有,火山/森林,,,,,浪刃武士,https://palworld.gg/zh-Hans/pal/鬼刃武士
+帕鲁,肚肚鳄,Munchill,冰,水,75,ice·water,26,常见,雪原/水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/肚肚鳄
+帕鲁,森猛犸,Mammorest,草,地面,150,grass·ground,81,稀有,森林/花海/矿洞,,,,land,,https://palworld.gg/zh-Hans/pal/森猛犸
+帕鲁,雪猛犸,Mammorest Cryst,冰,地面,150,ice·ground,81,稀有,雪原/矿洞/沙漠,,,,land,森猛犸,https://palworld.gg/zh-Hans/pal/雪猛犸
+帕鲁,布偶鲨,Finsider,水,,75,water,26,常见,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/布偶鲨
+帕鲁,粉粉布偶鲨,Finsider Ignis,水,火,75,water·fire,26,常见,水畔/海洋,,,,,布偶鲨,https://palworld.gg/zh-Hans/pal/粉粉布偶鲨
+帕鲁,花丽娜,Petallia,草,,100,grass,44,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/花丽娜
+帕鲁,樱丽娜,Petallia Ignis,草,火,95,grass·fire,40,稀有,森林/花海/火山,,,,,花丽娜,https://palworld.gg/zh-Hans/pal/樱丽娜
+帕鲁,莉芳,Leafan,草,,100,grass,44,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/莉芳
+帕鲁,炎魔羊,Incineram,火,恶,95,fire·dark,40,常见,火山/森林,,,,,,https://palworld.gg/zh-Hans/pal/炎魔羊
+帕鲁,暗魔羊,Incineram Noct,恶,,95,dark,40,稀有,森林,,,,,炎魔羊,https://palworld.gg/zh-Hans/pal/暗魔羊
+帕鲁,雷鸣童子,Dazzi,电,,70,elec,21,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/雷鸣童子
+帕鲁,天阴童子,Dazzi Noct,恶,电,70,dark·elec,21,常见,森林/平原,,,,,雷鸣童子,https://palworld.gg/zh-Hans/pal/天阴童子
+帕鲁,火麒麟,Pyrin,火,,100,fire,44,稀有,火山,,,,land,,https://palworld.gg/zh-Hans/pal/火麒麟
+帕鲁,邪麒麟,Pyrin Noct,火,恶,100,fire·dark,44,稀有,火山/森林,,,,land,火麒麟,https://palworld.gg/zh-Hans/pal/邪麒麟
+帕鲁,佩克龙,Relaxaurus,龙,水,120,dragon·water,59,稀有,水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/佩克龙
+帕鲁,派克龙,Relaxaurus Lux,龙,电,120,dragon·elec,59,稀有,火山/平原,,,,land,佩克龙,https://palworld.gg/zh-Hans/pal/派克龙
+帕鲁,吹雪狐,Foxcicle,冰,,90,ice,36,稀有,雪原,,,,,,https://palworld.gg/zh-Hans/pal/吹雪狐
+帕鲁,迅雷鸟,Beakon,电,,105,elec,48,稀有,平原,,,,fly,,https://palworld.gg/zh-Hans/pal/迅雷鸟
+帕鲁,疾霜鸟,Beakon Cryst,冰,,105,ice,48,稀有,雪原,,,,fly,迅雷鸟,https://palworld.gg/zh-Hans/pal/疾霜鸟
+帕鲁,冥灯鱼,Ghangler,恶,水,90,dark·water,36,稀有,森林/水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/冥灯鱼
+帕鲁,炙灯鱼,Ghangler Ignis,火,水,90,fire·water,36,稀有,水畔/海洋,,,,water,冥灯鱼,https://palworld.gg/zh-Hans/pal/炙灯鱼
+帕鲁,霹雳犬,Rayhound,电,,90,elec,36,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/霹雳犬
+帕鲁,凛光犬,Rayhound Cryst,冰,,90,ice,36,稀有,雪原,,,,land,霹雳犬,https://palworld.gg/zh-Hans/pal/凛光犬
+帕鲁,冥铠蝎,Menasting,恶,地面,100,dark·ground,44,稀有,森林/矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/冥铠蝎
+帕鲁,金铠蝎,Menasting Terra,地面,,100,ground,44,稀有,矿洞/沙漠,,,,,冥铠蝎,https://palworld.gg/zh-Hans/pal/金铠蝎
+帕鲁,球抱苞,Needoll,草,,75,grass,26,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/球抱苞
+帕鲁,妖抱苞,Needoll Noct,恶,草,75,dark·grass,26,常见,森林/花海,,,,,球抱苞,https://palworld.gg/zh-Hans/pal/妖抱苞
+帕鲁,严冬鹿,Reindrix,冰,,100,ice,44,常见,雪原,,,,land,,https://palworld.gg/zh-Hans/pal/严冬鹿
+帕鲁,叶胖达,Mossanda,草,,100,grass,44,稀有,森林/花海,,,,land,,https://palworld.gg/zh-Hans/pal/叶胖达
+帕鲁,雷胖达,Mossanda Lux,电,,100,elec,44,稀有,平原,,,,land,叶胖达,https://palworld.gg/zh-Hans/pal/雷胖达
+帕鲁,疾旋鼬,Chillet,冰,龙,90,ice·dragon,36,常见,雪原/火山,,,,water,,https://palworld.gg/zh-Hans/pal/疾旋鼬
+帕鲁,桃旋鼬,Chillet Ignis,火,龙,90,fire·dragon,36,稀有,火山,,,,land,疾旋鼬,https://palworld.gg/zh-Hans/pal/桃旋鼬
+帕鲁,燧火鸟,Ragnahawk,火,,95,fire,40,稀有,火山,,,,fly,,https://palworld.gg/zh-Hans/pal/燧火鸟
+帕鲁,流焰龙,Moldron,火,地面,110,fire·ground,51,稀有,火山/矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/流焰龙
+帕鲁,川霜龙,Moldron Cryst,冰,地面,110,ice·ground,51,稀有,雪原/矿洞/沙漠,,,,land,流焰龙,https://palworld.gg/zh-Hans/pal/川霜龙
+帕鲁,咕咕桑葩,Palumba,草,,105,grass,48,稀有,森林/花海,,,,land,,https://palworld.gg/zh-Hans/pal/咕咕桑葩
+帕鲁,碎岩龟,Digtoise,地面,,80,ground,29,稀有,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/碎岩龟
+帕鲁,连理龙,Broncherry,草,,120,grass,59,稀有,森林/花海,,,,land,,https://palworld.gg/zh-Hans/pal/连理龙
+帕鲁,海誓龙,Broncherry Aqua,草,水,120,grass·water,59,稀有,森林/花海/水畔,,,,water,连理龙,https://palworld.gg/zh-Hans/pal/海誓龙
+帕鲁,趴趴鲶,Dumud,地面,水,100,ground·water,44,常见,矿洞/沙漠/水畔,,,,,,https://palworld.gg/zh-Hans/pal/趴趴鲶
+帕鲁,梆梆鲶,Dumud Gild,地面,水,105,ground·water,48,稀有,矿洞/沙漠/水畔,,,,,趴趴鲶,https://palworld.gg/zh-Hans/pal/梆梆鲶
+帕鲁,梁叶龙,Braloha,草,地面,130,grass·ground,66,稀有,森林/花海/矿洞,,,,land,,https://palworld.gg/zh-Hans/pal/梁叶龙
+帕鲁,苍焰狼,Kitsun,火,,100,fire,44,稀有,火山,,,,land,,https://palworld.gg/zh-Hans/pal/苍焰狼
+帕鲁,幽焰狼,Kitsun Noct,恶,,100,dark,44,稀有,森林,,,,land,苍焰狼,https://palworld.gg/zh-Hans/pal/幽焰狼
+帕鲁,狱焰王,Blazehowl,火,,105,fire,48,稀有,火山,,,,land,,https://palworld.gg/zh-Hans/pal/狱焰王
+帕鲁,狱阎王,Blazehowl Noct,火,恶,105,fire·dark,48,稀有,火山/森林,,,,land,狱焰王,https://palworld.gg/zh-Hans/pal/狱阎王
+帕鲁,铠格力斯,Warsect,地面,草,120,ground·grass,59,稀有,矿洞/沙漠/森林,,,,,,https://palworld.gg/zh-Hans/pal/铠格力斯
+帕鲁,格鲁力斯,Warsect Terra,地面,,120,ground,59,稀有,矿洞/沙漠,,,,,铠格力斯,https://palworld.gg/zh-Hans/pal/格鲁力斯
+帕鲁,白真雪雀,Frostplume,冰,,110,ice,51,常见,雪原,,,,,,https://palworld.gg/zh-Hans/pal/白真雪雀
+帕鲁,紫狐娇,Majex,恶,火,110,dark·fire,51,稀有,森林/火山,,,,,,https://palworld.gg/zh-Hans/pal/紫狐娇
+帕鲁,绸笠蛾,Sibelyx,冰,,110,ice,51,稀有,雪原,,,,,,https://palworld.gg/zh-Hans/pal/绸笠蛾
+帕鲁,绢笠蛾,Sibelyx Primo,普通,,115,nor,55,稀有,平原,,,,,绸笠蛾,https://palworld.gg/zh-Hans/pal/绢笠蛾
+帕鲁,噬魂兽,Maraith,恶,,75,dark,26,稀有,森林,,,,land,,https://palworld.gg/zh-Hans/pal/噬魂兽
+帕鲁,菇咚,Shroomer,草,,110,grass,51,常见,森林/花海,,,,land,,https://palworld.gg/zh-Hans/pal/菇咚
+帕鲁,菇波,Shroomer Noct,草,恶,110,grass·dark,51,稀有,森林/花海,,,,land,菇咚,https://palworld.gg/zh-Hans/pal/菇波
+帕鲁,冰姬灵,Icelyn,冰,,95,ice,40,常见,雪原,,,,,,https://palworld.gg/zh-Hans/pal/冰姬灵
+帕鲁,缚乃伊,Gildra,恶,地面,105,dark·ground,48,稀有,森林/矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/缚乃伊
+帕鲁,覆海龙,Jormuntide,龙,水,130,dragon·water,66,稀有,水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/覆海龙
+帕鲁,腾炎龙,Jormuntide Ignis,龙,火,130,dragon·fire,66,稀有,火山,,,,land,覆海龙,https://palworld.gg/zh-Hans/pal/腾炎龙
+帕鲁,朱雀,Suzaku,火,,120,fire,59,稀有,火山,,,,fly,,https://palworld.gg/zh-Hans/pal/朱雀
+帕鲁,清雀,Suzaku Aqua,水,,125,water,62,稀有,水畔/海洋,,,,fly,朱雀,https://palworld.gg/zh-Hans/pal/清雀
+帕鲁,战冠雀,Dazemu,地面,,95,ground,40,稀有,矿洞/沙漠,,,,land,,https://palworld.gg/zh-Hans/pal/战冠雀
+帕鲁,天羽龙,Quivern,龙,,105,dragon,48,稀有,火山,,,,fly,,https://palworld.gg/zh-Hans/pal/天羽龙
+帕鲁,翠羽龙,Quivern Botan,龙,草,105,dragon·grass,48,稀有,火山/森林/花海,,,,fly,天羽龙,https://palworld.gg/zh-Hans/pal/翠羽龙
+帕鲁,春彩娘,Lullu,草,,90,grass,36,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/春彩娘
+帕鲁,球犰,Kikit,地面,,75,ground,26,常见,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/球犰
+帕鲁,八云犬,Yakumo,普通,,85,nor,33,常见,平原,,,,land,,https://palworld.gg/zh-Hans/pal/八云犬
+帕鲁,鞘刀鱼,Skutlass,水,,70,water,21,稀有,水畔/海洋,,,,,,https://palworld.gg/zh-Hans/pal/鞘刀鱼
+帕鲁,炼刃鱼,Skutlass Ignis,水,火,70,water·fire,21,稀有,水畔/海洋,,,,,鞘刀鱼,https://palworld.gg/zh-Hans/pal/炼刃鱼
+帕鲁,熔岩兽,Reptyro,火,地面,110,fire·ground,51,稀有,火山/矿洞/沙漠,,,,land,,https://palworld.gg/zh-Hans/pal/熔岩兽
+帕鲁,寒霜兽,Reptyro Cryst,冰,地面,110,ice·ground,51,稀有,雪原/矿洞/沙漠,,,,land,熔岩兽,https://palworld.gg/zh-Hans/pal/寒霜兽
+帕鲁,夜冥驹,Starryon,恶,,110,dark,51,稀有,森林,,,,land,,https://palworld.gg/zh-Hans/pal/夜冥驹
+帕鲁,日耀驹,Starryon Primo,普通,,110,nor,51,稀有,平原,,,,land,夜冥驹,https://palworld.gg/zh-Hans/pal/日耀驹
+帕鲁,磐峰兽,Pierdon,地面,,100,ground,44,稀有,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/磐峰兽
+帕鲁,寒峰兽,Pierdon Cryst,冰,,100,ice,44,稀有,雪原,,,,,磐峰兽,https://palworld.gg/zh-Hans/pal/寒峰兽
+帕鲁,冰棘兽,Cryolinx,冰,,100,ice,44,稀有,雪原,,,,,,https://palworld.gg/zh-Hans/pal/冰棘兽
+帕鲁,金棘兽,Cryolinx Terra,地面,,100,ground,44,稀有,矿洞/沙漠,,,,,冰棘兽,https://palworld.gg/zh-Hans/pal/金棘兽
+帕鲁,雪墩墩,Snugloo,冰,,80,ice,29,常见,雪原,,,,,,https://palworld.gg/zh-Hans/pal/雪墩墩
+帕鲁,白绒雪怪,Wumpo,冰,,140,ice,73,稀有,雪原,,,,land,,https://palworld.gg/zh-Hans/pal/白绒雪怪
+帕鲁,绿苔绒怪,Wumpo Botan,草,,140,grass,73,稀有,森林/花海,,,,land,白绒雪怪,https://palworld.gg/zh-Hans/pal/绿苔绒怪
+帕鲁,恐炬灵,Sootseer,恶,火,105,dark·fire,48,稀有,森林/火山,,,,,,https://palworld.gg/zh-Hans/pal/恐炬灵
+帕鲁,颚莉丝,Carnibora,草,,85,grass,33,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/颚莉丝
+帕鲁,焰煌,Blazamut,火,,100,fire,44,稀有,火山,,,,land,,https://palworld.gg/zh-Hans/pal/焰煌
+帕鲁,殁殃,Blazamut Ryu,龙,火,105,dragon·fire,48,稀有,火山,,,,land,焰煌,https://palworld.gg/zh-Hans/pal/殁殃
+帕鲁,双心岩傀,Dualith,地面,草,110,ground·grass,51,稀有,矿洞/沙漠/森林,,,,land,,https://palworld.gg/zh-Hans/pal/双心岩傀
+帕鲁,咒心岩傀,Dualith Noct,地面,恶,110,ground·dark,51,稀有,矿洞/沙漠/森林,,,,land,双心岩傀,https://palworld.gg/zh-Hans/pal/咒心岩傀
+帕鲁,阿努比斯,Anubis,地面,,120,ground,59,稀有,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/阿努比斯
+帕鲁,塞赫麦特,Sekhmet,地面,,110,ground,51,稀有,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/塞赫麦特
+帕鲁,蛊刺妖,Prixter,恶,地面,90,dark·ground,36,稀有,森林/矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/蛊刺妖
+帕鲁,电针妖,Prixter Lux,电,地面,90,elec·ground,36,稀有,平原/矿洞/沙漠,,,,,蛊刺妖,https://palworld.gg/zh-Hans/pal/电针妖
+帕鲁,重岩龟,Tetroise,地面,,95,ground,40,稀有,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/重岩龟
+帕鲁,净岩龟,Tetroise Primo,普通,,95,nor,40,稀有,平原,,,,land,重岩龟,https://palworld.gg/zh-Hans/pal/净岩龟
+帕鲁,妮瞅莎,Nyafia,恶,,110,dark,51,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/妮瞅莎
+帕鲁,旺财,Mimog,普通,,60,nor,14,稀有,平原,,,,,,https://palworld.gg/zh-Hans/pal/旺财
+帕鲁,杰诺贝达,Xenovader,恶,,90,dark,36,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/杰诺贝达
+帕鲁,杰诺路达,Xenogard,龙,,110,dragon,51,稀有,火山,,,,land,,https://palworld.gg/zh-Hans/pal/杰诺路达
+帕鲁,梅莉姆,Prunelia,草,恶,105,grass·dark,48,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/梅莉姆
+帕鲁,魅爱莉,Nitemary,恶,,105,dark,48,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/魅爱莉
+帕鲁,碧艾莉,Nitemary Botan,草,,110,grass,51,稀有,森林/花海,,,,,魅爱莉,https://palworld.gg/zh-Hans/pal/碧艾莉
+帕鲁,墨丸,Smokie,恶,,85,dark,33,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/墨丸
+帕鲁,冬丸,Smokie Cryst,恶,冰,85,dark·ice,33,常见,森林/雪原,,,,,墨丸,https://palworld.gg/zh-Hans/pal/冬丸
+帕鲁,面惧,Omascul,恶,,95,dark,40,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/面惧
+帕鲁,凉晶鲸,Whalaska,冰,水,105,ice·water,48,稀有,雪原/水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/凉晶鲸
+帕鲁,桃晶鲸,Whalaska Ignis,冰,火,105,ice·fire,48,稀有,雪原/火山,,,,water,凉晶鲸,https://palworld.gg/zh-Hans/pal/桃晶鲸
+帕鲁,踏春兔,Verdash,草,,90,grass,36,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/踏春兔
+帕鲁,幽恋娜,Splatterina,恶,,95,dark,40,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/幽恋娜
+帕鲁,金驰兽,Gildane,地面,,120,ground,59,稀有,矿洞/沙漠,,,,land,,https://palworld.gg/zh-Hans/pal/金驰兽
+帕鲁,汪宗师,Dogen,普通,,90,nor,36,稀有,平原,,,,,,https://palworld.gg/zh-Hans/pal/汪宗师
+帕鲁,力士獒,Bulldosu,地面,,115,ground,55,常见,矿洞/沙漠,,,,land,,https://palworld.gg/zh-Hans/pal/力士獒
+帕鲁,净世鹿,Celesdir,普通,,120,nor,59,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/净世鹿
+帕鲁,织夜鹿,Celesdir Noct,恶,,120,dark,59,稀有,森林,,,,land,净世鹿,https://palworld.gg/zh-Hans/pal/织夜鹿
+帕鲁,魔渊龙,Astegon,龙,恶,100,dragon·dark,44,稀有,火山/森林,,,,fly,,https://palworld.gg/zh-Hans/pal/魔渊龙
+帕鲁,泰锋,Knocklem,地面,,105,ground,48,稀有,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/泰锋
+帕鲁,丹烽,Knocklem Ignis,火,,105,fire,48,稀有,火山,,,,,泰锋,https://palworld.gg/zh-Hans/pal/丹烽
+帕鲁,艾基鲁迦,Silvegis,龙,,120,dragon,59,稀有,火山,,,,land,,https://palworld.gg/zh-Hans/pal/艾基鲁迦
+帕鲁,驭雷马,Azurmane,电,,130,elec,66,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/驭雷马
+帕鲁,喵璐璐,Valentail,普通,,75,nor,26,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/喵璐璐
+帕鲁,电涡蜗,Snock,电,,65,elec,18,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/电涡蜗
+帕鲁,金涡蜗,Snock Terra,电,地面,65,elec·ground,18,常见,平原/矿洞/沙漠,,,,,电涡蜗,https://palworld.gg/zh-Hans/pal/金涡蜗
+帕鲁,蒲蒲飞芽,Souffline,草,,70,grass,21,常见,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/蒲蒲飞芽
+帕鲁,詹兔曼,Lapiron,地面,,70,ground,21,常见,矿洞/沙漠,,,,,,https://palworld.gg/zh-Hans/pal/詹兔曼
+帕鲁,兜兜灵,Hoodle,恶,,70,dark,21,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/兜兜灵
+帕鲁,电懒懒,Slowatt,电,,80,elec,29,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/电懒懒
+帕鲁,吓丝妮,Bakemi,恶,,70,dark,21,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/吓丝妮
+帕鲁,曼波王,Solmora,水,,90,water,36,常见,水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/曼波王
+帕鲁,曼波皇,Solmora Lux,水,电,90,water·elec,36,稀有,水畔/海洋/平原,,,,water,曼波王,https://palworld.gg/zh-Hans/pal/曼波皇
+帕鲁,兔绣袖,Lapure,普通,,105,nor,48,常见,平原,,,,,,https://palworld.gg/zh-Hans/pal/兔绣袖
+帕鲁,灵曦龙,Eidrolon,龙,恶,115,dragon·dark,55,稀有,火山/森林,,,,fly,,https://palworld.gg/zh-Hans/pal/灵曦龙
+帕鲁,狱熙龙,Eidrolon Ignis,龙,火,115,dragon·fire,55,稀有,火山,,,,fly,灵曦龙,https://palworld.gg/zh-Hans/pal/狱熙龙
+帕鲁,雷云鹫,Dynamoff,电,,75,elec,26,稀有,平原,,,,fly,,https://palworld.gg/zh-Hans/pal/雷云鹫
+帕鲁,大红呱,Tropicaw,草,,85,grass,33,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/大红呱
+帕鲁,昭炎狐,Flaracle,火,,110,fire,51,稀有,火山,,,,,,https://palworld.gg/zh-Hans/pal/昭炎狐
+帕鲁,沁莲龙,Ophydia,草,水,130,grass·water,66,稀有,森林/花海/水畔,,,,water,,https://palworld.gg/zh-Hans/pal/沁莲龙
+帕鲁,拉比耶尔,Dupin,火,,100,fire,44,稀有,火山,,,,,,https://palworld.gg/zh-Hans/pal/拉比耶尔
+帕鲁,盗影鸦,Roujay,恶,,110,dark,51,稀有,森林,,,,fly,,https://palworld.gg/zh-Hans/pal/盗影鸦
+帕鲁,梅杜娜,Venusa,恶,,80,dark,29,稀有,森林,,,,,,https://palworld.gg/zh-Hans/pal/梅杜娜
+帕鲁,红菇娘,Mycora,草,,105,grass,48,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/红菇娘
+帕鲁,妖焰灯,Loomen,恶,火,90,dark·fire,36,稀有,森林/火山,,,,,,https://palworld.gg/zh-Hans/pal/妖焰灯
+帕鲁,缀夜星,Wistella,恶,,80,dark,29,常见,森林,,,,,,https://palworld.gg/zh-Hans/pal/缀夜星
+帕鲁,墨罗娜,Solenne,恶,普通,110,dark·nor,51,稀有,森林/平原,,,,,,https://palworld.gg/zh-Hans/pal/墨罗娜
+帕鲁,燎火舞伶,Renjishi,火,,105,fire,48,稀有,火山,,,,,,https://palworld.gg/zh-Hans/pal/燎火舞伶
+帕鲁,磐甲龙,Aegidron,龙,地面,105,dragon·ground,48,稀有,火山/矿洞/沙漠,,,,land,,https://palworld.gg/zh-Hans/pal/磐甲龙
+帕鲁,暴电熊,Grizzbolt,电,,120,elec,59,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/暴电熊
+帕鲁,百合女王,Lyleen,草,,120,grass,59,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/百合女王
+帕鲁,黑月女王,Lyleen Noct,恶,,115,dark,55,稀有,森林,,,,,百合女王,https://palworld.gg/zh-Hans/pal/黑月女王
+帕鲁,波鲁杰克斯,Orserk,龙,电,120,dragon·elec,59,稀有,火山/平原,,,,,,https://palworld.gg/zh-Hans/pal/波鲁杰克斯
+帕鲁,荷鲁斯,Faleris,火,,105,fire,48,稀有,火山,,,,fly,,https://palworld.gg/zh-Hans/pal/荷鲁斯
+帕鲁,伊西斯,Faleris Aqua,水,,110,water,51,稀有,水畔/海洋,,,,fly,荷鲁斯,https://palworld.gg/zh-Hans/pal/伊西斯
+帕鲁,异构格里芬,Shadowbeak,恶,,120,dark,59,稀有,森林,,,,fly,,https://palworld.gg/zh-Hans/pal/异构格里芬
+帕鲁,辉月伊,Selyne,恶,普通,130,dark·nor,66,稀有,森林/平原,,,,fly,,https://palworld.gg/zh-Hans/pal/辉月伊
+帕鲁,霜牙王,Bastigor,冰,,140,ice,73,稀有,雪原,,,,land,,https://palworld.gg/zh-Hans/pal/霜牙王
+帕鲁,霄龙,Shaolong,龙,水,140,dragon·water,73,稀有,水畔/海洋,,,,fly,,https://palworld.gg/zh-Hans/pal/霄龙
+帕鲁,暮尘蛾,Silvance,草,,140,grass,73,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/暮尘蛾
+帕鲁,夜蔓爵,Dandilord,草,恶,125,grass·dark,62,稀有,森林/花海,,,,,,https://palworld.gg/zh-Hans/pal/夜蔓爵
+帕鲁,贝菈诺娃,Bellanoir,恶,,120,dark,59,传说,森林,,,,,,https://palworld.gg/zh-Hans/pal/贝菈诺娃
+帕鲁,贝菈露洁,Bellanoir Libero,恶,,120,dark,59,传说,森林,,,,,贝菈诺娃,https://palworld.gg/zh-Hans/pal/贝菈露洁
+帕鲁,杰诺多兰,Xenolord,恶,龙,130,dark·dragon,66,稀有,森林/火山,,,,fly,,https://palworld.gg/zh-Hans/pal/杰诺多兰
+帕鲁,默世鹿,Hartalis,普通,,135,nor,70,稀有,平原,,,,land,,https://palworld.gg/zh-Hans/pal/默世鹿
+帕鲁,圣光骑士,Paladius,普通,,130,nor,66,传说,平原,,,,land,,https://palworld.gg/zh-Hans/pal/圣光骑士
+帕鲁,混沌骑士,Necromus,恶,,130,dark,66,传说,森林,,,,land,,https://palworld.gg/zh-Hans/pal/混沌骑士
+帕鲁,唤冬兽,Frostallion,冰,,140,ice,73,传说,雪原,,,,fly,,https://palworld.gg/zh-Hans/pal/唤冬兽
+帕鲁,唤夜兽,Frostallion Noct,恶,,140,dark,73,传说,森林,,,,fly,唤冬兽,https://palworld.gg/zh-Hans/pal/唤夜兽
+帕鲁,海皇鲸,Neptilius,水,,105,water,48,传说,水畔/海洋,,,,water,,https://palworld.gg/zh-Hans/pal/海皇鲸
+帕鲁,空涡龙,Jetragon,龙,,115,dragon,55,传说,火山,,,,fly,,https://palworld.gg/zh-Hans/pal/空涡龙
+帕鲁,奥沧鲸,Panthalus,水,,180,water,103,稀有,水畔/海洋,,,,fly,,https://palworld.gg/zh-Hans/pal/奥沧鲸
+帕鲁,枯星龙,Astralym,,,200,,118,稀有,森林/火山,,,,,,https://palworld.gg/zh-Hans/pal/枯星龙

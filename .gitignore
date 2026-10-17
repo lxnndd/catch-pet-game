@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────
+#  抓宠游戏 · 仓库忽略规则
+#  目标：只把「游戏本体 + 文档 + 脚本 + 运行必需资源」纳入版本管理
+# ─────────────────────────────────────────────
+
+# ── 1. 原始抓取数据（约 800 MB，可由脚本重新生成）──
+抓宠游戏-移植/_work/sources/
+抓宠游戏-移植/_work/v17-data/
+
+# ── 2. 立绘样本与中间产物（约 380 MB，仅保留 app/site/avatars 最终版）──
+抓宠游戏-移植/_work/v17-avatars/
+抓宠游戏-移植/_work/v17-avatars-v2/
+抓宠游戏-移植/_work/v17-avatars-OLD-bad/
+抓宠游戏-移植/_work/v17-avatars-fix/
+抓宠游戏-移植/_work/v17-avatars-webp/
+抓宠游戏-移植/_work/v17-avatar-samples/
+抓宠游戏-移植/v17-avatars/
+抓宠游戏-移植/v17-avatars-webp/
+抓宠游戏-移植/_work/*.webp
+
+# ── 3. 历史备份 HTML（每个约 0.8 MB，累计上百个）──
+*.bak-*.html
+*.bak-before-*.html
+*.bak-v*.html
+*.html.bak-*.html
+抓宠游戏-移植/.bak-*.html
+抓宠游戏-移植/抓宠游戏-v12-clean.bak-*
+抓宠游戏-移植/抓宠游戏-v12-clean.html.bak-*
+
+# ── 4. 临时运行目录 ──
+抓宠游戏-移植/.edge-*/
+抓宠游戏-移植/.edge-*.txt
+.edge-*/
+抓宠游戏-移植/app/logs/
+抓宠游戏-移植/_work/log/
+抓宠游戏-移植/backup-*/
+抓宠游戏-移植/shots-*/
+抓宠游戏-移植/app/_work.html
+
+# ── 5. 截图与抓取残留（保留文档里的 .md/.csv，不保留过程图）──
+抓宠游戏-移植/*.png
+抓宠游戏-移植/shot-*.png
+抓宠游戏-移植/verify-*.png
+抓宠游戏-移植/v13-*.png
+抓宠游戏-移植/grabbed-*
+抓宠游戏-移植/grab-result.json
+抓宠游戏-移植/api-probe.txt
+抓宠游戏-移植/previewer-analysis*.txt
+抓宠游戏-移植/_*-new.txt
+抓宠游戏-移植/v13-地图全貌.txt
+抓宠游戏-移植/_inline-dump.js
+抓宠游戏-移植/v16-技能学习表.csv.tmp
+抓宠游戏-移植/抓宠游戏-旧版save.html
+抓宠游戏-移植/抓宠游戏-v12.html
+
+# ── 6. 通用系统与编辑器文件 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+node_modules/

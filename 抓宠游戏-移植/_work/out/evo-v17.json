@@ -1,0 +1,4032 @@
+{
+ "pk-001": {
+  "to": "pk-002",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-052": {
+  "to": [
+   "pk-053",
+   "pk-863"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-002": {
+  "to": "pk-003",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-002": {
+  "to": "kz-003",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-004": {
+  "to": "pk-005",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-004": {
+  "to": "kz-005",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-005": {
+  "to": "pk-006",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-005": {
+  "to": "kz-006",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-007": {
+  "to": "pk-008",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-007": {
+  "to": "kz-008",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-008": {
+  "to": "pk-009",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-008": {
+  "to": "kz-009",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-010": {
+  "to": "pk-011",
+  "lv": 7,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-010": {
+  "to": "kz-011",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-011": {
+  "to": "pk-012",
+  "lv": 10,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-011": {
+  "to": "kz-012",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-023": {
+  "to": "kz-024",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-013": {
+  "to": "kz-014",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-014": {
+  "to": "pk-015",
+  "lv": 10,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-014": {
+  "to": "kz-015",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-016": {
+  "to": "pk-017",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-016": {
+  "to": "kz-017",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-017": {
+  "to": "pk-018",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-017": {
+  "to": "kz-018",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-019": {
+  "to": "pk-020",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-019": {
+  "to": "kz-020",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-020": {
+  "to": "kz-021",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-021": {
+  "to": "pk-022",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-022": {
+  "to": "kz-023",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-023": {
+  "to": "pk-024",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-025": {
+  "to": "pk-026",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-025": {
+  "to": "kz-026",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-026": {
+  "to": "kz-027",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-027": {
+  "to": "pk-028",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-050": {
+  "to": "pk-051",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-029": {
+  "to": "pk-030",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-030": {
+  "to": "pk-031",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-030": {
+  "to": "kz-031",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-031": {
+  "to": "kz-032",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-032": {
+  "to": "pk-033",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-033": {
+  "to": "pk-034",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-033": {
+  "to": "kz-034",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-034": {
+  "to": "kz-035",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-035": {
+  "to": "pk-036",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-041": {
+  "to": "pk-042",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-037": {
+  "to": "pk-038",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-039": {
+  "to": "pk-040",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-040": {
+  "to": "kz-041",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-041": {
+  "to": "kz-505",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-042": {
+  "to": "pk-169",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-043": {
+  "to": "pk-044",
+  "lv": 21,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-044": {
+  "to": [
+   "pk-045",
+   "pk-182"
+  ],
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-046": {
+  "to": "pk-047",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-047": {
+  "to": "kz-048",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-048": {
+  "to": "pk-049",
+  "lv": 31,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-048": {
+  "to": "kz-049",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-050": {
+  "to": "kz-051",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-053": {
+  "to": "kz-054",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-054": {
+  "to": "pk-055",
+  "lv": 33,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-054": {
+  "to": "kz-055",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-056": {
+  "to": "pk-057",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-057": {
+  "to": "pk-979",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-058": {
+  "to": "pk-059",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-060": {
+  "to": "pk-061",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-061": {
+  "to": [
+   "pk-062",
+   "pk-186"
+  ],
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-063": {
+  "to": "pk-064",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-063": {
+  "to": "kz-064",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-064": {
+  "to": "pk-065",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-064": {
+  "to": "kz-065",
+  "lv": 48,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-066": {
+  "to": "pk-067",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-067": {
+  "to": "pk-068",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-069": {
+  "to": "pk-070",
+  "lv": 21,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-070": {
+  "to": "pk-071",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-070": {
+  "to": "kz-071",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-071": {
+  "to": "kz-072",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-072": {
+  "to": "pk-073",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-073": {
+  "to": "kz-074",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-074": {
+  "to": "pk-075",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-074": {
+  "to": "kz-075",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-075": {
+  "to": "pk-076",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-076": {
+  "to": "kz-077",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-077": {
+  "to": "pk-078",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-077": {
+  "to": "kz-078",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-079": {
+  "to": [
+   "pk-080",
+   "pk-199"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-081": {
+  "to": "pk-082",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-082": {
+  "to": "pk-462",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-083": {
+  "to": "pk-865",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-084": {
+  "to": "pk-085",
+  "lv": 31,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-086": {
+  "to": "pk-087",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-088": {
+  "to": "pk-089",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-089": {
+  "to": "kz-090",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-090": {
+  "to": "pk-091",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-090": {
+  "to": "kz-091",
+  "lv": 27,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-092": {
+  "to": "pk-093",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-093": {
+  "to": "pk-094",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-095": {
+  "to": "pk-208",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-096": {
+  "to": "pk-097",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-098": {
+  "to": "pk-099",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-099": {
+  "to": "kz-100",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-100": {
+  "to": "pk-101",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-100": {
+  "to": "kz-101",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-102": {
+  "to": "pk-103",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-104": {
+  "to": "pk-105",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-105": {
+  "to": "kz-106",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-106": {
+  "to": "kz-107",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-108": {
+  "to": "pk-463",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-109": {
+  "to": "pk-110",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-111": {
+  "to": "pk-112",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-111": {
+  "to": "kz-112",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-112": {
+  "to": "pk-464",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-112": {
+  "to": "kz-113",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-113": {
+  "to": "pk-242",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-114": {
+  "to": "pk-465",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-115": {
+  "to": "kz-116",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-116": {
+  "to": "pk-117",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-116": {
+  "to": "kz-117",
+  "lv": 48,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-117": {
+  "to": "pk-230",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-118": {
+  "to": "pk-119",
+  "lv": 33,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-120": {
+  "to": "pk-121",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-122": {
+  "to": "pk-866",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-123": {
+  "to": [
+   "pk-212",
+   "pk-900"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-125": {
+  "to": "pk-466",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-126": {
+  "to": "pk-467",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-129": {
+  "to": "pk-130",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-130": {
+  "to": "kz-131",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-131": {
+  "to": "kz-132",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-133": {
+  "to": [
+   "pk-134",
+   "pk-135",
+   "pk-136",
+   "pk-196",
+   "pk-197",
+   "pk-470",
+   "pk-471",
+   "pk-700"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 8
+ },
+ "pk-137": {
+  "to": "pk-233",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-138": {
+  "to": "pk-139",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-140": {
+  "to": "pk-141",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-143": {
+  "to": "kz-144",
+  "lv": 21,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-145": {
+  "to": "kz-146",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-147": {
+  "to": "pk-148",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-148": {
+  "to": "pk-149",
+  "lv": 55,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-149": {
+  "to": "kz-150",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-150": {
+  "to": "kz-151",
+  "lv": 44,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-152": {
+  "to": "pk-153",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-152": {
+  "to": "kz-153",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-153": {
+  "to": "pk-154",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-155": {
+  "to": "pk-156",
+  "lv": 14,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-156": {
+  "to": "pk-157",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-157": {
+  "to": "kz-158",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-158": {
+  "to": "pk-159",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-158": {
+  "to": "kz-159",
+  "lv": 45,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-159": {
+  "to": "pk-160",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-161": {
+  "to": "pk-162",
+  "lv": 15,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-163": {
+  "to": "pk-164",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-163": {
+  "to": "kz-164",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-164": {
+  "to": "kz-165",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-165": {
+  "to": "pk-166",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-167": {
+  "to": "pk-168",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-170": {
+  "to": "pk-171",
+  "lv": 27,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-172": {
+  "to": "pk-025",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-172": {
+  "to": "kz-173",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-173": {
+  "to": "pk-035",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-173": {
+  "to": "kz-174",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-174": {
+  "to": "pk-039",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-175": {
+  "to": "pk-176",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-175": {
+  "to": "kz-176",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-176": {
+  "to": "pk-468",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-176": {
+  "to": "kz-177",
+  "lv": 46,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-177": {
+  "to": "pk-178",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-178": {
+  "to": "kz-179",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-179": {
+  "to": "pk-180",
+  "lv": 15,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-179": {
+  "to": "kz-180",
+  "lv": 46,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-180": {
+  "to": "pk-181",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-183": {
+  "to": "pk-184",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-187": {
+  "to": "pk-188",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-188": {
+  "to": "pk-189",
+  "lv": 27,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-188": {
+  "to": "kz-189",
+  "lv": 44,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-189": {
+  "to": "kz-190",
+  "lv": 62,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-190": {
+  "to": "pk-424",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-191": {
+  "to": "pk-192",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-192": {
+  "to": "kz-193",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-193": {
+  "to": "pk-469",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-193": {
+  "to": "kz-194",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-194": {
+  "to": [
+   "pk-195",
+   "pk-980"
+  ],
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "kz-195": {
+  "to": "kz-145",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-198": {
+  "to": "pk-430",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-200": {
+  "to": "pk-429",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-203": {
+  "to": "pk-981",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-204": {
+  "to": "pk-205",
+  "lv": 31,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-206": {
+  "to": "pk-982",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-207": {
+  "to": "pk-472",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-209": {
+  "to": "pk-210",
+  "lv": 23,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-211": {
+  "to": "pk-904",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-211": {
+  "to": "kz-212",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-212": {
+  "to": "kz-213",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-215": {
+  "to": [
+   "pk-461",
+   "pk-903"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-216": {
+  "to": "pk-217",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-216": {
+  "to": "kz-217",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-217": {
+  "to": "pk-901",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-217": {
+  "to": "kz-218",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-218": {
+  "to": "pk-219",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-220": {
+  "to": "pk-221",
+  "lv": 33,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-221": {
+  "to": "pk-473",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-222": {
+  "to": "pk-864",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-223": {
+  "to": "pk-224",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-228": {
+  "to": "pk-229",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-230": {
+  "to": "kz-231",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-231": {
+  "to": "pk-232",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-233": {
+  "to": "pk-474",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-234": {
+  "to": "pk-899",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-234": {
+  "to": "kz-235",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-235": {
+  "to": "kz-236",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-236": {
+  "to": [
+   "pk-106",
+   "pk-107",
+   "pk-237"
+  ],
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 3
+ },
+ "pk-238": {
+  "to": "pk-124",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-239": {
+  "to": "pk-125",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-240": {
+  "to": "pk-126",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-240": {
+  "to": "kz-241",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-241": {
+  "to": "kz-242",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-243": {
+  "to": "kz-244",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-244": {
+  "to": "kz-245",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-246": {
+  "to": "pk-247",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-246": {
+  "to": "kz-247",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-247": {
+  "to": "pk-248",
+  "lv": 55,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-247": {
+  "to": "kz-248",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-249": {
+  "to": "kz-250",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-250": {
+  "to": "kz-251",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-252": {
+  "to": "pk-253",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-252": {
+  "to": "kz-253",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-253": {
+  "to": "pk-254",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-253": {
+  "to": "kz-254",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-255": {
+  "to": "pk-256",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-256": {
+  "to": "pk-257",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-258": {
+  "to": "pk-259",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-259": {
+  "to": "pk-260",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-261": {
+  "to": "pk-262",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-263": {
+  "to": "pk-264",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-264": {
+  "to": "kz-265",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-265": {
+  "to": [
+   "pk-266",
+   "pk-268"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "kz-265": {
+  "to": "kz-266",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-266": {
+  "to": "pk-267",
+  "lv": 10,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-267": {
+  "to": "kz-268",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-268": {
+  "to": "pk-269",
+  "lv": 10,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-268": {
+  "to": "kz-269",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-270": {
+  "to": "pk-271",
+  "lv": 14,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-271": {
+  "to": "pk-272",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-273": {
+  "to": "pk-274",
+  "lv": 14,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-273": {
+  "to": "kz-274",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-274": {
+  "to": "pk-275",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-274": {
+  "to": "kz-275",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-276": {
+  "to": "pk-277",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-278": {
+  "to": "pk-279",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-280": {
+  "to": "pk-281",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-281": {
+  "to": [
+   "pk-282",
+   "pk-475"
+  ],
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "kz-282": {
+  "to": "kz-283",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-283": {
+  "to": "pk-284",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-283": {
+  "to": "kz-284",
+  "lv": 45,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-285": {
+  "to": "pk-286",
+  "lv": 23,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-287": {
+  "to": "pk-288",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-288": {
+  "to": "pk-289",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-290": {
+  "to": [
+   "pk-291",
+   "pk-292"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "kz-291": {
+  "to": "kz-292",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-292": {
+  "to": "kz-293",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-293": {
+  "to": "pk-294",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-294": {
+  "to": "pk-295",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-294": {
+  "to": "kz-295",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-295": {
+  "to": "kz-296",
+  "lv": 44,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-296": {
+  "to": "pk-297",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-298": {
+  "to": "pk-183",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-299": {
+  "to": "pk-476",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-300": {
+  "to": "pk-301",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-304": {
+  "to": "pk-305",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-305": {
+  "to": "pk-306",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-306": {
+  "to": "kz-307",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-307": {
+  "to": "pk-308",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-307": {
+  "to": "kz-308",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-309": {
+  "to": "pk-310",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-315": {
+  "to": "pk-407",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-316": {
+  "to": "pk-317",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-318": {
+  "to": "pk-319",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-320": {
+  "to": "pk-321",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-322": {
+  "to": "pk-323",
+  "lv": 33,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-325": {
+  "to": "pk-326",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-328": {
+  "to": "pk-329",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-329": {
+  "to": "pk-330",
+  "lv": 45,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-331": {
+  "to": "pk-332",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-333": {
+  "to": "pk-334",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-335": {
+  "to": "kz-336",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-336": {
+  "to": "kz-337",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-339": {
+  "to": "pk-340",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-341": {
+  "to": "pk-342",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-343": {
+  "to": "pk-344",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-345": {
+  "to": "pk-346",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-347": {
+  "to": "pk-348",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-347": {
+  "to": "kz-348",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-348": {
+  "to": "kz-349",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-349": {
+  "to": "pk-350",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-353": {
+  "to": "pk-354",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-355": {
+  "to": "pk-356",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-356": {
+  "to": "pk-477",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-360": {
+  "to": "pk-202",
+  "lv": 15,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-361": {
+  "to": [
+   "pk-362",
+   "pk-478"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-363": {
+  "to": "pk-364",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-364": {
+  "to": "pk-365",
+  "lv": 44,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-366": {
+  "to": [
+   "pk-367",
+   "pk-368"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-371": {
+  "to": "pk-372",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-372": {
+  "to": "pk-373",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-374": {
+  "to": "pk-375",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-375": {
+  "to": "pk-376",
+  "lv": 45,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-387": {
+  "to": "pk-388",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-388": {
+  "to": "pk-389",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-390": {
+  "to": "pk-391",
+  "lv": 14,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-391": {
+  "to": "pk-392",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-392": {
+  "to": "kz-393",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-393": {
+  "to": "pk-394",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-393": {
+  "to": "kz-394",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-394": {
+  "to": "pk-395",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-396": {
+  "to": "pk-397",
+  "lv": 14,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-397": {
+  "to": "pk-398",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-399": {
+  "to": "pk-400",
+  "lv": 15,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-401": {
+  "to": "pk-402",
+  "lv": 10,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-403": {
+  "to": "pk-404",
+  "lv": 15,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-404": {
+  "to": "pk-405",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-406": {
+  "to": "pk-315",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-408": {
+  "to": "pk-409",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-410": {
+  "to": "pk-411",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-410": {
+  "to": "kz-411",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-411": {
+  "to": "kz-412",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-412": {
+  "to": [
+   "pk-413",
+   "pk-414"
+  ],
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-415": {
+  "to": "pk-416",
+  "lv": 21,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-418": {
+  "to": "pk-419",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-420": {
+  "to": "pk-421",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-422": {
+  "to": "pk-423",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-422": {
+  "to": "kz-423",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-423": {
+  "to": "kz-424",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-425": {
+  "to": "pk-426",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-427": {
+  "to": "pk-428",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-431": {
+  "to": "pk-432",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-433": {
+  "to": "pk-358",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-434": {
+  "to": "pk-435",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-436": {
+  "to": "pk-437",
+  "lv": 33,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-438": {
+  "to": "pk-185",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-439": {
+  "to": "pk-122",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-440": {
+  "to": "pk-113",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-443": {
+  "to": "pk-444",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-444": {
+  "to": "pk-445",
+  "lv": 48,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-446": {
+  "to": "pk-143",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-447": {
+  "to": "pk-448",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-449": {
+  "to": "pk-450",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-451": {
+  "to": "pk-452",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-453": {
+  "to": "pk-454",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-456": {
+  "to": "pk-457",
+  "lv": 31,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-458": {
+  "to": "pk-226",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-458": {
+  "to": "kz-459",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-459": {
+  "to": "pk-460",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-459": {
+  "to": "kz-460",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-489": {
+  "to": "pk-490",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-489": {
+  "to": "kz-490",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-490": {
+  "to": "kz-491",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-495": {
+  "to": "pk-496",
+  "lv": 17,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-496": {
+  "to": "pk-497",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-498": {
+  "to": "pk-499",
+  "lv": 17,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-499": {
+  "to": "pk-500",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-501": {
+  "to": "pk-502",
+  "lv": 17,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-502": {
+  "to": "pk-503",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-504": {
+  "to": "pk-505",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-506": {
+  "to": "pk-507",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-507": {
+  "to": "pk-508",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-509": {
+  "to": "pk-510",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "kz-509": {
+  "to": "kz-510",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-511": {
+  "to": "pk-512",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-513": {
+  "to": "pk-514",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-515": {
+  "to": "pk-516",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-517": {
+  "to": "pk-518",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-519": {
+  "to": "pk-520",
+  "lv": 21,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-520": {
+  "to": "pk-521",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-522": {
+  "to": "pk-523",
+  "lv": 27,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-524": {
+  "to": "pk-525",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-525": {
+  "to": "pk-526",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-527": {
+  "to": "pk-528",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-529": {
+  "to": "pk-530",
+  "lv": 31,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-532": {
+  "to": "pk-533",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-533": {
+  "to": "pk-534",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-535": {
+  "to": "pk-536",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-536": {
+  "to": "pk-537",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-540": {
+  "to": "pk-541",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-541": {
+  "to": "pk-542",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-543": {
+  "to": "pk-544",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-544": {
+  "to": "pk-545",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-546": {
+  "to": "pk-547",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-548": {
+  "to": "pk-549",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-551": {
+  "to": "pk-552",
+  "lv": 29,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-552": {
+  "to": "pk-553",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-554": {
+  "to": "pk-555",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-557": {
+  "to": "pk-558",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-559": {
+  "to": "pk-560",
+  "lv": 39,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-562": {
+  "to": "pk-563",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-564": {
+  "to": "pk-565",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-566": {
+  "to": "pk-567",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-568": {
+  "to": "pk-569",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-570": {
+  "to": "pk-571",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-572": {
+  "to": "pk-573",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-574": {
+  "to": "pk-575",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-575": {
+  "to": "pk-576",
+  "lv": 41,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-577": {
+  "to": "pk-578",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-578": {
+  "to": "pk-579",
+  "lv": 41,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-580": {
+  "to": "pk-581",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-582": {
+  "to": "pk-583",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-583": {
+  "to": "pk-584",
+  "lv": 47,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-585": {
+  "to": "pk-586",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-588": {
+  "to": "pk-589",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-590": {
+  "to": "pk-591",
+  "lv": 39,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-592": {
+  "to": "pk-593",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-595": {
+  "to": "pk-596",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-597": {
+  "to": "pk-598",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-599": {
+  "to": "pk-600",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-600": {
+  "to": "pk-601",
+  "lv": 49,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-602": {
+  "to": "pk-603",
+  "lv": 39,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-603": {
+  "to": "pk-604",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-605": {
+  "to": "pk-606",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-607": {
+  "to": "pk-608",
+  "lv": 41,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-608": {
+  "to": "pk-609",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-610": {
+  "to": "pk-611",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-611": {
+  "to": "pk-612",
+  "lv": 48,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-613": {
+  "to": "pk-614",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-616": {
+  "to": "pk-617",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-619": {
+  "to": "pk-620",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-622": {
+  "to": "pk-623",
+  "lv": 43,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-624": {
+  "to": "pk-625",
+  "lv": 52,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-627": {
+  "to": "pk-628",
+  "lv": 54,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-629": {
+  "to": "pk-630",
+  "lv": 54,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-633": {
+  "to": "pk-634",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-634": {
+  "to": "pk-635",
+  "lv": 64,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-636": {
+  "to": "pk-637",
+  "lv": 59,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-650": {
+  "to": "pk-651",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-651": {
+  "to": "pk-652",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-653": {
+  "to": "pk-654",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-654": {
+  "to": "pk-655",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-656": {
+  "to": "pk-657",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-657": {
+  "to": "pk-658",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-659": {
+  "to": "pk-660",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-661": {
+  "to": "pk-662",
+  "lv": 17,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-662": {
+  "to": "pk-663",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-664": {
+  "to": "pk-665",
+  "lv": 9,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-665": {
+  "to": "pk-666",
+  "lv": 12,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-667": {
+  "to": "pk-668",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-669": {
+  "to": "pk-670",
+  "lv": 19,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-670": {
+  "to": "pk-671",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-672": {
+  "to": "pk-673",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-674": {
+  "to": "pk-675",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-677": {
+  "to": "pk-678",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-679": {
+  "to": "pk-680",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-680": {
+  "to": "pk-681",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-682": {
+  "to": "pk-683",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-684": {
+  "to": "pk-685",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-686": {
+  "to": "pk-687",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-688": {
+  "to": "pk-689",
+  "lv": 39,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-690": {
+  "to": "pk-691",
+  "lv": 48,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-692": {
+  "to": "pk-693",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-694": {
+  "to": "pk-695",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-696": {
+  "to": "pk-697",
+  "lv": 39,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-698": {
+  "to": "pk-699",
+  "lv": 39,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-704": {
+  "to": "pk-705",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-705": {
+  "to": "pk-706",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-708": {
+  "to": "pk-709",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-710": {
+  "to": "pk-711",
+  "lv": 0,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-712": {
+  "to": "pk-713",
+  "lv": 37,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-714": {
+  "to": "pk-715",
+  "lv": 48,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-722": {
+  "to": "pk-723",
+  "lv": 17,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-723": {
+  "to": "pk-724",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-725": {
+  "to": "pk-726",
+  "lv": 17,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-726": {
+  "to": "pk-727",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-728": {
+  "to": "pk-729",
+  "lv": 17,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-729": {
+  "to": "pk-730",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-731": {
+  "to": "pk-732",
+  "lv": 14,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-732": {
+  "to": "pk-733",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-734": {
+  "to": "pk-735",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-736": {
+  "to": "pk-737",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-737": {
+  "to": "pk-738",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-739": {
+  "to": "pk-740",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-742": {
+  "to": "pk-743",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-744": {
+  "to": "pk-745",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-747": {
+  "to": "pk-748",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-749": {
+  "to": "pk-750",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-751": {
+  "to": "pk-752",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-753": {
+  "to": "pk-754",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-755": {
+  "to": "pk-756",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-757": {
+  "to": "pk-758",
+  "lv": 33,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-759": {
+  "to": "pk-760",
+  "lv": 27,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-761": {
+  "to": "pk-762",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-762": {
+  "to": "pk-763",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-767": {
+  "to": "pk-768",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-769": {
+  "to": "pk-770",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-772": {
+  "to": "pk-773",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-782": {
+  "to": "pk-783",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-783": {
+  "to": "pk-784",
+  "lv": 45,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-789": {
+  "to": "pk-790",
+  "lv": 43,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-790": {
+  "to": [
+   "pk-791",
+   "pk-792"
+  ],
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-803": {
+  "to": "pk-804",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-808": {
+  "to": "pk-809",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-810": {
+  "to": "pk-811",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-811": {
+  "to": "pk-812",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-813": {
+  "to": "pk-814",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-814": {
+  "to": "pk-815",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-816": {
+  "to": "pk-817",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-817": {
+  "to": "pk-818",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-819": {
+  "to": "pk-820",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-821": {
+  "to": "pk-822",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-822": {
+  "to": "pk-823",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-824": {
+  "to": "pk-825",
+  "lv": 10,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-825": {
+  "to": "pk-826",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-827": {
+  "to": "pk-828",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-829": {
+  "to": "pk-830",
+  "lv": 20,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-831": {
+  "to": "pk-832",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-833": {
+  "to": "pk-834",
+  "lv": 22,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-835": {
+  "to": "pk-836",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-837": {
+  "to": "pk-838",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-838": {
+  "to": "pk-839",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-840": {
+  "to": [
+   "pk-841",
+   "pk-842"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-843": {
+  "to": "pk-844",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-846": {
+  "to": "pk-847",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-848": {
+  "to": "pk-849",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-850": {
+  "to": "pk-851",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-852": {
+  "to": "pk-853",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-854": {
+  "to": "pk-855",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-856": {
+  "to": "pk-857",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-857": {
+  "to": "pk-858",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-859": {
+  "to": "pk-860",
+  "lv": 32,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-860": {
+  "to": "pk-861",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-868": {
+  "to": "pk-869",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-872": {
+  "to": "pk-873",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-878": {
+  "to": "pk-879",
+  "lv": 34,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-885": {
+  "to": "pk-886",
+  "lv": 50,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-886": {
+  "to": "pk-887",
+  "lv": 60,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-891": {
+  "to": "pk-892",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-906": {
+  "to": "pk-907",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-907": {
+  "to": "pk-908",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-909": {
+  "to": "pk-910",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-910": {
+  "to": "pk-911",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-912": {
+  "to": "pk-913",
+  "lv": 16,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-913": {
+  "to": "pk-914",
+  "lv": 36,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-915": {
+  "to": "pk-916",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-917": {
+  "to": "pk-918",
+  "lv": 15,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-919": {
+  "to": "pk-920",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-921": {
+  "to": "pk-922",
+  "lv": 18,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-922": {
+  "to": "pk-923",
+  "lv": 42,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-924": {
+  "to": "pk-925",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-926": {
+  "to": "pk-927",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-928": {
+  "to": "pk-929",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-929": {
+  "to": "pk-930",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-932": {
+  "to": "pk-933",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-933": {
+  "to": "pk-934",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-935": {
+  "to": [
+   "pk-936",
+   "pk-937"
+  ],
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 2
+ },
+ "pk-938": {
+  "to": "pk-939",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-940": {
+  "to": "pk-941",
+  "lv": 25,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-942": {
+  "to": "pk-943",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-944": {
+  "to": "pk-945",
+  "lv": 28,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-946": {
+  "to": "pk-947",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-948": {
+  "to": "pk-949",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-951": {
+  "to": "pk-952",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-953": {
+  "to": "pk-954",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-955": {
+  "to": "pk-956",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-957": {
+  "to": "pk-958",
+  "lv": 24,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-958": {
+  "to": "pk-959",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-960": {
+  "to": "pk-961",
+  "lv": 26,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-963": {
+  "to": "pk-964",
+  "lv": 38,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-965": {
+  "to": "pk-966",
+  "lv": 40,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-969": {
+  "to": "pk-970",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-971": {
+  "to": "pk-972",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-974": {
+  "to": "pk-975",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-996": {
+  "to": "pk-997",
+  "lv": 35,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-997": {
+  "to": "pk-998",
+  "lv": 54,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-999": {
+  "to": "pk-1000",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-1011": {
+  "to": "pk-1019",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ },
+ "pk-1012": {
+  "to": "pk-1013",
+  "lv": 30,
+  "how": "等级",
+  "item": "",
+  "branchCount": 1
+ }
+}
