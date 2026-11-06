@@ -61,3 +61,7 @@ desktop.ini
 .idea/
 .vscode/
 node_modules/
+
+# 文档 / 脚本的本地备份（有 git 历史，不进仓库）
+*.md.bak-*
+*.mjs.bak-*

@@ -4,6 +4,7 @@
 全部逻辑、样式、数据都内联在一个 `抓宠游戏-v12-clean.html` 里（约 1 MB），双击即可玩，无需构建、无需联网。
 
 > 在线试玩：<http://47.105.123.182:8727/>
+> 源码仓库：<https://github.com/lxnndd/catch-pet-game>（PUBLIC · 轻量版，约 7 MB）
 
 ---
 
